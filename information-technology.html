@@ -1,0 +1,2492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SoftUni</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta content="" name="keywords" />
+    <meta content="" name="description" />
+
+    <!-- Favicon -->
+    <link href="asset/favicon.ico" rel="icon" />
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet" />
+
+    <link href="lib/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="lib/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <!-- Style Css  -->
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/tiny-slider.css" />
+    <link rel="stylesheet" href="index.css" />
+
+    <!-- Boostrap (utk responsive nav, dll)-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+  </head>
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center">
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html" class="logo me-auto"
+          ><img src="images/softuni-logo.png" alt="" class="img-fluid"
+        /></a>
+
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li>
+              <a class="nav-link scrollto" href="kurikulum.html">Kurikulum</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="kursus.html">Kursus</a>
+            </li>
+            <li class="dropdown active">
+              <a href="#"
+                ><span>Corporate</span> <i class="bi bi-chevron-down"></i
+              ></a>
+              <ul>
+                <li class="dropdown">
+                  <a href="corporate.html"
+                    ><span>Corporate</span> <i class="bi bi-chevron-right"></i
+                  ></a>
+                  <ul>
+                    <li>
+                      <a href="information-technology.html"
+                        >Kelas Informasi Teknologi</a
+                      >
+                    </li>
+                    <li><a href="creative.html">Kelas Digital Kreatif</a></li>
+                    <li><a href="digital-marketing.html">Kelas Digital Marketing</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Hire Talent(Soon)</a></li>
+              </ul>
+            </li>
+            <li><a class="nav-link scrollto" href="blog.html">Blog</a></li>
+            <li>
+              <a class="nav-link scrollto" href="tentang.html">Tentang</a>
+            </li>
+            <li>
+              <a class="getstarted scrollto" href="register.html">Masuk</a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
+    <section id="home" style="height: 50vh">
+      <div class="container">
+        <div class="row align-items-center justify-content-between pt-5">
+          <div class="col-lg-12 text-center pe-lg-5">
+            <h1 class="heading text-white mb-3" data-aos="fade-up">
+              KELAS INFORMASI TEKNOLOGI
+            </h1>
+            <p
+              class="text-white align-items-center mb-5"
+              data-aos="fade-up"
+              data-aos-delay="100"
+            >
+              SoftUni mempunyai banyak pilihan program sesuai dengan kebutuhan
+              perusahaan anda. Mulai dari tahapan pengenalan sampai ke tahapan
+              ahli yang akan dibimbing oleh tutor berpengalaman. Pengaturan
+              jadwal kelas pun fleksibel sesuai kesepakatan dengan perusahaan
+              (dan karyawan)
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="formModal"
+      tabindex="-1"
+      aria-labelledby="formModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="formModalLabel">
+              Form Konsultasi
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="add-course-form">
+              <form action="https://softuni.id/kontak" method="POST">
+                <input
+                  type="hidden"
+                  name="s0ftun1.1d"
+                  value="2b7029dc9317df1b502fd63629560d6c"
+                />
+                <input name="type" hidden value="Enterprise IT" type="text" />
+                <div class="form-group">
+                  <label class="form-control-label">Email</label>
+                  <input
+                    name="email"
+                    type="email"
+                    class="form-control"
+                    placeholder="Ketikan Email Aktif"
+                    value=""
+                    required
+                  />
+                  <small class="form-text text-danger"></small>
+                </div>
+                <div class="form-group">
+                  <label class="form-control-label">Nama Lengkap</label>
+                  <input
+                    name="name"
+                    type="text"
+                    class="form-control"
+                    placeholder="Ketikan Nama Lengkap"
+                    value=""
+                    required
+                  />
+                  <small class="form-text text-danger"></small>
+                </div>
+                <div class="form-group">
+                  <label class="form-control-labTeleponel">Nomor </label>
+                  <input
+                    name="phone"
+                    type="text"
+                    class="form-control"
+                    placeholder="Ketikan Nomor Telepon Aktif"
+                    value=""
+                    required
+                  />
+                  <small class="form-text text-danger"></small>
+                </div>
+                <div class="form-group">
+                  <label>Detail Konsultasi</label>
+                  <textarea
+                    area
+                    name="message"
+                    class="form-control"
+                    placeholder="Isi Detail Konsultasi di sini..."
+                    rows="4"
+                  ></textarea>
+                  <small class="text-danger"></small>
+                </div>
+                <div
+                  class="g-recaptcha mt-3 mb-2"
+                  data-sitekey="6Lc4GtYiAAAAAH49laSizRCLOaCzxOPwtVseKyG7"
+                ></div>
+                <div class="d-grid">
+                  <button
+                    onclick="loadingPopUp()"
+                    class="btn btn-primary btn-start"
+                    type="submit"
+                  >
+                    Daftar
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ======= KELAS INFORMASI TEKNOLOGI Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>KELAS INFORMASI TEKNOLOGI</h2>
+        </div>
+
+        <ul
+          id="portfolio-flters"
+          class="d-flex justify-content-center"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-java">Java</li>
+          <li data-filter=".filter-python">Python</li>
+          <li data-filter=".filter-js">Javascript</li>
+          <li data-filter=".filter-c">C#/C++</li>
+          <li data-filter=".filter-server">Server/Cloud</li>
+          <li data-filter=".filter-ml">ML/Deep Learning</li>
+          <li data-filter=".filter-db">Database</li>
+          <li data-filter=".filter-cyber">Cyber Security</li>
+          <li data-filter=".filter-other">Lainnya</li>
+        </ul>
+
+        <div
+          class="row portfolio-container"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <!-- Java Module  -->
+          <div>
+            <div class="col-lg-4 col-md-12 portfolio-item filter-java">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Java Basic</h3>
+                        <p>
+                          Coding basics, IDE, data, calculations, conditional
+                          statements, loops, methods.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          >HUBUNGI</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-java">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Algorithm Fundamental (Java)</h3>
+                        <p>
+                          Recursion & backtracking, combinatorial problems,
+                          searching, sorting & Greedy algorithms, Graph Theory,
+                          traversal & shortest paths, Dynamic Programming.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          >HUBUNGI
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-java">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Algorithm Advanced (Java)</h3>
+                        <p>
+                          Graphs Topologica Sorting, MST, Graphs Bellman-Ford,
+                          Longest Path in (DAG), graphs strongly connected
+                          components, Max Flow, Dynamic Programming advanced,
+                          amortization & problem classification (P, NP,
+                          NP-completeness, reductions).
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          >HUBUNGI</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-java">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Java OOP</h3>
+                        <p>
+                          Classes & objects, generics, iterators, comparators,
+                          OOP principles, encapsulation, inheritance,
+                          interfaces, abstraction, polymorphism, unit testing,
+                          dan TDD, design patterns, SOLID principles.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-java">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Java Databases</h3>
+                        <p>
+                          JDBC, ORM, ORM, Hibernate, mappings, code-first,
+                          Spring Data, JPQL, JSON, XML.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-java">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Java Data Structures</h3>
+                        <p>
+                          Arrays, lists, maps, strings, regex, nested
+                          structures, maps, lambda & streaming API, stacks,
+                          queues, exceptions, files, debugging, error handling,
+                          bitwise operations, text processing.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-java">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Java Web Development</h3>
+                        <p>Spring MVC + Spring Boot.</p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Python Module  -->
+          <div>
+            <div class="col-lg-4 col-md-12 portfolio-item filter-python">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div class="student-box flex-fill">
+                        <div style="min-height: 160px">
+                          <h3>Python Programming Basics</h3>
+                          <p>
+                            Coding basics, IDE, data, calculations, conditional
+                            statements, loops, methods.
+                          </p>
+                        </div>
+                        <div class="text-center">
+                          <a
+                            data-bs-toggle="modal"
+                            data-bs-target="#formModal"
+                            class="buy-btn mt-3"
+                            >Hubungi</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 portfolio-item filter-python">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Python Data Structures</h3>
+                        <p>
+                          Arrays, lists, maps, strings, regex, nested
+                          structures, maps, lambda & streaming API, stacks,
+                          queues, exceptions, ﬁles, debugging, error handling,
+                          bitwise operations, text processing.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-python">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Python OOP</h3>
+                        <p>
+                          Classes & objects, generics, OOP principles,
+                          encapsulation, inheritance, interfaces, abstraction,
+                          polymorphism, unit testing, & TDD, design patterns,
+                          SOLID principles, iterators, & generators, decorators.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-python">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Python Web and Django</h3>
+                        <p>
+                          PostgreSQL, Django, URL & Views, Authentication &
+                          Security, Unit & Integration Testing, Django REST
+                          Framework, Deployment.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-python">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Web Applications Flask</h3>
+                        <p>
+                          Flask Framework, SQLAlchemy, Postgres migrations,
+                          Schemas, Validation & password hashing, JWT, Clean
+                          code, Unit Testing
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Javascript -->
+          <div>
+            <div class="col-lg-4 col-md-12 portfolio-item filter-js">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>JavaScript Basics</h3>
+                        <p>
+                          Coding basics, IDE, data, calculations, conditional
+                          statements, loops, methods.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-js">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Data Structures in JS</h3>
+                        <p>
+                          Arrays, lists, maps, strings, regex, nested
+                          structures, lambda, ﬁlter, map, reduce, stacks,
+                          queues, exceptions.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-js">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>JavaScript Fundamentals</h3>
+                        <p>
+                          Basic syntax, control ﬂow, functions, objects, DOM &
+                          DOM interaction, modules, unit testing.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-js">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>JavaScript Apps</h3>
+                        <p>
+                          RESTful APIs, AJAX, asynchronous programming, remote
+                          databases, Firebase, UI rendering, templating engines,
+                          routing, design patterns, best practices.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-js">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>React</h3>
+                        <p>
+                          JSX components, properties, state, events, lifecycle,
+                          fetching server-side data, routing, forms, hooks, unit
+                          testing.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-js">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>VueJS</h3>
+                        <p>
+                          Intro VueJS, Directives & Event Handling, Components,
+                          Forms, & Validators, Filters, Mixins, HTTP, SPA, &
+                          Routing, State Management
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-js">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>JS Back-End</h3>
+                        <p>
+                          Node.js, Express.js, templating, view engines,
+                          MongoDB, Mongoose (CRUD dan querying), sessions,
+                          authentication, JWT,validation, error handling, REST
+                          APIs, test automation.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-js">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Angular</h3>
+                        <p>
+                          framework concepts, TypeScript, components, dependency
+                          injection, observables and RxJS, modules, routing,
+                          forms, pipes, interceptors, subjects, state
+                          management.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- C# & .net  -->
+          <div>
+            <div class="col-lg-4 col-md-12 portfolio-item filter-c">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>C++ Basics</h3>
+                        <p>
+                          coding basics, IDE, data, calculations, conditional
+                          statements, loops, methods.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-c">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>C++ Fundamental</h3>
+                        <p>
+                          Basic syntax, functions, arrays, String & Streams,
+                          vectors, lists, & iterators
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-c">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>C++ OOP</h3>
+                        <p>
+                          Objects & classes, OOP constructors, Rule of 4,
+                          inheritance, abstraction, polymorphism
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-c">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>C++ Advanced</h3>
+                        <p>
+                          Stacks & Queues, Map & Set, multidimensional arrays,
+                          computer memory, references, pointers, memory
+                          management
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-c">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Application Development C++</h3>
+                        <p>
+                          Ubuntu basics, CMake tool & SDL2 library, SDL2 library
+                          runtime, Window handling, Mouse & Keyboard events,
+                          Image layering & Hardware Accelerated, Rendering,
+                          Scaling & Alpha Blending, Texts & Colors, rotation, &
+                          flipping effects, Buttons & Timers
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-c">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>C# Data Structures</h3>
+                        <p>
+                          Arrays, lists, maps, strings, regex, nested
+                          structures, dictionaries, lambda, dan streaming API,
+                          stacks, queues, exceptions, ﬁles, debugging, error
+                          handling, multidimensional arrays, git & Github, text
+                          processing, bitwise operations.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-c">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Data Structures Fundamental (C#)</h3>
+                        <p>
+                          Relational databases, MySQL, database design, SQL
+                          language, SELECT, INSERT, UPDATE, DELETE, filtering,
+                          joins, grouping, functions, stored procedures,
+                          transactions.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-c">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Data Structures Advanced (C#)</h3>
+                        <p>
+                          B-Trees – 2-3 Trees & Red-Black, AVL Trees dan
+                          AA-Trees, hash tables sets & maps, data structures
+                          augmentation
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-c">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>C# OOPs</h3>
+                        <p>
+                          Classes & objects, generics, iterators, com- parators,
+                          OOP principles, encapsulation, inheritance,
+                          interfaces, abstraction, polymor- phism, unit testing,
+                          dan TDD, design patterns, SOLID principles.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-c">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>C# Databases and ORM</h3>
+                        <p>
+                          ADO.NET, ORM, LINQ, mappings, code-ﬁrst, Entity
+                          Framework, JSON, XML.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-c">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+
+                      <div style="min-height: 160px">
+                        <h3>C# Web and ASP.NET MVC</h3>
+                        <p>
+                          MVC Advanced, IoC & Data Binding, StateManagement,
+                          ASP.NET, Web API, Security & Identity, Azure,
+                          Deployment, CI, Blazor, Application ﬂow, Middleware,
+                          Filters
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-c">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>C# Masterclass</h3>
+                        <p>
+                          C# In Depth, C# Tips & Tricks, Reflection, Expression
+                          Trees, Multithreading.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Server & Cloud -->
+          <div>
+            <div class="col-lg-4 col-md-12 portfolio-item filter-server">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Databases and MS SQL Server</h3>
+                        <p>
+                          Relational databases, MS SQL Server, database design,
+                          SQL language, SELECT, INSERT, UPDATE, DELETE,
+                          ﬁltering, joins, grouping, functions, stored
+                          procedures, transactions.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-server">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Windows System Administration</h3>
+                        <p>
+                          Introduction Windows server, services & components,
+                          fundamental active directory, powershell, system
+                          monitoring & maintenance, dan advanced services.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-server">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>AWS Essentials</h3>
+                        <p>
+                          Bagaimana Cloud di buat, identity access management &
+                          S3, Amazon Elastic Com- pute Cloud & EBS, Amazon
+                          Virtual Private Cloud & Route 53, database AWS, AWS
+                          serverless applications, dan highly available
+                          architecture.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-server">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Azure Essentials</h3>
+                        <p>
+                          Core & advanced infrastructure services, databases &
+                          analytics, Azure untuk developers, Azure untuk DevOps.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-server">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Linux System Administration</h3>
+                        <p>
+                          Linux introduction, bekerja dengan console, network,
+                          software, dan services management, bash scripting &
+                          automation, users dan access management, disks, ﬁle
+                          systems, dan archives.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-server">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>
+                          DevOps - Infrastructure & Conﬁguration Management
+                        </h3>
+                        <p>
+                          Classes & objects, generics, iterators, comparators,
+                          OOP principles, encapsulation, inheritance,
+                          interfaces, abstraction, polymorphism, unit testing,
+                          dan TDD, design patterns, SOLID principles.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-server">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>DevOps - Containerization, CI/CD & Monitoring</h3>
+                        <p>
+                          Introduction DevOps, basic containerization Docker,
+                          advanced containerization Docker, basic CI/CD Jenkins,
+                          Advanced CI/CD Jenkins, monitoring dengan Prometheus &
+                          Grafana, dan monitoring dengan Elastic Stack.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-server">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Windows System Administrator Advanced</h3>
+                        <p>
+                          Data storage solutions, Virtualization,
+                          Containerization, Clusters & High Availability
+                          Services, AD Activities & Services, Additional
+                          Services, Desired State Configuration
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-server">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Linux System Administration Advanced</h3>
+                        <p>
+                          Local Storage & Additional Techniques, Network &
+                          System Security Distributed & Shared Storage, Network
+                          Services, Virtualization & Containerization,
+                          Clustering & High Availability, Management &
+                          Maintenance
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-server">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Domain-Driver Design ASP.NET Core Microservices</h3>
+                        <p>
+                          Server Structures & Architectures, Domain Model,
+                          Business Logic Domain-Driven Design, Infrastructure &
+                          Application in Clean Architecture, Presentation & high
+                          quality in Clean Architecture, Optimal DDD usage
+                          microservice, applications
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-server">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Kubernetes</h3>
+                        <p>
+                          Core Concepts, Cluster Setup & management, Security &
+                          Policies, Storage & Persistence, Advanced Concepts,
+                          Troubleshooting, Templating Tools, Package Management
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-server">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Process Automation ASP.NET Core Microservices</h3>
+                        <p>
+                          Containerization Basics, Advanced Containerization,
+                          Continuous Integration & Continuous, Delivery,
+                          Clusterization Basics, Advanced Clusterization, Cloud
+                          Infrastructure
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-server">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Microsoft SaaS & Security</h3>
+                        <p>
+                          Cloud services concepts, Identity Management,
+                          Collaboration Services in Microsoft 365, Security
+                          considerations in Exchange & SharePoint Online, Mobile
+                          Device Management, Microsoft 365 information
+                          protection
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-server">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Computer Networking Advanced</h3>
+                        <p>
+                          Technologies Advanced, Routing OSPF Advanced, Access
+                          Control Lists, Domain Name System, IPV6, Wireless
+                          Networking Concepts, Cloud Networking with Microsoft
+                          Azure, Software Defined Networking
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- ML/ Deep Learning  -->
+          <div>
+            <div class="col-lg-4 col-md-12 portfolio-item filter-ml">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Math Concepts Developers</h3>
+                        <p>
+                          High school maths, basic algebra, linear al- gebra,
+                          calculus, probability & combinatorics, statistics, &
+                          hypothesis testing.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-ml">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Data Science</h3>
+                        <p>
+                          Data acquisition, data tidying & cleaning,
+                          visualization, bekerja dengan images & text, project
+                          architecture.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-ml">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Machine Learning</h3>
+                        <p>
+                          Basic principles dari Machine Learning, practical
+                          models, model training, tree & ensemble methods,
+                          neural networks, linear & logistic regression.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-ml">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Deep Learning</h3>
+                        <p>
+                          Regression models, tensorﬂow, modern architectures
+                          untuk image & text processing, debugging techniques,
+                          deployment, monitoring.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Database  -->
+          <div>
+            <div class="col-lg-4 col-md-12 portfolio-item filter-db">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Java Databases</h3>
+                        <p>
+                          JDBC, ORM, ORM, Hibernate, mappings, code-first,
+                          Spring Data, JPQL, JSON, XML.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-db">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Databases and MS SQL Server</h3>
+                        <p>
+                          Relational databases, MS SQL Server, database design,
+                          SQL language, SELECT, INSERT, UPDATE, DELETE,
+                          ﬁltering, joins, grouping, functions, stored
+                          procedures, transactions.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-db">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>C# Databases and ORM</h3>
+                        <p>
+                          ADO.NET, ORM, LINQ, mappings, code-ﬁrst, Entity
+                          Framework, JSON, XML.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-db">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Databases & SQL</h3>
+                        <p>
+                          Relational databases, MySQL, database design, SQL
+                          language, SELECT, INSERT, UPDATE, DELETE, filtering,
+                          joins, grouping, functions, stored procedures,
+                          transactions.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Cyber Security  -->
+          <div>
+            <div class="col-lg-4 col-md-12 portfolio-item filter-cyber">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Information Security Management</h3>
+                        <p>
+                          Information security concepts, security document
+                          management, compliance, risk management, asset
+                          security, determine data security controls, identity &
+                          access management.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-cyber">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>QA Fundamentals</h3>
+                        <p>
+                          Introduction software testing, 7 testing principles,
+                          software development cycle, test levels & test types,
+                          bug tracking, using version control systems, testing
+                          techniques, test organization, planning, estimation,
+                          monitoring, dan control, NUnit Framework, menulis unit
+                          tests dengan C#, test automation, Selenium IDE,
+                          WebDriver installation & setup, tool support testing,
+                          Reporting issues & defects.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-cyber">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>QA Automation</h3>
+                        <p>
+                          Test automation overview, unit testing & NUnit, API
+                          testing & REST, selenium & POM, appium, test
+                          environment setup, performance & security testing.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-cyber">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Comprimising Platforms</h3>
+                        <p>
+                          Evading IDS; firewall, honeypots, hacking web servers
+                          and web applications, session hijacking, SQL
+                          injection, cryptography, dan tipe serangan.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-cyber">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Open Source and Thread Intelligence</h3>
+                        <p>
+                          Introduction ethical hacking, footprinting &
+                          reconnaissance, identity access management & Cloud
+                          compute, enumeration, vulnerability analysis, social
+                          engineering, dan Cloud computing.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 portfolio-item filter-cyber">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>System and Network Compromising</h3>
+                        <p>
+                          System hacking, malware threads, Snifﬁng network,
+                          hacking wireless networks, denial of service, hacking
+                          mobile platforms, IoT hacking.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Others  -->
+          <div>
+            <div class="col-lg-4 col-md-12 portfolio-item filter-other">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Microsoft Excel Automation</h3>
+                        <p>
+                          Introduction VBA, Basic elements VBA, Conditional
+                          Statements, Debugging, Loops, Simple Data Structures
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-other">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Agile Advanced Scrum</h3>
+                        <p>
+                          Scrum master role, Scrum artifacts, Monitoring &
+                          review, Scaling Agile, Product owner role
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-other">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Unity 3D Basics</h3>
+                        <p>
+                          Unity basics, game object, collisions & physics, User
+                          Interface, 2D graphics, physics & particles, animation
+                          & audio, advanced scripting performance, Package
+                          Manager.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-other">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>Unity Advanced</h3>
+                        <p>
+                          Basic AI, NavMesh & pathfinding, dynamic pathfinding,
+                          multiplayer basics, multiplayer advanced, AI –
+                          FSM/Behaviour Trees, particle systems & shaders,
+                          deployment.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-12 portfolio-item filter-other">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>iOS Development Swift</h3>
+                        <p>
+                          Introduction Swift, Swift Fundamentals, Swift
+                          Advanced, Introduction UIkit, IOS Essentials, Working
+                          dengan Frameworks, Networking in iOS, SwiftUI
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 portfolio-item filter-other">
+              <div class="container" data-aos="fade-up">
+                <div class="pricing">
+                  <div
+                    class="col-lg-12"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
+                    <div class="box">
+                      <div style="min-height: 160px">
+                        <h3>HTML & CSS</h3>
+                        <p>
+                          HTML, elements, forms, tables, CSS styling, grids &
+                          layouts, responsive design.
+                        </p>
+                      </div>
+                      <div class="text-center">
+                        <a
+                          data-bs-toggle="modal"
+                          data-bs-target="#formModal"
+                          class="mt-3 buy-btn"
+                          ><b>HUBUNGI</b>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End KELAS INFORMASI TEKNOLOGI Section -->
+
+    <section id="portfolio" class="portfolio">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Belum temukan kelas yang sesuai kebutuhan anda?</h2>
+          <p>
+            Konsultasikan kebutuhan anda dengan kami dan dapatkan kelas yang
+            anda butuhkan hanya dengan satu klik
+          </p>
+        </div>
+        <div class="text-center">
+          <a
+            data-bs-toggle="modal"
+            data-bs-target="#formModal"
+            style="padding: 10px 16px !important"
+            class="mt-3 mx-auto btn btn-primary btn-rounded"
+            ><b>HUBUNGI</b>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+      <!-- Footer Start -->
+      <div
+        class="container-fluid footer py-5 wow fadeIn"
+        style="background-color: #234465"
+        data-wow-delay="0.1s"
+      >
+        <div class="container py-5">
+          <div class="row g-5">
+            <div class="col-lg-4 col-md-6">
+              <h4 class="text-white mb-4">Links</h4>
+              <a class="btn btn-link" href="tentang.html">Tentang Kami</a>
+              <a class="btn btn-link" href="kurikulum.html">Kurikulum</a>
+              <a class="btn btn-link" href="kursus.html">Kursus</a>
+              <a class="btn btn-link" href="blog.html">Blog</a>
+              <a class="btn btn-link" href="contact.html">Kontak</a>
+              <a class="btn btn-link" href="faq.html">FAQ</a>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <h4 class="text-white mb-4">Social Media</h4>
+              <a
+                class="btn btn-link"
+                target="_blank"
+                href="https://www.instagram.com/softuni.indonesia"
+                >Instagram</a
+              >
+              <a
+                class="btn btn-link"
+                target="_blank"
+                href="https://www.tiktok.com/@softuni.indonesia"
+                >Tiktok</a
+              >
+              <a
+                class="btn btn-link"
+                target="_blank"
+                href="https://www.facebook.com/softuni.indonesia"
+                >Facebook</a
+              >
+              <a
+                class="btn btn-link"
+                target="_blank"
+                href="https://www.linkedin.com/company/softuni-indonesia/"
+                >LinkedIn</a
+              >
+              <a
+                class="btn btn-link"
+                target="_blank"
+                href="https://www.youtube.com/channel/UCWLOv3Amj-XuWi_TyjpvL0g"
+                >Youtube</a
+              >
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <h4 class="text-white mb-4">Masih bingung terkait pilihanmu?</h4>
+              <p class="text-white">
+                GABUNG kami segera dan konsultasikan karirmu!
+              </p>
+              <div class="position-relative w-100">
+                <div
+                  class="d-flex align-items-end section-header aos"
+                  data-aos="fade-up"
+                >
+                  <div class="d-flex px-3">
+                    <a
+                      href="https://api.whatsapp.com/send?phone=62811973545"
+                      class=""
+                    >
+                      <div class="flex-fill">
+                        <div class="d-flex justify-content-center">
+                          <i
+                            class="bi bi-whatsapp"
+                            style="font-size: 4rem; color: cornflowerblue"
+                          ></i>
+                        </div>
+                        <h6 class="mt-4 text-center"><b>WA 1</b></h6>
+                      </div>
+                    </a>
+                  </div>
+                  <div
+                    class="d-flex px-3 align-items-center justify-content-center"
+                  >
+                    <a
+                      href="https://api.whatsapp.com/send?phone=628113771477"
+                      class=""
+                    >
+                      <div class="flex-fill">
+                        <div class="d-flex justify-content-center">
+                          <i
+                            class="bi bi-whatsapp"
+                            style="font-size: 4rem; color: cornflowerblue"
+                          ></i>
+                        </div>
+                        <h6 class="mt-4 text-center"><b>WA 2</b></h6>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer End -->
+
+      <!-- Copyright Start -->
+      <div class="container-fluid copyright py-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+              &copy; <a class="border-bottom" href="#">SoftUni.id</a> 2023
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Copyright End -->
+    </footer>
+
+    <!-- Footer -->
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Untuk kurikulum  -->
+    <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/glightbox/js/glightbox.min.js"></script>
+    <script src="lib/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="lib/waypoints/noframework.waypoints.js"></script>
+    <!-- End untuk kurikulum -->
+    <script src="lib/wow/wow.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/tiny-slider.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/kurikulum.js"></script>
+    <!-- <script src="index.js"></script> -->
+    <script src="js/custom.js"></script>
+  </body>
+</html>
+
+
