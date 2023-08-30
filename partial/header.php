@@ -33,10 +33,10 @@
 
   <body>
     <!-- Topbar Start -->
-    <div class="container-fluid bg-dark">
+    <div class="container-fluid topbar">
       <div class="row py-2 px-lg-5">
         <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
-          <div class="d-inline-flex align-items-center text-white">
+          <div class="d-inline-flex align-items-center text-dark">
             <small><i class="fa fa-phone-alt mr-2"></i>0811 973 545</small>
             <small class="px-3">|</small>
             <small><i class="fa fa-envelope mr-2"></i> info@softuni.id</small>
@@ -45,35 +45,35 @@
         <div class="col-lg-6 text-center text-lg-right">
           <div class="d-inline-flex align-items-center">
             <a
-              class="text-white px-2"
+              class="text-dark px-2"
               target="_blank"
               href="https://www.facebook.com/softuni.indonesia"
             >
               <i class="fab fa-facebook-f"></i>
             </a>
             <a
-              class="text-white px-2"
+              class="text-dark px-2"
               target="_blank"
               href="https://www.tiktok.com/@softuni.indonesia"
             >
               <i class="fab fa-tiktok"></i>
             </a>
             <a
-              class="text-white px-2"
+              class="text-dark px-2"
               target="_blank"
               href="https://www.linkedin.com/company/softuni-indonesia/"
             >
               <i class="fab fa-linkedin-in"></i>
             </a>
             <a
-              class="text-white px-2"
+              class="text-dark px-2"
               target="_blank"
               href="https://www.instagram.com/softuni.indonesia"
             >
               <i class="fab fa-instagram"></i>
             </a>
             <a
-              class="text-white pl-2"
+              class="text-dark pl-2"
               target="_blank"
               href="https://www.youtube.com/channel/UCWLOv3Amj-XuWi_TyjpvL0g"
             >
@@ -88,13 +88,13 @@
     <!-- Navbar Start -->
     <div class="container-fluid p-0">
       <nav
-        class="navbar navbar-expand-lg bg-white navbar-light py-3 py-lg-0 px-lg-5"
+        class="navbar navbar-expand-lg navbar-light py-3 py-lg-0 px-lg-5"
       >
         <a href="index.php" class="navbar-brand ml-lg-3">
-          <h1 class="m-0 text-uppercase text-dark">
-            <img src="assets/favicon.ico" class="img-fluid" width="60px" />
-            SoftUni
-          </h1>
+          <h3 class="m-0 text-uppercase text-logo" >
+            <img src="assets/SoftUni-Logo.png" class="img-fluid" width="60%" />
+          
+          </h3>
         </a>
         <button
           type="button"
@@ -130,8 +130,8 @@
             </div>
             <a href="tentang.php" class="nav-item nav-link">Tentang</a>
           </div>
-          <a href="" class="btn btn-primary py-2 px-4 d-none d-lg-block"
-            >Gabung</a
+          <a href="daftar.php" class="btn btn-primary py-2 px-4 d-none d-lg-block"
+            >Daftar</a
           >
         </div>
       </nav>

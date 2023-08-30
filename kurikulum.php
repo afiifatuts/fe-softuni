@@ -1,94 +1,97 @@
 
 <?php include 'partial/header.php'; ?>
 
+  <!-- Header Start -->
+  <div class="jumbotron jumbotron-fluid page-header position-relative overlay-bottom" style="margin-bottom: 90px;">
+        <div class="container text-center py-5">
+            <h1 class="text-white display-1">Kurikulum</h1>
+            <div class="d-inline-flex text-white mb-5">
+                <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
+                <i class="fa fa-angle-double-right pt-1 px-3"></i>
+                <p class="m-0 text-uppercase">Kurikulum</p>
+            </div>
+        </div>
+    </div>
 
     <!-- End Header -->
-    <section id="home" style="height: 50vh">
-      <div class="container">
-        <div class="row align-items-center justify-content-between pt-5">
-          <div class="col-lg-12 text-center pe-lg-5">
-            <h1 class="heading text-white mb-3" data-aos="fade-up">
-              KURIKULUM SOFTUNI
-            </h1>
-            <p
-              class="text-white align-items-center mb-5"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              Program profesional SoftUni bertujuan untuk membangun semua
-              pengetahuan mendasar dan keterampilan praktik yang diperlukan
-              untuk menjadi pakar IT, bekerja dengan teknologi perangkat lunak
-              terbaru dan menguasai praktik terbaik dibidang pemrograman
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
 
-    <!-- ======= Pricing Fundamental ======= -->
-    <section id="pricing" class="pricing">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Fundamental Modul</h2>
-        </div>
-        <p>
-          Kurikulum terdiri dari beberapa bidang profesional dan spesialisasi
-          yang dibangun dari modul pelatihan yang dipilih secara khusus. Setiap
-          modul pelatihan berisi kursus dengan fokus yang kuat pada praktik, di
-          akhir setiap kursus, siswa lulus ujian praktik,dan menunjukkan
-          keterampilan yang diperoleh.
-        </p>
-        <div class="row" style="margin: auto; max-width: 1000px;">
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="box">
-              <h3>Programing Basics</h3>
-              <h4><sup>RP</sup>0<span>3 Kredit | 2 Bulan</span></h4>
-              <ul>
-                <li>
-                  <i class="bx bx-check"></i> Kursus Dasar Pemrograman dengan
-                  pilihan bahasa (C#, Java, JS, Python).
-                </li>
-                <li>
-                  <i class="bx bx-check"></i> Materi meliputi konsep dasar
-                  pemrograman dalam bahasa pilihan.
-                </li>
-                <li>
-                  <i class="bx bx-check"></i> Ujian masuk sebagai penilaian
-                  akhir.
-                </li>
-              </ul>
-              <a href="kurikulum.html" class="buy-btn">Gabung</a>
+    <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row mx-0 justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center position-relative mb-5">
+                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Kurikulum SoftUni</h6>
+                        <h1 class="display-4">Lihat Kurikulum Kami</h1>
+                    </div>
+                </div>
             </div>
-          </div>
+            <div class="row">
+                    <div id="pricing" class="pricing">
+              <div class="container" data-aos="fade-up">
+                <div class="section-title">
+                  <h2>Fundamental Modul</h2>
+                </div>
+                <p>
+                  Kurikulum terdiri dari beberapa bidang profesional dan spesialisasi
+                  yang dibangun dari modul pelatihan yang dipilih secara khusus. Setiap
+                  modul pelatihan berisi kursus dengan fokus yang kuat pada praktik, di
+                  akhir setiap kursus, siswa lulus ujian praktik,dan menunjukkan
+                  keterampilan yang diperoleh.
+                </p>
+                <div class="row" style="margin: auto; max-width: 1000px;">
+                  <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="box">
+                      <h3>Programing Basics</h3>
+                      <h4><sup>RP</sup>0<span>3 Kredit | 2 Bulan</span></h4>
+                      <ul>
+                        <li>
+                          <i class="bx bx-check"></i> Kursus Dasar Pemrograman dengan
+                          pilihan bahasa (C#, Java, JS, Python).
+                        </li>
+                        <li>
+                          <i class="bx bx-check"></i> Materi meliputi konsep dasar
+                          pemrograman dalam bahasa pilihan.
+                        </li>
+                        <li>
+                          <i class="bx bx-check"></i> Ujian masuk sebagai penilaian
+                          akhir.
+                        </li>
+                      </ul>
+                      <a href="kurikulum.html" class="buy-btn">Gabung</a>
+                    </div>
+                  </div>
 
-          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="box">
-              <h3>Fundamental Modul</h3>
-              <h4>
-                <sup>Rp</sup>3.500.000<sup class="sup">/modul</sup
-                ><span>12 sks | 3 bulan</span>
-              </h4>
-              <ul>
-                <li>
-                  <i class="bx bx-check"></i> Modul Fundamental fokus pada
-                  pengetahuan dan keterampilan dasar pemrograman.
-                </li>
-                <li>
-                  <i class="bx bx-check"></i>Siswa memilih bahasa pemrograman
-                  (C#, Java, JS, Python) untuk dipelajari.
-                </li>
-                <li>
-                  <i class="bx bx-check"></i> Materi mencakup konsep dasar dalam
-                  pemrograman sesuai bahasa yang dipilih.
-                </li>
-              </ul>
-              <a href="kurikulum.html" class="buy-btn">Gabung</a>
+                  <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                    <div class="box">
+                      <h3>Fundamental Modul</h3>
+                      <h4>
+                        <sup>Rp</sup>3.500.000<sup class="sup">/modul</sup
+                        ><span>12 sks | 3 bulan</span>
+                      </h4>
+                      <ul>
+                        <li>
+                          <i class="bx bx-check"></i> Modul Fundamental fokus pada
+                          pengetahuan dan keterampilan dasar pemrograman.
+                        </li>
+                        <li>
+                          <i class="bx bx-check"></i>Siswa memilih bahasa pemrograman
+                          (C#, Java, JS, Python) untuk dipelajari.
+                        </li>
+                        <li>
+                          <i class="bx bx-check"></i> Materi mencakup konsep dasar dalam
+                          pemrograman sesuai bahasa yang dipilih.
+                        </li>
+                      </ul>
+                      <a href="kurikulum.html" class="buy-btn">Gabung</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-          </div>
+            </div>
         </div>
-      </div>
-    </section>
-    <!-- End Pricing Fundamental -->
+    </div>
+
 
         <!-- ======= Professional modul ======= -->
         <section id="pro-modul" class="pro-modul">

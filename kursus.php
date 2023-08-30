@@ -39,108 +39,156 @@
             <div class="row mx-0 justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-title text-center position-relative mb-5">
-                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Our Courses</h6>
+                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Kursus Kami</h6>
                         <h1 class="display-4">Checkout New Releases Of Our Courses</h1>
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-4 col-md-6 pb-4">
-                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.html">
-                        <img class="img-fluid" src="img/courses-1.jpg" alt="">
+                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.php">
+                        <img class="img-fluid" src="assets/course_image/1c260dcf-09be-11ee-8734-005056470331.jpg" alt="">
                         <div class="courses-text">
-                            <h4 class="text-center text-white px-3">Web design & development courses for
-                                beginners</h4>
+                            <h4 class="text-center text-white px-3">Java Basic</h4>
                             <div class="border-top w-100 mt-3">
                                 <div class="d-flex justify-content-between p-4">
-                                    <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                                    <span class="text-white"><i class="fa fa-star mr-2"></i>4.5
-                                        <small>(250)</small></span>
+                                    <span class="text-white">>Regular Course</span>
+                                    <span class="text-white">
+                                        <small>Rp</small>3500000</span>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
+
                 <div class="col-lg-4 col-md-6 pb-4">
-                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.html">
-                        <img class="img-fluid" src="img/courses-2.jpg" alt="">
+                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.php">
+                        <img class="img-fluid" src="assets/course_image/1c260dcf-09be-11ee-8734-005056470331.jpg" alt="">
                         <div class="courses-text">
-                            <h4 class="text-center text-white px-3">Web design & development courses for
-                                beginners</h4>
+                            <h4 class="text-center text-white px-3">JavaScript Basic</h4>
                             <div class="border-top w-100 mt-3">
                                 <div class="d-flex justify-content-between p-4">
-                                    <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                                    <span class="text-white"><i class="fa fa-star mr-2"></i>4.5
-                                        <small>(250)</small></span>
+                                    <span class="text-white">Webinar Course</span>
+                                    <span class="text-white">
+                                        <small>Rp</small>300000</span>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
+
                 <div class="col-lg-4 col-md-6 pb-4">
-                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.html">
-                        <img class="img-fluid" src="img/courses-3.jpg" alt="">
+                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.php">
+                        <img class="img-fluid" src="assets/course_image/1c260dcf-09be-11ee-8734-005056470331.jpg" alt="">
                         <div class="courses-text">
-                            <h4 class="text-center text-white px-3">Web design & development courses for
-                                beginners</h4>
+                            <h4 class="text-center text-white px-3">JavaScript Basic</h4>
                             <div class="border-top w-100 mt-3">
                                 <div class="d-flex justify-content-between p-4">
-                                    <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                                    <span class="text-white"><i class="fa fa-star mr-2"></i>4.5
-                                        <small>(250)</small></span>
+                                    <span class="text-white">Webinar Course</span>
+                                    <span class="text-white">
+                                        <small>Rp</small>300000</span>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
+
                 <div class="col-lg-4 col-md-6 pb-4">
-                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.html">
-                        <img class="img-fluid" src="img/courses-4.jpg" alt="">
+                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.php">
+                        <img class="img-fluid" src="assets/course_image/1c260dcf-09be-11ee-8734-005056470331.jpg" alt="">
                         <div class="courses-text">
-                            <h4 class="text-center text-white px-3">Web design & development courses for
-                                beginners</h4>
+                            <h4 class="text-center text-white px-3">JavaScript Basic</h4>
                             <div class="border-top w-100 mt-3">
                                 <div class="d-flex justify-content-between p-4">
-                                    <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                                    <span class="text-white"><i class="fa fa-star mr-2"></i>4.5
-                                        <small>(250)</small></span>
+                                    <span class="text-white">Webinar Course</span>
+                                    <span class="text-white">
+                                        <small>Rp</small>300000</span>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
+
                 <div class="col-lg-4 col-md-6 pb-4">
-                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.html">
-                        <img class="img-fluid" src="img/courses-5.jpg" alt="">
+                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.php">
+                        <img class="img-fluid" src="assets/course_image/1c260dcf-09be-11ee-8734-005056470331.jpg" alt="">
                         <div class="courses-text">
-                            <h4 class="text-center text-white px-3">Web design & development courses for
-                                beginners</h4>
+                            <h4 class="text-center text-white px-3">JavaScript Basic</h4>
                             <div class="border-top w-100 mt-3">
                                 <div class="d-flex justify-content-between p-4">
-                                    <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                                    <span class="text-white"><i class="fa fa-star mr-2"></i>4.5
-                                        <small>(250)</small></span>
+                                    <span class="text-white">Webinar Course</span>
+                                    <span class="text-white">
+                                        <small>Rp</small>300000</span>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
+
                 <div class="col-lg-4 col-md-6 pb-4">
-                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.html">
-                        <img class="img-fluid" src="img/courses-6.jpg" alt="">
+                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.php">
+                        <img class="img-fluid" src="assets/course_image/1c260dcf-09be-11ee-8734-005056470331.jpg" alt="">
                         <div class="courses-text">
-                            <h4 class="text-center text-white px-3">Web design & development courses for
-                                beginners</h4>
+                            <h4 class="text-center text-white px-3">JavaScript Basic</h4>
                             <div class="border-top w-100 mt-3">
                                 <div class="d-flex justify-content-between p-4">
-                                    <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                                    <span class="text-white"><i class="fa fa-star mr-2"></i>4.5
-                                        <small>(250)</small></span>
+                                    <span class="text-white">Webinar Course</span>
+                                    <span class="text-white">
+                                        <small>Rp</small>300000</span>
                                 </div>
                             </div>
                         </div>
                     </a>
                 </div>
+
+                <div class="col-lg-4 col-md-6 pb-4">
+                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.php">
+                        <img class="img-fluid" src="assets/course_image/1c260dcf-09be-11ee-8734-005056470331.jpg" alt="">
+                        <div class="courses-text">
+                            <h4 class="text-center text-white px-3">JavaScript Basic</h4>
+                            <div class="border-top w-100 mt-3">
+                                <div class="d-flex justify-content-between p-4">
+                                    <span class="text-white">Webinar Course</span>
+                                    <span class="text-white">
+                                        <small>Rp</small>300000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 pb-4">
+                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.php">
+                        <img class="img-fluid" src="assets/course_image/1c260dcf-09be-11ee-8734-005056470331.jpg" alt="">
+                        <div class="courses-text">
+                            <h4 class="text-center text-white px-3">JavaScript Basic</h4>
+                            <div class="border-top w-100 mt-3">
+                                <div class="d-flex justify-content-between p-4">
+                                    <span class="text-white">Webinar Course</span>
+                                    <span class="text-white">
+                                        <small>Rp</small>300000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 pb-4">
+                    <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.php">
+                        <img class="img-fluid" src="assets/course_image/1c260dcf-09be-11ee-8734-005056470331.jpg" alt="">
+                        <div class="courses-text">
+                            <h4 class="text-center text-white px-3">JavaScript Basic</h4>
+                            <div class="border-top w-100 mt-3">
+                                <div class="d-flex justify-content-between p-4">
+                                    <span class="text-white">Webinar Course</span>
+                                    <span class="text-white">
+                                        <small>Rp</small>300000</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+               
                 <div class="col-12">
                     <nav aria-label="Page navigation">
                         <ul class="pagination pagination-lg justify-content-center mb-0">

@@ -68,7 +68,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Monserrat', sans-serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -375,7 +375,7 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   line-height: 1.2;
   color: #120F2D;
@@ -4112,14 +4112,26 @@ input[type="button"].btn-block {
   display: block;
 }
 
+.topbar{
+  /* background-color: var(--secondary4); */
+}
+
 .navbar {
+  font-family: 'Roboto',sans-serif;
   position: relative;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   padding: 0.5rem 1rem;
+  background-color: var(--secondary4);
 }
+
+.text-logo{
+  color: var(--primary4);
+}
+
+
 
 .navbar .container,
 .navbar .container-fluid, .navbar .container-sm, .navbar .container-md, .navbar .container-lg, .navbar .container-xl {
@@ -4152,6 +4164,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-nav .nav-link {
+  color: var(--additiolay1) !important;
   padding-right: 0;
   padding-left: 0;
 }
@@ -9417,7 +9430,7 @@ button.bg-dark:focus {
 }
 
 .text-monospace {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+  /* font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important; */
 }
 
 .text-justify {
@@ -9746,7 +9759,7 @@ h6,
 }
 
 .btn {
-  font-family: 'Jost', sans-serif;
+  /* font-family: 'Jost', sans-serif; */
 }
 
 .btn-square {
@@ -9790,7 +9803,7 @@ h6,
 }
 
 .navbar-light .navbar-nav .nav-link {
-  font-family: 'Jost', sans-serif;
+  /* font-family: 'Jost', sans-serif; */
   padding: 30px 15px;
   font-size: 18px;
   font-weight: 500;
@@ -9899,7 +9912,7 @@ h6,
   height: calc(100% + 40px);
 }
 
-/* .team-carousel .owl-nav,
+.team-carousel .owl-nav,
 .related-carousel .owl-nav {
   position: absolute;
   width: 100%;
@@ -9909,7 +9922,7 @@ h6,
   display: flex;
   justify-content: space-between;
   z-index: 1;
-} */
+}
 
 /* .team-item{
   height: 300px !important;
@@ -9923,7 +9936,7 @@ h6,
   width: 40%;
 } */
 
-/* .team-carousel .owl-nav .owl-prev,
+.team-carousel .owl-nav .owl-prev,
 .team-carousel .owl-nav .owl-next,
 .related-carousel .owl-nav .owl-prev,
 .related-carousel .owl-nav .owl-next {
@@ -9937,14 +9950,14 @@ h6,
   background: #2878EB;
   font-size: 22px;
   transition: .5s;
-} */
+}
 
-/* .team-carousel .owl-nav .owl-prev:hover,
+.team-carousel .owl-nav .owl-prev:hover,
 .team-carousel .owl-nav .owl-next:hover,
 .related-carousel .owl-nav .owl-prev:hover,
 .related-carousel .owl-nav .owl-next:hover {
   background: #F14D5D;
-} */
+}
 
 .testimonial-carousel .owl-item img {
   width: 80px;
