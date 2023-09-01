@@ -51,7 +51,7 @@
             <div class="position-relative h-100">
               <img
                 class="position-absolute w-100 h-100"
-                src="assets/home_image/img/intro.jpg"
+                src="assets/home_image/img/Group 24.jpg"
                 style="object-fit: cover"
               />
             </div>
@@ -104,7 +104,7 @@
               </div>
               <div class="col-4 px-0">
                 <a href="https://github.com/search?q=softuni" target="_blank">
-                  <div class="bg-secondary text-center p-4">
+                  <div class=" text-center p-4" style="background:#FF7100;">
                     <h1 class="text-white">
                       <span data-toggle="counter-up">14</span>K
                     </h1>
@@ -112,24 +112,8 @@
                       Project<span class="d-block">di Github</span>
                     </h6>
                   </div>
-                  <!-- <div class="bg-secondary text-center p-4">
-                    <h1 class="text-white">
-                      <span data-toggle="counter-up">35</span>M
-                    </h1>
-                    <h6 class="text-uppercase text-white">
-                      Tugas<span class="d-block">dikerjakan</span>
-                    </h6>
-                  </div> -->
                 </a>
               </div>
-              <!-- <div class="col-3 px-0">
-                <div class="bg-warning text-center p-4">
-                  <h1 class="text-white" data-toggle="counter-up">1234</h1>
-                  <h6 class="text-uppercase text-white">
-                    Happy<span class="d-block">Students</span>
-                  </h6>
-                </div>
-              </div> -->
             </div>
           </div>
         </div>
@@ -196,7 +180,7 @@
             <div class="position-relative h-100">
               <img
                 class="position-absolute w-100 h-100"
-                src="img/feature.jpg"
+                src="assets/home_image/img/intro.jpg"
                 style="object-fit: cover"
               />
             </div>
@@ -722,7 +706,7 @@
                     <input
                       type="text"
                       class="form-control border-top-0 border-right-0 border-left-0 p-0"
-                      placeholder="Your Name"
+                      placeholder="Nama"
                       required="required"
                     />
                   </div>
@@ -730,7 +714,7 @@
                     <input
                       type="email"
                       class="form-control border-top-0 border-right-0 border-left-0 p-0"
-                      placeholder="Your Email"
+                      placeholder="Email"
                       required="required"
                     />
                   </div>
@@ -739,7 +723,7 @@
                   <input
                     type="text"
                     class="form-control border-top-0 border-right-0 border-left-0 p-0"
-                    placeholder="Subject"
+                    placeholder="Telepon"
                     required="required"
                   />
                 </div>
@@ -747,13 +731,13 @@
                   <textarea
                     class="form-control border-top-0 border-right-0 border-left-0 p-0"
                     rows="5"
-                    placeholder="Message"
+                    placeholder="Pesan"
                     required="required"
                   ></textarea>
                 </div>
                 <div>
                   <button class="btn btn-primary py-3 px-5" type="submit">
-                    Send Message
+                    Kirim
                   </button>
                 </div>
               </form>

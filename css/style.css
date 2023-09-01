@@ -6452,7 +6452,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #120F2D !important;
+  background-color: var(--secondary4) !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -6538,7 +6538,7 @@ button.bg-dark:focus {
 }
 
 .border-dark {
-  border-color: #120F2D !important;
+  border-color: var(--secondary4) !important;
 }
 
 .border-white {

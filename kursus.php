@@ -5,21 +5,21 @@
     <!-- Header Start -->
     <div class="jumbotron jumbotron-fluid page-header position-relative overlay-bottom" style="margin-bottom: 90px;">
         <div class="container text-center py-5">
-            <h1 class="text-white display-1">Courses</h1>
+            <h1 class="text-white display-1">Kursus</h1>
             <div class="d-inline-flex text-white mb-5">
                 <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
                 <i class="fa fa-angle-double-right pt-1 px-3"></i>
-                <p class="m-0 text-uppercase">Courses</p>
+                <p class="m-0 text-uppercase">Kursus</p>
             </div>
             <div class="mx-auto mb-5" style="width: 100%; max-width: 600px;">
                 <div class="input-group">
                     <div class="input-group-prepend">
                         <button class="btn btn-outline-light bg-white text-body px-4 dropdown-toggle" type="button" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">Courses</button>
+                            aria-haspopup="true" aria-expanded="false">Kursus</button>
                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Courses 1</a>
-                            <a class="dropdown-item" href="#">Courses 2</a>
-                            <a class="dropdown-item" href="#">Courses 3</a>
+                            <a class="dropdown-item" href="#">Webinar </a>
+                            <a class="dropdown-item" href="#">Short</a>
+                            <a class="dropdown-item" href="#">Regular</a>
                         </div>
                     </div>
                     <input type="text" class="form-control border-light" style="padding: 30px 25px;" placeholder="Keyword">
@@ -40,7 +40,7 @@
                 <div class="col-lg-8">
                     <div class="section-title text-center position-relative mb-5">
                         <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Kursus Kami</h6>
-                        <h1 class="display-4">Checkout New Releases Of Our Courses</h1>
+                        <h1 class="display-4">Rilisan Kursus Terbaru dari Kami</h1>
                     </div>
                 </div>
             </div>

@@ -99,6 +99,7 @@
         <button
           type="button"
           class="navbar-toggler"
+          style="background-color: #fff;"
           data-toggle="collapse"
           data-target="#navbarCollapse"
         >
