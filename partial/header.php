@@ -148,12 +148,12 @@
             </div>
             <a href="tentang.php" class="nav-item nav-link">Tentang</a>
           </div>
-           <!-- Jika belum sudah login  -->
+           <!-- Jika belum login  -->
           <!-- <a href="daftar.php" class="btn btn-warning py-2 px-4 d-none d-lg-block"
             >Gabung</a > -->
 
             <!-- Jika user sudah login  -->
-            <div class="navbar-nav mx-auto">
+            <!-- <div class="navbar-nav mx-auto">
             <div class="nav-item dropdown">
               <a href="" class="nav-link  nav-profile d-flex align-items-center pe-0" data-toggle="dropdown"
                 >
@@ -181,12 +181,12 @@
                 >
               </div>
             </div>
-            </div>
+            </div> -->
            
             <!-- End jika sudah login  -->
             
             <!-- Jika admin sudah login  -->
-            <!-- <div class="navbar-nav mx-auto">
+            <div class="navbar-nav mx-auto">
             <div class="nav-item dropdown">
               <a href="" class="nav-link  nav-profile d-flex align-items-center pe-0" data-toggle="dropdown"
                 >
@@ -196,7 +196,7 @@
               > </a
               >
               <div class="dropdown-menu m-0">
-                <a href="./user-profile.php" class="dropdown-item"
+                <a href="./admin-dashboard.php" class="dropdown-item"
                   >Pengaturan Admin</a
                 >
                 <a href="keluar.php" class="dropdown-item"
@@ -204,7 +204,7 @@
                 >
               </div>
             </div>
-            </div> -->
+            </div>
            
             <!-- End jika sudah login  -->
         </div>
