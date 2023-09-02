@@ -42,7 +42,7 @@
           <div class="tab-content pt-2">
 
             <div class="tab-pane fade show active profile-overview" id="profile-overview">
-              <h5 class="card-title">Detail Profile</h5>
+              <h5 class="card-title"> Detail Profile</h5>
 
               <div class="row">
                 <div class="col-lg-3 col-md-4 label ">Nama Lengkap</div>

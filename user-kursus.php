@@ -20,12 +20,12 @@
       <!-- Card with an image on left -->
       <div class="card mb-3">
         <div class="row g-0">
-          <div class="col-md-4">
+          <div class="col-md-4 m-auto">
             <img src="assets/course_image/1c260dcf-09be-11ee-8734-005056470331.jpg" class="img-fluid rounded-start m-auto" alt="Course Img">
           </div>
           <div class="col-md-8">
             <div class="card-body">
-              <h5 class="card-title">Java Beginner</h5>
+              <h5 class="card-title"><a href=""> Java Beginner</a></h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <!-- link tele tidak muncul apabila belum bayar -->
                 <p class="card-text">Link telegram :http:hjdifhshf </p>
