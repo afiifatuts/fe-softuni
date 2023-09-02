@@ -177,7 +177,7 @@
                   >Sertifikat Saya</a
                 >
                 <a href="keluar.php" class="dropdown-item"
-                  >Keluar</a
+                  ><i class="fas fa-sign-out-alt" style="margin-right:3px;"></i>Keluar</a
                 >
               </div>
             </div>
