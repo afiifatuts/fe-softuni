@@ -24,11 +24,28 @@
       rel="stylesheet"
     />
 
+    <!-- Vendor CSS Files -->
+    <link
+      href="./lib/assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="./lib/assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="./lib/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="./lib/vendor/quill/quill.snow.css" rel="stylesheet" />
+    <link href="./lib/vendor/quill/quill.bubble.css" rel="stylesheet" />
+    <link href="./lib/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="./lib/vendor/simple-datatables/style.css" rel="stylesheet" />
+
+
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="./css/style.css" rel="stylesheet" />
+    <link href="./css/index.css" rel="stylesheet" />
+    <link href="./css/dashboard.css" rel="stylesheet" />
   </head>
 
   <body>
@@ -92,18 +109,18 @@
       >
         <a href="index.php" class="navbar-brand ml-lg-3">
           <h3 class="m-0 text-uppercase text-logo" >
-            <img src="assets/SoftUni-Logo.png" class="img-fluid" width="60%" />
+            <img src="assets/SoftUni-Logo.png" class="img-fluid h-logo" width="60%" />
           
           </h3>
         </a>
         <button
           type="button"
-          class="navbar-toggler"
+          class="navbar-toggler text-white"
           style="background-color: #fff;"
           data-toggle="collapse"
           data-target="#navbarCollapse"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span  class="navbar-toggler-icon "></span>
         </button>
         <div
           class="collapse navbar-collapse justify-content-between px-lg-3"
@@ -131,9 +148,65 @@
             </div>
             <a href="tentang.php" class="nav-item nav-link">Tentang</a>
           </div>
-          <a href="daftar.php" class="btn btn-primary py-2 px-4 d-none d-lg-block"
-            >Daftar</a
-          >
+           <!-- Jika belum sudah login  -->
+          <!-- <a href="daftar.php" class="btn btn-warning py-2 px-4 d-none d-lg-block"
+            >Gabung</a > -->
+
+            <!-- Jika user sudah login  -->
+            <div class="navbar-nav mx-auto">
+            <div class="nav-item dropdown">
+              <a href="" class="nav-link  nav-profile d-flex align-items-center pe-0" data-toggle="dropdown"
+                >
+                <img
+                src="./assets/profile/profile-img.jpeg"
+                alt="Profile"
+                class="rounded-circle"
+              />
+              <span class="d-none d-md-block dropdown-toggle ps-2 text-white"
+                >K. Anderson</span
+              > </a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="./user-profile.php" class="dropdown-item"
+                  >Akun Saya</a
+                >
+                <a href="./user-kursus.php" class="dropdown-item"
+                  >Kursus Saya</a
+                >
+                <a href="./user-sertifikat.php" class="dropdown-item"
+                  >Sertifikat Saya</a
+                >
+                <a href="keluar.php" class="dropdown-item"
+                  >Keluar</a
+                >
+              </div>
+            </div>
+            </div>
+           
+            <!-- End jika sudah login  -->
+            
+            <!-- Jika admin sudah login  -->
+            <!-- <div class="navbar-nav mx-auto">
+            <div class="nav-item dropdown">
+              <a href="" class="nav-link  nav-profile d-flex align-items-center pe-0" data-toggle="dropdown"
+                >
+               
+              <span class="d-none d-md-block dropdown-toggle ps-2 text-white"
+                >Admin</span
+              > </a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="./user-profile.php" class="dropdown-item"
+                  >Pengaturan Admin</a
+                >
+                <a href="keluar.php" class="dropdown-item"
+                  >Keluar</a
+                >
+              </div>
+            </div>
+            </div> -->
+           
+            <!-- End jika sudah login  -->
         </div>
       </nav>
     </div>

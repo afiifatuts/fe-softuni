@@ -1,11 +1,13 @@
 <?php include 'partial/header.php'; ?>
     <!-- End Navbar -->
 
-    <!-- Home  -->
-    <section id="home">
-      <div class="container">
+     <!-- Header Start -->
+     <section>
+      <div class="jumbotron jumbotron-fluid page-header position-relative overlay-bottom" style="margin-bottom: 90px;">
+        <div class="container py-5">
+        <div class="container">
         <div class="row align-items-center justify-content-between pt-5">
-          <div class="col-lg-6 text-center text-lg-start pe-lg-5">
+          <div class="col-lg-6 text-lg-start pe-lg-5">
             <h1 class="heading text-white mb-3" data-aos="fade-up">
               Kami menciptakan profesional di industri perangkat lunak dan
               membantu mereka memulai karir yang sukses!
@@ -33,7 +35,7 @@
               data-aos-delay="200"
             >
               <div class="">
-                <a class="btn-prmr" href="kursus.html">Visit Courses</a>
+                <a class="btn btn-warning" href="kursus.html">Visit Courses</a>
               </div>
             </div>
           </div>
@@ -49,10 +51,18 @@
           </div>
         </div>
       </div>
+        </div>
+    </div>
     </section>
+
+    <!-- End Header -->
+
+
 
     <!-- ======= Service ======= -->
     <section id="services" class="services section-bg">
+    <div class="container-fluid py-5">
+      <div class="container py-5">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2>PELATIHAN PRAKTIS MODERN SOFTUNI</h2>
@@ -118,15 +128,18 @@
           </div>
         </div>
       </div>
+      </div>
+      </div>
     </section>
     <!-- End Service -->
 
     <!-- ======= Cara mendaftar Section ======= -->
     <section id="cta" class="cta">
+      
       <div class="container" data-aos="zoom-in">
         <div class="row">
-          <div class="d-flex ">
-          <div class="col-lg-9 text-center text-lg-start">
+          <div class="d-flex">
+          <div class="col-lg-9 text-lg-start">
             <h3>Bantuan karir</h3>
             <p>
               SoftUni bekerja sama secara langsung dengan perusahaan-perusahaan di industri perangkat lunak, sehingga membantu para siswanya dalam pelatihan mereka untuk menjadi pemrogram yang sukses. Peserta yang telah menunjukkan hasil yang sangat baik menerima rekomendasi langsung dari SoftUni Career Center untuk mulai bekerja, tergantung pada keinginan dan tujuan mereka.
@@ -138,10 +151,10 @@
         </div>
       </div>
       <div class="d-flex mt-3 ">
-        <div class="col-lg-3 cta-btn-container text-center" style="margin-right: 10px;">
+        <div class="col-lg-3 cta-btn-container" style="margin-right: 10px;">
           <img class="img-fluid" src="images/mentorsoftuni.webp" alt=""  style="background: white;"/>
         </div>
-        <div class="col-lg-9 text-center text-lg-start">
+        <div class="col-lg-9 text-lg-start">
           <h3>
             Mentor atau staf pengajar</h3>
           <p>
@@ -151,6 +164,7 @@
         
       </div>
       </div>
+   
       
     </section>
     <!-- End Cara Mendaftar Section -->

@@ -1,5 +1,7 @@
 
 <?php include 'partial/header.php'; ?>
+<!-- 
+<div class="ya">sghgdh</div> -->
 
   <!-- Header Start -->
   <div class="jumbotron jumbotron-fluid page-header position-relative overlay-bottom" style="margin-bottom: 90px;">
@@ -15,207 +17,343 @@
 
     <!-- End Header -->
 
-    <div class="container-fluid py-5">
+
+       <!-- Fundamental Feature Course -->
+        <div class="container-fluid py-5">
         <div class="container py-5">
             <div class="row mx-0 justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-title text-center position-relative mb-5">
-                        <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Kurikulum SoftUni</h6>
-                        <h1 class="display-4">Lihat Kurikulum Kami</h1>
+                        <h6 class="d-inline-block position-relative text-primary text-uppercase pb-2">Kurikulum Kami</h6>
+                        <h1 class="display-4">Fundamental Kurikulum Kami</h1>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                    <div id="pricing" class="pricing">
-              <div class="container" data-aos="fade-up">
-                <div class="section-title">
-                  <h2>Fundamental Modul</h2>
-                </div>
-                <p>
-                  Kurikulum terdiri dari beberapa bidang profesional dan spesialisasi
-                  yang dibangun dari modul pelatihan yang dipilih secara khusus. Setiap
-                  modul pelatihan berisi kursus dengan fokus yang kuat pada praktik, di
-                  akhir setiap kursus, siswa lulus ujian praktik,dan menunjukkan
-                  keterampilan yang diperoleh.
-                </p>
-                <div class="row" style="margin: auto; max-width: 1000px;">
-                  <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                    <div class="box">
-                      <h3>Programing Basics</h3>
-                      <h4><sup>RP</sup>0<span>3 Kredit | 2 Bulan</span></h4>
-                      <ul>
-                        <li>
-                          <i class="bx bx-check"></i> Kursus Dasar Pemrograman dengan
-                          pilihan bahasa (C#, Java, JS, Python).
-                        </li>
-                        <li>
-                          <i class="bx bx-check"></i> Materi meliputi konsep dasar
-                          pemrograman dalam bahasa pilihan.
-                        </li>
-                        <li>
-                          <i class="bx bx-check"></i> Ujian masuk sebagai penilaian
-                          akhir.
-                        </li>
-                      </ul>
-                      <a href="kurikulum.html" class="buy-btn">Gabung</a>
+            <div class="row col-xl-9 m-auto">
+		          <h5 class="text-center" style="text-align: justify;">Kurikulum terdiri dari beberapa bidang profesional dan spesialisasi yang dibangun dari modul pelatihan yang dipilih secara khusus. Setiap modul pelatihan berisi kursus dengan fokus yang kuat pada praktik, di akhir setiap kursus, siswa lulus ujian praktik,dan menunjukkan keterampilan yang diperoleh.</h5>
+                
+         
+              <div class="col-md-6 d-flex mt-3">
+                  <div class="card text-center">
+                      <div class="card-header">
+                      <h3>Programming Basics</h3>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">3 kredit | 2 bulan </h5>
+                        <p class="card-text">Kurikulum dimulai dengan kursus persiapan Dasar Pemrograman, dalam bahasa
+                                pemrograman pilihan siswa (C#, Java, JS, Python), dan diakhiri dengan ujian masuk.</p>
+                        <h4>Free</h4>
+                        <a href="https://softuni.id/kursus" class="btn btn-primary">GABUNG</a>
+                      </div>
                     </div>
-                  </div>
+                </div>
 
-                  <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
-                    <div class="box">
-                      <h3>Fundamental Modul</h3>
-                      <h4>
-                        <sup>Rp</sup>3.500.000<sup class="sup">/modul</sup
-                        ><span>12 sks | 3 bulan</span>
-                      </h4>
-                      <ul>
-                        <li>
-                          <i class="bx bx-check"></i> Modul Fundamental fokus pada
-                          pengetahuan dan keterampilan dasar pemrograman.
-                        </li>
-                        <li>
-                          <i class="bx bx-check"></i>Siswa memilih bahasa pemrograman
-                          (C#, Java, JS, Python) untuk dipelajari.
-                        </li>
-                        <li>
-                          <i class="bx bx-check"></i> Materi mencakup konsep dasar dalam
-                          pemrograman sesuai bahasa yang dipilih.
-                        </li>
-                      </ul>
-                      <a href="kurikulum.html" class="buy-btn">Gabung</a>
+                <div class="col-md-6 d-flex mt-3">
+                  <div class="card text-center">
+                      <div class="card-header">
+                      <h3 >Fundamental Modul</h3>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title"> 12 sks | 3 bulan</h5>
+                        <p class="card-text">Dalam modul Fundamental, siswa memperoleh pengetahuan dan keterampilan dasar dalam pemrograman, dengan bahasa pemrograman
+                            yang dipilih (C#, Java, JS, Python)</p>
+                            <h3 class="mt-5"><b> <small>Rp.</small> 3.500.000<small>/Modul</small></b></h3>
+                        <a href="https://softuni.id/kursus" class="btn btn-primary">GABUNG</a>
+                      </div>
                     </div>
-                  </div>
                 </div>
-              </div>
-            </div>
+     
+           
+
             </div>
         </div>
     </div>
+    <!-- Fundamental Feature Course -->
 
 
-        <!-- ======= Professional modul ======= -->
-        <section id="pro-modul" class="pro-modul">
-          <div class="container" data-aos="fade-up">
-            <div class="">
-              <h3>Professional Modul</h3>
-              <hr>
+           <!-- Professional Feature Course -->
+     <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row mx-0 justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center position-relative mb-5">
+                        <h6 class="d-inline-block position-relative text-primary text-uppercase pb-2">Kurikulum Kami</h6>
+                        <h1 class="display-4">Professional Kurikulum Kurikulum Kami</h1>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-              <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                <div  class="pro-box d-flex" style="min-width: min-content;">
-                  <div class="pro-logo">
-                    <img class="img-fluid" src="asset/curriculum_image/8467df8b-5b41-11ed-bef8-e82a44eb9daf.png" alt="">
-                  </div>
-                  <div class="pro-desc">
-                    <h3>Java Developer</h3>
-                    <p class="pro-sub">Professional Program</p>
-                    <p>50++ Kredit | 4 Bulan estimasi</p> 
-                    <p style="font-weight: 500;">Rp. 3.500.000/modul</p>
-                    <p>Dapatkan kesiapan untuk peluang karir dalam bidang 
-                      Java, tanpa pengalaman sebelumnya yang diperlukan.
-                      <ul>
-                        <li> Kursus Java Advanced dengan total 27 kredit, termasuk Java OOP</li>
-                        <li> Serta JS Front-End dengan 27 kredit meliputi HTML & CSS</li>
-                        <li> Juga Java DB dengan 
-                          24 kredit yang mencakup MySQL dan Spring Data </li>
-                        <li> Serta Java Web  dengan total 30 kredit,
-                          melibatkan Spring Fundamentals dan Spring Advanced.</li>
-                      </ul>
-                        </p>
-                    <a href="kursus.html" class="buy-btn">Gabung</a>
-                  </div>
-                </div>
-              </div>
-              
-              <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                <div  class="pro-box d-flex">
-                  <div  class="pro-logo">
-                    <img class="img-fluid" src="asset/curriculum_image/0a62546a-5b58-11ed-bef8-e82a44eb9daf.png" alt="">
-                  </div>
-                  <div class="pro-desc">
-                    <h3>Python</h3>
-                    <p class="pro-sub">Professional Program</p>
-                    <p>50++ Kredit | 4 Bulan estimasi</p> 
-                    <p><b>Rp. 3.500.000/modul</b> </p>
-                    <p>Dapatkan kesiapan untuk berkarir dalam bidang Python, 
-                      tanpa pengalaman sebelumnya yang diperlukan. </p>
-                      <ul>
-                        <li> Kursus Python Advanced dengan total 27 kredit, termasuk Python OOP.</li>
-                        <li> Selain itu, terdapat juga kursus JS Front-End dengan 27 kredit yang mencakup HTML & CSS.</li>
-                        <li> Untuk Python Web, tersedia kursus dengan total 30 kredit, melibatkan Python Web Basics dan Python Web Framework. </li>
-                      </ul>
-                    <a href="kursus.html" class="buy-btn">Gabung</a>
-                  </div>
-                </div>
-              </div>
-    
-              <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                <div  class="pro-box d-flex">
-                  <div class="pro-logo">
-                    <img class="img-fluid" src="asset/curriculum_image/f1a84db9-5b57-11ed-bef8-e82a44eb9daf.png" alt="">
-                  </div>
-                  <div class="pro-desc">
-                    <h3>Javascript</h3>
-                    <p class="pro-sub">Professional Program</p>
-                    <p>50++ Kredit | 4 Bulan estimasi</p> 
-                    <p><b>Rp. 3.500.000/modul</b> </p>
-                    <p> Dapatkan kesiapan untuk berkarir dalam pengembangan JavaScript, tanpa pengalaman sebelumnya yang diperlukan.</p>
-                    <ul>
-                      <li> Program JS Advanced dengan total 27 kredit, mencakup materi JS Advanced dan JS Applications.</li>
-                      <li> Selain itu, tersedia program JS Web dengan total 30 kredit, yang melibatkan JS Back-End dan Front-End Framework.</li>
-                      <li> Untuk program Front-End dengan total 27 kredit, terdapat pembelajaran tentang HTML & CSS serta Front-End Framework. </li>
-                    </ul>
-                    <a href="kursus.html" class="buy-btn">Gabung</a>
-                  </div>
-                </div>
-              </div>
-    
-              <div class="col-lg-12" data-aos="fade-up" data-aos-delay="100">
-                <div class="pro-box d-flex">
-                  <div class="pro-logo">
-                    <img class="img-fluid" src="asset/curriculum_image/4fef53d3-5b49-11ed-bef8-e82a44eb9daf.png" alt="">
-                  </div>
-                  <div class="pro-desc">
-                    <h3>C#/C++</h3>
-                    <p class="pro-sub">Professional Program</p>
-                    <p>50++ Kredit | 4 Bulan estimasi</p> 
-                    <p><b>Rp. 3.500.000/modul</b> </p>
-                    <p> Dapatkan kesiapan untuk berkarir dalam pemrograman C#, tanpa pengalaman sebelumnya yang diperlukan.</p>
-                   <ul>
-                      <li>Kursus C# Advanced dengan total 27 kredit, mencakup C# OOP</li>
-                      <li>Program JS Front-End dengan 27 kredit melibatkan HTML & CSS serta JS Front-End</li>
-                      <li>Dalam program C# DB dengan 24 kredit, Anda akan mempelajari MS SQL dan Entity Framework Core</li>
-                      <li> Sementara program C# Web dengan total 30 kredit melibatkan ASP.NET Fundamentals dan ASP.NET Advanced.</li>
-                    </ul>
-                    <a href="kursus.html" class="buy-btn">Gabung</a>
-                  </div>
-                </div>
-              </div>
-    
-
+            <div class="row col-xl-9 m-auto">
+		          <h5 class="text-center mb-3" style="text-align: justify;">Kurikulum terdiri dari beberapa bidang profesional dan spesialisasi yang dibangun dari modul pelatihan yang dipilih secara khusus. Setiap modul pelatihan berisi kursus dengan fokus yang kuat pada praktik, di akhir setiap kursus, siswa lulus ujian praktik,dan menunjukkan keterampilan yang diperoleh.</h5> 
+              <a href="https://softuni.id/kursus" class="btn btn-primary m-auto">GABUNG</a>
             </div>
-          </div>
-        </section>
-        <!-- End Professional modul -->
+            <div class="row mt-5">
 
+<div class="col-md-3 d-flex">
+<div class="student-box flex-fill">
+<div class="d-flex justify-content-center">
+<a>
+<img class="img-fluid" style="width: 100px; height:100px;" alt="Students Info" src="https://softuni.id/curriculum_image/8467df8b-5b41-11ed-bef8-e82a44eb9daf.png">
+</a>
+</div>
+<div class="student-content pb-0 mb-5">
+<h5><a>Java Web Developer</a></h5>
+</div>
 
-    <!-- ======= Spesialis Module ======= -->
-    <section id="pricing" class="pricing">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>SPESIALIS MODUL</h2>
-          <p>
-            Setelah modul Pengembang Web Profesional C#, Java Web, atau Python
-            Web, siswa memiliki opsi untuk melanjutkan dengan modul DevOps, yang
-            berspesialisasi sebagai "Full-Stack Developer".
-          </p>
-          <h3 class="mt-3">
-            <strong>Rp. 3.500.000<sup class="sup">/modul</strong></sup>
-          </h3>
-          <a href="kurikulum.html" class="buy-btn">Gabung</a>
+              <hr class="my-3" />
+
+<div class="student-content pb-0">
+<h5 class="text-primary"><b>Java Advanced</b></h5>
+                        <p class="my-4">27 kredit | 4 bulan</p>
+                    </div>
+
+                                                                <div class="student-content" style="background: #F1F1F1;">
+    <p>1. Java Advanced</p>
+  </div>
+                        <div class="student-content" style="background: #F1F1F1;">
+    <p> 2. Java OOP</p>
+  </div>
+                                                        <hr class="my-3" />
+
+<div class="student-content pb-0">
+<h5 class="text-primary"><b>JS Front-End</b></h5>
+                        <p class="my-4">27 kredit | 4 bulan</p>
+                    </div>
+
+                                                                <div class="student-content" style="background: #F1F1F1;">
+    <p>1. JS Front-End</p>
+  </div>
+                        <div class="student-content" style="background: #F1F1F1;">
+    <p> 2. HTML & CSS</p>
+  </div>
+                                                        <hr class="my-3" />
+
+<div class="student-content pb-0">
+<h5 class="text-primary"><b>Java DB</b></h5>
+                        <p class="my-4">24 kredit | 4 bulan</p>
+                    </div>
+
+                                                                <div class="student-content" style="background: #F1F1F1;">
+    <p>1. MySQL</p>
+  </div>
+                        <div class="student-content" style="background: #F1F1F1;">
+    <p> 2. Spring Data</p>
+  </div>
+                                                        <hr class="my-3" />
+
+<div class="student-content pb-0">
+<h5 class="text-primary"><b>Java Web</b></h5>
+                        <p class="my-4">30 kredit | 4 bulan</p>
+                    </div>
+
+                                                                <div class="student-content" style="background: #F1F1F1;">
+    <p>1. Spring Fundamentals</p>
+  </div>
+                        <div class="student-content" style="background: #F1F1F1;">
+    <p> 2. Spring Advanced</p>
+  </div>
+                                    
+</div>
+</div>
+<div class="col-md-3 d-flex">
+<div class="student-box flex-fill">
+<div class="d-flex justify-content-center">
+<a>
+<img class="img-fluid" style="width: 100px; height:100px;" alt="Students Info" src="https://softuni.id/curriculum_image/0a62546a-5b58-11ed-bef8-e82a44eb9daf.png">
+</a>
+</div>
+<div class="student-content pb-0 mb-5">
+<h5><a>Python Web Developer</a></h5>
+</div>
+
+              <hr class="my-3" />
+
+<div class="student-content pb-0">
+<h5 class="text-primary"><b>Python Advanced</b></h5>
+                        <p class="my-4">27 kredit | 4 bulan</p>
+                    </div>
+
+                                                                <div class="student-content" style="background: #F1F1F1;">
+    <p>1. Python Advanced</p>
+  </div>
+                        <div class="student-content" style="background: #F1F1F1;">
+    <p> 2. Python OOP</p>
+  </div>
+                                                        <hr class="my-3" />
+
+<div class="student-content pb-0">
+<h5 class="text-primary"><b>JS Front-End</b></h5>
+                        <p class="my-4">27 kredit | 4 bulan</p>
+                    </div>
+
+                                                                <div class="student-content" style="background: #F1F1F1;">
+    <p>1. JS Front-End</p>
+  </div>
+                        <div class="student-content" style="background: #F1F1F1;">
+    <p> 2. HTML & CSS</p>
+  </div>
+                                                        <hr class="my-3" />
+
+<div class="student-content pb-0">
+<h5 class="text-primary"><b>Python Web</b></h5>
+                        <p class="my-4">30 kredit | 4 bulan</p>
+                    </div>
+
+                                                                <div class="student-content" style="background: #F1F1F1;">
+    <p>1. Python Web Basics</p>
+  </div>
+                        <div class="student-content" style="background: #F1F1F1;">
+    <p> 2. Python Web Framework</p>
+  </div>
+                                    
+</div>
+</div>
+<div class="col-md-3 d-flex">
+<div class="student-box flex-fill">
+<div class="d-flex justify-content-center">
+<a>
+<img class="img-fluid" style="width: 100px; height:100px;" alt="Students Info" src="https://softuni.id/curriculum_image/f1a84db9-5b57-11ed-bef8-e82a44eb9daf.png">
+</a>
+</div>
+<div class="student-content pb-0 mb-5">
+<h5><a>JS Web Developer</a></h5>
+</div>
+
+              <hr class="my-3" />
+
+<div class="student-content pb-0">
+<h5 class="text-primary"><b>JS Advanced</b></h5>
+                        <p class="my-4">27 kredit | 4 bulan</p>
+                    </div>
+
+                                                                <div class="student-content" style="background: #F1F1F1;">
+    <p>1. JS Advanced</p>
+  </div>
+                        <div class="student-content" style="background: #F1F1F1;">
+    <p> 2. JS Applications</p>
+  </div>
+                                                        <hr class="my-3" />
+
+<div class="student-content pb-0">
+<h5 class="text-primary"><b>JS Web</b></h5>
+                        <p class="my-4">30 kredit | 4 bulan</p>
+                    </div>
+
+                                                                <div class="student-content" style="background: #F1F1F1;">
+    <p>1. JS Back-End</p>
+  </div>
+                        <div class="student-content" style="background: #F1F1F1;">
+    <p> 2. Front-End Framework</p>
+  </div>
+                                                        <hr class="my-3" />
+
+<div class="student-content pb-0">
+<h5 class="text-primary"><b>Front-End</b></h5>
+                        <p class="my-4">27 kredit | 4 bulan</p>
+                    </div>
+
+                                                                <div class="student-content" style="background: #F1F1F1;">
+    <p>1. HTML & CSS</p>
+  </div>
+                        <div class="student-content" style="background: #F1F1F1;">
+    <p> 2. Front-End Framework</p>
+  </div>
+                                    
+</div>
+</div>
+<div class="col-md-3 d-flex">
+<div class="student-box flex-fill">
+<div class="d-flex justify-content-center">
+<a>
+<img class="img-fluid" style="width: 100px; height:100px;" alt="Students Info" src="https://softuni.id/curriculum_image/4fef53d3-5b49-11ed-bef8-e82a44eb9daf.png">
+</a>
+</div>
+<div class="student-content pb-0 mb-5">
+<h5><a>C# Web Developer</a></h5>
+</div>
+
+              <hr class="my-3" />
+
+<div class="student-content pb-0">
+<h5 class="text-primary"><b>C# Advanced</b></h5>
+                        <p class="my-4">27 kredit | 4 bulan</p>
+                    </div>
+
+                                                                <div class="student-content" style="background: #F1F1F1;">
+    <p>1. C# Advanced</p>
+  </div>
+                        <div class="student-content" style="background: #F1F1F1;">
+    <p> 2. C# OOP</p>
+  </div>
+                                                        <hr class="my-3" />
+
+<div class="student-content pb-0">
+<h5 class="text-primary"><b>JS Front-End</b></h5>
+                        <p class="my-4">27 kredit | 4 bulan</p>
+                    </div>
+
+                                                                <div class="student-content" style="background: #F1F1F1;">
+    <p>1. HTML & CSS</p>
+  </div>
+                        <div class="student-content" style="background: #F1F1F1;">
+    <p> 2. JS Front-End</p>
+  </div>
+                                                        <hr class="my-3" />
+
+<div class="student-content pb-0">
+<h5 class="text-primary"><b>C# DB</b></h5>
+                        <p class="my-4">24 kredit | 4 bulan</p>
+                    </div>
+
+                                                                <div class="student-content" style="background: #F1F1F1;">
+    <p>1. MS SQL</p>
+  </div>
+                        <div class="student-content" style="background: #F1F1F1;">
+    <p> 2. Entity Framework Core</p>
+  </div>
+                                                        <hr class="my-3" />
+
+<div class="student-content pb-0">
+<h5 class="text-primary"><b>C# Web</b></h5>
+                        <p class="my-4">30 kredit | 30 bulan</p>
+                    </div>
+
+                                                                <div class="student-content" style="background: #F1F1F1;">
+    <p>1. ASP.NET Fundamentals</p>
+  </div>
+                        <div class="student-content" style="background: #F1F1F1;">
+    <p> 2. ASP.NET Advanced</p>
+  </div>
+                                    
+</div>
+</div>
+
+</div>
+
         </div>
-       
-        <div class="row">
+    </div>
+    <!-- Professional Feature Course -->
+
+
+
+
+       <!-- Spesialis Feature Course -->
+       <div class="container-fluid py-5">
+        <div class="container py-5">
+            <div class="row mx-0 justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center position-relative mb-5">
+                        <h6 class="d-inline-block position-relative text-primary text-uppercase pb-2">Kurikulum Kami</h6>
+                        <h1 class="display-4">Spesialis Modul Kami</h1>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-xl-9 m-auto text-center">
+		          <h5 class="mb-2" >Setelah modul Pengembang Web Profesional C#, Java Web, atau Python Web, siswa memiliki opsi untuk melanjutkan dengan modul DevOps, yang berspesialisasi sebagai "Full-Stack Developer".</h5>
+              <h3 class=""><b> <small>Rp.</small> 3.500.000<small>/Modul</small></b></h3>
+             <a href="https://softuni.id/kursus" class="btn btn-primary">GABUNG</a>
+            </div>
+
+            <div class="row mt-3">
           <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
             <div class="box">
               <h3>C# Full-Stack Developer</h3>
@@ -262,16 +400,17 @@
         
         
         </div>
-      </div>
-    </section>
-    <!-- End Spesialis Module -->
+              
+        </div>
+    </div>
+    <!-- Spesialis Feature Course -->
+  
 
-        
           <!-- ======= Cara mendaftar Section ======= -->
           <section id="cta" class="cta">
             <div class="container" data-aos="zoom-in">
               <div class="row">
-                <div class="col-lg-9 text-center text-lg-start">
+                <div class="col-lg-9 text-lg-start">
                   <h3>Bagaimana cara mendaftar?</h3>
                   <p>
                     Pelatihan program rekayasa perangkat lunak di SoftUni cocok
@@ -305,7 +444,7 @@
 
 
           <!-- ======= Kelanjutan Section ======= -->
-          <section id="services" class="services section-bg">
+          <section id="services" class="services section-bg container-fluid py-5">
             <div class="container" data-aos="fade-up">
               <div class="section-title">
                 <h2>Bagaimana kelanjutan pelatihan saya?</h2>
@@ -407,7 +546,7 @@
           <!-- End Kelanjutan Section -->
 
                 <!-- ======= Why Us Section ======= -->
-      <section id="why-us" class="why-us section-bg">
+      <section id="why-us" class="why-us section-bg container-fluid py-5">
         <div class="container" data-aos="fade-up">
           <div class="row">
             <div

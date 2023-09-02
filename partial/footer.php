@@ -101,6 +101,17 @@
       ><i class="fa fa-angle-double-up"></i
     ></a>
 
+        <!-- Vendor JS Files -->
+    <script src="./lib/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="./lib/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./lib/vendor/chart.js/chart.umd.js"></script>
+    <script src="./lib/vendor/echarts/echarts.min.js"></script>
+    <script src="./lib/vendor/quill/quill.min.js"></script>
+    <script src="./lib/vendor/simple-datatables/simple-datatables.js"></script>
+    <script src="./lib/vendor/tinymce/tinymce.min.js"></script>
+    <script src="./lib/vendor/php-email-form/validate.js"></script>
+
+
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
