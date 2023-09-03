@@ -41,24 +41,18 @@ color: #FFC309 !important;
  /*--------------------------------------------------------------
 # Sidebar
 --------------------------------------------------------------*/
+
 .sidebar {
-  margin-right: 5rem;
+  margin-right: 1rem;
   width: 400px;
-  z-index: 996;
   transition: all 0.3s;
   padding: 20px;
-  overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: #aab7cf transparent;
   box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
   background-color: #fff;
 }
 
-@media (max-width: 1199px) {
-  .sidebar {
-    left: -300px;
-  }
-}
 
 .sidebar::-webkit-scrollbar {
   width: 5px;
@@ -70,13 +64,6 @@ color: #FFC309 !important;
   background-color: #aab7cf;
 }
 
-@media (min-width: 1200px) {
-
-  #main,
-  #footer {
-    margin-left: 300px;
-  }
-}
 
 @media (max-width: 1199px) {
   .toggle-sidebar .sidebar {
@@ -84,17 +71,6 @@ color: #FFC309 !important;
   }
 }
 
-@media (min-width: 1200px) {
-
-  .toggle-sidebar #main,
-  .toggle-sidebar #footer {
-    margin-left: 0;
-  }
-
-  .toggle-sidebar .sidebar {
-    left: -300px;
-  }
-}
 
 .sidebar-nav {
   padding: 0;
@@ -201,9 +177,11 @@ color: #FFC309 !important;
 /*--------------------------------------------------------------
 # Dashboard
 --------------------------------------------------------------*/
+.pagetitle{
+  margin-top: 1rem;
+}
 /* Filter dropdown */
 .dashboard .filter {
-  position: absolute;
   right: 0px;
   top: 15px;
 }

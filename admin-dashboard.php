@@ -2,31 +2,31 @@
 <?php include './partial/header.php'; ?>
 <?php include './partial/sidebar.php'; ?>
 
-<div>
+<div class="">
 
 <div class="pagetitle">
-  <h1>Dashboard</h1>
+  <h1>Data Tables</h1>
   <nav>
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+    <ol class="breadcrumb col-lg-8">
+      <li class="breadcrumb-item"><a href="index.php">Home</a></li>
       <li class="breadcrumb-item active">Dashboard</li>
     </ol>
   </nav>
 </div><!-- End Page Title -->
-
-<section class="section dashboard">
-  <div class="row">
-  <div class="alert alert-warning alert-dismissible fade show" role="alert">
-      <h2>Selamat datang, Admin!</h2>
-   </div>
+    <div class="row">
+      <div class="alert alert-warning alert-dismissible fade show ml-3" role="alert">
+          <h2>Selamat datang, Admin!</h2>
+      </div>
 
    
+<section class="section dashboard ">
+
 
     <!-- Left side columns -->
     <div class="col-lg-8">
       <div class="row">
           <!-- Revenue Card -->
-          <div class="col-xxl-12 ">
+          <div class="col-lg-12 ">
           <div class="card info-card revenue-card">
 
             <div class="card-body">
@@ -54,7 +54,7 @@
         </div><!-- End Revenue Card -->
 
         <!-- Revenue Card -->
-        <div class="col-xxl-6 ">
+        <div class="col-xxl-6 mt-2 ml-3">
           <div class="card info-card revenue-card">
 
             <div class="card-body">
@@ -74,7 +74,7 @@
         </div><!-- End Revenue Card -->
 
         <!-- Customers Card -->
-        <div class="col-xxl-6 ">
+        <div class="col-xxl-6 mt-2 ml-3">
 
           <div class="card info-card customers-card">
 
@@ -97,7 +97,7 @@
         </div><!-- End Customers Card -->
 
         <!-- Reports -->
-        <div class="col-12">
+        <div class="col-12 mt-2">
           <div class="card">
 
 

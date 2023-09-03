@@ -2,12 +2,12 @@
 <?php include './partial/header.php'; ?>
 <?php include './partial/sidebar.php'; ?>
 
-<div>
+<div class="">
 <div class="pagetitle">
-  <h1>Dashboard</h1>
+  <h1>Kursus</h1>
   <nav>
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+      <li class="breadcrumb-item"><a href="admin-dashboard.php">Dashboard</a></li>
       <li class="breadcrumb-item active">Kursus</li>
     </ol>
   </nav>
@@ -41,11 +41,11 @@
                     </td>
                     <td>13-06-2024</td>
                     <td>
-                    <p><a href="kursus-edit.php"><button class="btn btn-warning">Edit</button></a>
-                     <a href="kursus-banner.php"><button class="btn btn-warning">Unggah Banner</button></a></p>
-                    <p> <a href="kursus-topic.php"><button class="btn btn-warning">Topic</button></a>
-                    <a href="kursus-message.php"><button class="btn btn-warning">Message</button></a></p> 
+                    <p><a href="admin-kursus-edit.php"><button class="btn btn-warning">Edit</button></a>
+                    <a href="admin-kursus-banner.php"><button class="btn btn-success">Banner</button></a></p> 
+                    <p><a href="admin-kursus-topic.php"><button class="btn btn-warning">Topic</button></a>
                     
+                    <a href="admin-kursus-url.php"><button class="btn btn-danger">Url</button></a></p> 
                     </td>
                   </tr>
                 </tbody>

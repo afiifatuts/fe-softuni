@@ -14,10 +14,8 @@
   </nav>
 </div><!-- End Page Title -->
 
-<section class="section dashboard">
-  <div class="row">
+
   <div class="card">
-  <h5 class="card-title">Tambah Blog</h5>
             
             <div class="card-body">
 
@@ -33,6 +31,7 @@
                 <label class="add-course-label">Deskripsi</label>
 
                 <div class="col-lg-8">
+        
 
                     <div class="quill-editor-full">
                         <p>Hello World!</p>
@@ -51,8 +50,6 @@
 
 
             </div>
-          </div>
-</section>
 
 
 

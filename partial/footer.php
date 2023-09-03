@@ -100,6 +100,7 @@
       class="btn btn-lg btn-primary rounded-0 btn-lg-square back-to-top"
       ><i class="fa fa-angle-double-up"></i
     ></a>
+   
 
         <!-- Vendor JS Files -->
     <script src="./lib/vendor/apexcharts/apexcharts.min.js"></script>
@@ -119,8 +120,11 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+ 
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <script src="js/tambah.js"></script>
+
   </body>
 </html>

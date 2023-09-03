@@ -1,8 +1,7 @@
 
 <?php include './partial/header.php'; ?>
 <?php include './partial/sidebar.php'; ?>
-
-<div>
+<div class="col-md-12">
 
 <div class="pagetitle">
   <h1>Dashboard</h1>

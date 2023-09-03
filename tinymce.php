@@ -1,14 +1,16 @@
 
 <?php include './partial/header.php'; ?>
-<?php include './partial/sidebar.php'; ?>
+  <div>
+   <textarea id="tiny"></textarea>
+ </div>
 
-<div class="col-lg-8">
+ <div class="col-lg-8">
 <div class="pagetitle">
-  <h1>Tambah Kursus</h1>
+  <h1>Dashboard</h1>
   <nav>
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="admin-dashboard.php">Dashboard</a></li>
-      <li class="breadcrumb-item"><a href="admin-kursus.php">Kursus</a></li>
+      <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+      <li class="breadcrumb-item">Kursus</li>
       <li class="breadcrumb-item active">Tambah Kursus</li>
     </ol>
   </nav>
@@ -22,30 +24,14 @@
                                     <input name="title" value="" type="text" class="form-control" placeholder="Ketikkan Nama Kursus" required>
                                     <small class="text-danger"></small>
                                 </div>
-                                
-                                <div class="form-group">
-                                <label class="add-course-label">Thumbnail</label>
-                                    <input name="thumbnail" value="" type="text" class="form-control" placeholder="Ketikkan Thumbnail Kursus" required>
-                                    <small class="text-danger"></small>
-                                </div>
                                 <div class="form-group">
                                     <label class="add-course-label">Tag Level</label>
-                                    <select name="level" class="form-select form-control select country-select" name="lvllist1">
-                                        <option class="text-black">Pilih Level</option>
-                                           <option value="0" class="text-black">Pemula</option>
-                                           <option value="1" class="text-black">Menengah</option>
-                                           <option value="2" class="text-black">Mahir</option>
-                                    </select>
+                                    <input name="level" value="" type="number" class="form-control" placeholder="Ketikkan Level Kursus" required>
                                     <small class="text-danger"></small>
                                 </div>
                                 <div class="form-group">
                                     <label class="add-course-label">Tag Program</label>
-                                    <select name="tagprogram" class="form-select form-control select country-select" name="taglist1">
-                                        <option class="text-black">Pilih Tag</option>
-                                           <option value="webinar" class="text-black">Webinar</option>
-                                           <option value="short" class="text-black">Short</option>
-                                           <option value="regular" class="text-black">Regular</option>
-                                    </select>
+                                    <input name="program" value="" type="text" class="form-control" placeholder="Ketikkan Program Kursus" required>
                                     <small class="text-danger"></small>
                                 </div>
 
@@ -57,8 +43,23 @@
                                 <div class="form-group">
                                     <label class="add-course-label">Deskripsi</label>
                                     <div>
-                                    <textarea id="tiny"></textarea>
-                                    </div>
+   <textarea id="tiny"></textarea>
+ </div>
+                                    <small class="text-danger"></small>
+                                </div>
+                                <div class="form-group">
+                                    <label class="add-course-label">Jumlah Modul</label>
+                                    <input name="module" value="" type="number" class="form-control" placeholder="Ketikkan Jumlah Modul" required>
+                                    <small class="text-danger"></small>
+                                </div>
+                                <div class="form-group">
+                                    <label class="add-course-label">Harga Kursus</label>
+                                    <input name="price" value="" type="number" class="form-control" placeholder="Ketikkan Harga Kursus">
+                                    <small class="text-danger"></small>
+                                </div>
+                                <div class="form-group">
+                                    <label class="add-course-label">Diskon</label>
+                                    <input name="diskon" value="" type="number" class="form-control" placeholder="Ketikkan Diskon" required>
                                     <small class="text-danger"></small>
                                 </div>
                                 <div class="form-group">
@@ -67,29 +68,18 @@
                                     <small class="text-danger"></small>
                                 </div>
                                 <div class="form-group">
-                                    <label class="add-course-label">Jumlah Modul</label>
-                                    <input name="modul" value="" type="number" class="form-control" id="modul" placeholder="Ketikkan Jumlah Modul Kursus">
-                                    <small class="text-danger"></small>
-                                </div>
-                                <div class="form-group">
-                                    <label class="add-course-label">Harga Kursus</label>
-                                    <input name="price" value="" type="number" class="form-control" id="priceInput" placeholder="Ketikkan Harga Kursus">
-                                    <small class="text-danger"></small>
-                                </div>
-                                <div class="form-group">
-                                    <label class="add-course-label">Diskon</label>
-                                    <input name="diskon" value="" type="number" class="form-control" id="diskonInput" placeholder="Ketikkan Diskon" required>
-                                    <small class="text-danger"></small>
-                                </div>
-                                <div class="form-group">
-    <label class="add-course-label">Harga Setelah Diskon :</label>
-    <input type="text" class="form-control" id="hargaSetelahDiskonInput" disabled>
-</div>
-
-                            
+    <label for="exampleFormControlSelect2">Example multiple select</label>
+    <select multiple class="form-control" id="exampleFormControlSelect2">
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+    </select>
+  </div>
                                 <div class="form-group">
                                     <label class="add-course-label">Status Aktif</label>
-                                    <select name="status" class="form-select form-control select country-select" name="sellist1">
+                                    <select name="status" class="form-control form-select select country-select" name="sellist1">
                                         <option class="text-black">Pilih Status</option>
 
                                                                                                 <option value="1" class="text-black">Soon</option>
@@ -102,12 +92,13 @@
                                 </div>
                                 <div class="form-group">
                                     <label class="add-course-label">Can Refund</label>
-                                    <select name="can_refund" class="form-select form-control select country-select" name="lvllist1">
-                                        <option class="text-black">Pilih </option>
-                                           <option value="0" class="text-black">No</option>
-                                           <option value="1" class="text-black">Yes</option>
-                                    </select>
-                                    <small class="text-danger"></small>
+                                    <div class="enable-item d-flex justify-content-start">
+                                        <label class="mb-0 me-2">No</label>
+                                        <div class="form-check form-switch check-on m-0">
+                                            <input name="can_refund" class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" >
+                                        </div>
+                                        <label class="mb-0 ms-2">Yes</label>
+                                    </div>
                                 </div>
                                 <div class="mt-2">
                                     <button type="submit" class="btn btn-primary"><i class=" fas fa-save" style="margin-right: 10px;"></i> Simpan</button>
@@ -123,7 +114,4 @@
 
 
 
-
 <?php include './partial/footer.php'; ?>
-
-

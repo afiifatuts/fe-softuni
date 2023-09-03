@@ -1,7 +1,7 @@
 <main id="main" class="main main-admin">
   
    <!-- ======= Sidebar ======= -->
-    <aside id="sidebar" class="sidebar">
+    <aside id="sidebar" class="sidebar col-lg-3 col-sm-12">
       <ul class="sidebar-nav" id="sidebar-nav">
 
       <li class="nav-heading">Main</li>
@@ -20,16 +20,17 @@
         <i class="fas fa-laptop-code"></i><span>Kursus</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="components-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+        <li>
+            <a href="admin-kursus.php">
+              <i class="bi bi-circle"></i><span>Kursus</span>
+            </a>
+          </li>
           <li>
             <a href="admin-kursus-report.php">
               <i class="bi bi-circle"></i><span>Kursus Report</span>
             </a>
           </li>
-          <li>
-            <a href="admin-kursus.php">
-              <i class="bi bi-circle"></i><span>Kursus</span>
-            </a>
-          </li>
+          
           <!-- <li>
             <a href="kursus-kurikulum.php">
               <i class="bi bi-circle"></i><span>Kurikulum Kursus</span>
