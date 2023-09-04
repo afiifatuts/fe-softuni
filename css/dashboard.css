@@ -38,6 +38,57 @@ color: #FFC309 !important;
   }
 }
 
+/* Card */
+.card {
+  margin-left: 1rem;
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+form{
+padding: 0 2rem;
+}
+
+@media (min-width: 992px) {
+  .card {
+    padding: 0.5rem;
+    min-width: 50rem;
+    /* min-height: 30rem; */
+  }
+}
+
+.card-header,
+.card-footer {
+  border-color: #ebeef4;
+  background-color: #fff;
+  color: #798eb3;
+  padding: 15px;
+}
+
+.card-title {
+  padding: 20px 0 15px 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #012970;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-title span {
+  color: #899bbd;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-body {
+  padding: 0 20px 20px 20px;
+}
+
+.card-img-overlay {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
  /*--------------------------------------------------------------
 # Sidebar
 --------------------------------------------------------------*/
@@ -184,6 +235,10 @@ color: #FFC309 !important;
 .dashboard .filter {
   right: 0px;
   top: 15px;
+}
+
+.dashboard {
+  background-color: red;
 }
 
 .dashboard .filter .icon {

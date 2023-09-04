@@ -37,7 +37,7 @@
                     <th scope="row">1</th>
                     <td><img src="assets/img/card.jpg" style="width:150px;"></td>
                     <td>Bagaimana cara mendafar kursus di SoftUni Indonesia.
-                      <p>Rp 0</p>
+                      <p><i class="fas fa-wallet"></i> Rp 0</p>
                     </td>
                     <td>13-06-2024</td>
                     <td>
@@ -48,6 +48,7 @@
                     <a href="admin-kursus-url.php"><button class="btn btn-danger">Url</button></a></p> 
                     </td>
                   </tr>
+              
                 </tbody>
               </table>
               <!-- End Default Table Example -->

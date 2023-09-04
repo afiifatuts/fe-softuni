@@ -13,9 +13,12 @@
     </ol>
   </nav>
 </div><!-- End Page Title -->
+
+
 <div class="card">
     <div class="card-body">
-<form action="https://softuni.id/admin/course/insert" method="POST">
+        <h5 class="card-title">Tambah Kursus</h5>
+<form action="https://softuni.id/admin/course/insert" method="POST" class="">
                             <div class="form-group">
                                 <input type="hidden" name="s0ftun1.1d" value="93f08e9c75fb47618b78408823347d0b" />                                            <div class="form-group">
                                     <label class="add-course-label">Nama Kursus</label>
@@ -117,6 +120,7 @@
                             </div>
 
 </div>
+
 
 </main><!-- End #main -->
 

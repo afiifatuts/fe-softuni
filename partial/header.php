@@ -48,9 +48,25 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="./css/index.css" rel="stylesheet" />
-    <link href="./css/dashboar.css" rel="stylesheet" />
-    
+    <link href="./css/dashboard.css" rel="stylesheet" />
   </head>
+    <!-- sweet alert -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script type="text/javascript">
+    function confirmPopUp(redirect_uri) {
+        Swal.fire({
+            title: 'Anda yakin?',
+            showCancelButton: true,
+            confirmButtonText: 'OK',
+            cancelButtonText: 'Batal',
+        }).then((result) => {
+            if (result.value) {
+                window.location = redirect_uri;
+            }
+        })
+    }
+</script>
 
   <body>
     <!-- Topbar Start -->
