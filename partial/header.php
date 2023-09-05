@@ -153,7 +153,7 @@
             >Gabung</a > -->
 
             <!-- Jika user sudah login  -->
-            <div class="navbar-nav mx-auto">
+          <div class="navbar-nav mx-auto">
             <div class="nav-item dropdown">
               <a href="" class="nav-link  nav-profile d-flex align-items-center pe-0" data-toggle="dropdown"
                 >
