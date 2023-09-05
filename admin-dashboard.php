@@ -6,14 +6,8 @@
 
 <div class="pagetitle">
   <h1>Data Tables</h1>
-  <nav>
-    <ol class="breadcrumb col-lg-8">
-      <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-      <li class="breadcrumb-item active">Dashboard</li>
-    </ol>
-  </nav>
+ 
 </div><!-- End Page Title -->
-    <div class="row">
       <div class="alert alert-warning alert-dismissible fade show ml-3" role="alert">
           <h2>Selamat datang, Admin!</h2>
       </div>

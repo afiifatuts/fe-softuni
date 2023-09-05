@@ -2,7 +2,7 @@
 <?php include './partial/header.php'; ?>
 <?php include './partial/sidebar.php'; ?>
 
-<div class="col-lg-8">
+<div class="">
 <div class="pagetitle">
   <h1>Tambah Url Kursus</h1>
   <nav>
@@ -45,7 +45,7 @@
                                             </div>
 
                                             <div class="form-group">
-                                                <label class="add-course-label">Deskripsi</label>
+                                                <label class="add-course-label">Message</label>
                                                 <textarea id="tiny" name="welcome_message"></textarea>
                                                 <small class="text-danger"></small>
                                             </div>

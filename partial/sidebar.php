@@ -48,6 +48,12 @@
 
         <li class="nav-heading">Page Edit</li>
         <li class="nav-item">
+          <a class="nav-link collapsed" href="admin-kurikulum.php">
+          <i class="fas fa-book"></i>
+            <span>Kurikulum</span>
+          </a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link collapsed" href="admin-blog.php">
           <i class="fab fa-blogger-b"></i>
             <span>Blog</span>

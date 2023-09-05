@@ -2,7 +2,7 @@
 <?php include './partial/header.php'; ?>
 <?php include './partial/sidebar.php'; ?>
 
-<div class="col-lg-8">
+<div class="">
 <div class="pagetitle">
   <h1>Tambah Kursus</h1>
   <nav>

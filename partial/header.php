@@ -48,7 +48,10 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="./css/index.css" rel="stylesheet" />
-    <link href="./css/dashboard.css" rel="stylesheet" />
+    <link href="./css/d.css" rel="stylesheet" />
+    <style>
+
+    </style>
   </head>
     <!-- sweet alert -->
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>

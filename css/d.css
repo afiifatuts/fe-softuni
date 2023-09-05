@@ -40,7 +40,7 @@ color: #FFC309 !important;
 
 /* Card */
 .card {
-  margin-left: 1rem;
+  margin-left: .5rem;
   margin-bottom: 30px;
   border: none;
   border-radius: 5px;
@@ -48,8 +48,10 @@ color: #FFC309 !important;
 }
 
 form{
-padding: 0 2rem;
-}
+  padding: 0 1rem;
+  max-width: 900px;
+  }
+
 
 @media (min-width: 992px) {
   .card {
@@ -237,9 +239,7 @@ padding: 0 2rem;
   top: 15px;
 }
 
-.dashboard {
-  background-color: red;
-}
+
 
 .dashboard .filter .icon {
   color: #aab7cf;
