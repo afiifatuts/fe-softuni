@@ -35,7 +35,7 @@
               placeholder="Keyword"
             />
             <div class="input-group-append">
-              <button class="btn btn-secondary px-4 px-lg-5">Search</button>
+              <button class="btn btn-warning px-4 px-lg-5"  >Search</button>
             </div>
           </div>
         </div>
@@ -78,7 +78,7 @@
             </p>
             <div class="row pt-4 mx-0">
               <div class="col-3 px-0">
-                <div class="bg-success text-center p-4">
+                <div class="bg-primary text-center p-4">
                   <h1 class="text-white">
                     <span data-toggle="counter-up">10</span>+
                   </h1>
@@ -92,7 +92,7 @@
                   href="https://www.linkedin.com/school/software-university-softuni/people/"
                   target="_blank"
                 >
-                  <div class="bg-primary text-center p-4">
+                  <div class="bg-warning text-center p-4">
                     <h1 class="text-white">
                       <span data-toggle="counter-up">17</span>K
                     </h1>
@@ -104,7 +104,7 @@
               </div>
               <div class="col-4 px-0">
                 <a href="https://github.com/search?q=softuni" target="_blank">
-                  <div class=" text-center p-4" style="background:#FF7100;">
+                  <div class=" text-center p-4 bg-success">
                     <h1 class="text-white">
                       <span data-toggle="counter-up">14</span>K
                     </h1>
@@ -144,8 +144,8 @@
               </div>
             </div>
             <div class="d-flex mb-3">
-              <div class="btn-icon bg-secondary mr-4">
-                <i class="fa fa-2x fa-certificate text-white"></i>
+              <div class="btn-icon bg-warning mr-4">
+              <i class="far fa-2x text-white fa-handshake"></i>
               </div>
               <div class="mt-n1">
                 <h4>Bimbingan Langsung</h4>
@@ -154,7 +154,7 @@
             </div>
             <div class="d-flex mb-3">
               <div class="btn-icon bg-secondary mr-4">
-                <i class="fa fa-2x fa-certificate text-white"></i>
+              <i class="fa fa-2x fa-book-reader text-white"></i>
               </div>
               <div class="mt-n1">
                 <h4>Lifetime Akses</h4>
@@ -164,8 +164,8 @@
               </div>
             </div>
             <div class="d-flex">
-              <div class="btn-icon bg-warning mr-4">
-                <i class="fa fa-2x fa-book-reader text-white"></i>
+              <div class="btn-icon bg-success mr-4">
+              <i class="fas fa-2x  fa-briefcase text-white"></i>
               </div>
               <div class="mt-n1">
                 <h4>Jaminan Kerja</h4>
@@ -671,7 +671,7 @@
                 </div>
               </div>
               <div class="d-flex align-items-center mb-5">
-                <div class="btn-icon bg-secondary mr-4">
+                <div class="btn-icon bg-warning mr-4">
                   <i class="fa fa-2x fa-phone-alt text-white"></i>
                 </div>
                 <div class="mt-n1">
@@ -680,7 +680,7 @@
                 </div>
               </div>
               <div class="d-flex align-items-center">
-                <div class="btn-icon bg-warning mr-4">
+                <div class="btn-icon bg-success mr-4">
                   <i class="fa fa-2x fa-envelope text-white"></i>
                 </div>
                 <div class="mt-n1">
