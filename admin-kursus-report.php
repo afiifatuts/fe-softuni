@@ -5,10 +5,10 @@
 <div>
 
 <div class="pagetitle">
-  <h1>Data Tables</h1>
+  <h1>Kursus Report</h1>
   <nav>
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+      <li class="breadcrumb-item"><a href="admin-dashboard.php">Dashboard</a></li>
       <li class="breadcrumb-item active">Kursus Report</li>
     </ol>
   </nav>

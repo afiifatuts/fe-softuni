@@ -45,10 +45,11 @@
 
     <!-- Libraries Stylesheet -->
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.0/components/faqs/faq-1/assets/css/faq-1.css" />
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="./css/index.css" rel="stylesheet" />
-    <link href="./css/d.css" rel="stylesheet" />
+    <link href="./css/dashboard.css" rel="stylesheet" />
     <style>
 
     </style>
@@ -172,11 +173,11 @@
             <a href="tentang.php" class="nav-item nav-link">Tentang</a>
           </div>
            <!-- Jika belum login  -->
-          <!-- <a href="daftar.php" class="btn btn-warning py-2 px-4 d-none d-lg-block"
-            >Gabung</a > -->
+          <a href="daftar.php" class="btn btn-warning py-2 px-4 d-none d-lg-block"
+            >Gabung</a >
 
             <!-- Jika user sudah login  -->
-            <!-- <div class="navbar-nav mx-auto">
+            <!-- <div class="navbar-nav ">
             <div class="nav-item dropdown">
               <a href="" class="nav-link  nav-profile d-flex align-items-center pe-0" data-toggle="dropdown"
                 >
@@ -209,7 +210,7 @@
             <!-- End jika sudah login  -->
             
             <!-- Jika admin sudah login  -->
-            <div class="navbar-nav mx-auto">
+            <!-- <div class="navbar-nav ">
             <div class="nav-item dropdown">
               <a href="" class="nav-link  nav-profile d-flex align-items-center pe-0" data-toggle="dropdown"
                 >
@@ -228,7 +229,7 @@
               </div>
             </div>
             </div>
-           
+            -->
             <!-- End jika sudah login  -->
         </div>
       </nav>

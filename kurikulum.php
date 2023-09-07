@@ -31,10 +31,23 @@
             </div>
             <div class="row col-xl-9 m-auto">
 		          <h5 class="text-center" style="text-align: justify;">Kurikulum terdiri dari beberapa bidang profesional dan spesialisasi yang dibangun dari modul pelatihan yang dipilih secara khusus. Setiap modul pelatihan berisi kursus dengan fokus yang kuat pada praktik, di akhir setiap kursus, siswa lulus ujian praktik,dan menunjukkan keterampilan yang diperoleh.</h5>
-                
-         
-              <div class="col-md-6 d-flex mt-3">
-                  <div class="card text-center">
+              </div>
+
+
+              
+
+              
+           
+            <div class="d-flex flex-column flex-lg-row mt-3"> 
+
+
+
+
+
+
+
+              <div class="col-lg-6 d-flex mt-3">
+                  <div class="card-kur box-shadow text-center">
                       <div class="card-header">
                       <h3>Programming Basics</h3>
                       </div>
@@ -43,13 +56,13 @@
                         <p class="card-text">Kurikulum dimulai dengan kursus persiapan Dasar Pemrograman, dalam bahasa
                                 pemrograman pilihan siswa (C#, Java, JS, Python), dan diakhiri dengan ujian masuk.</p>
                         <h4>Free</h4>
-                        <a href="https://softuni.id/kursus" class="btn btn-primary">GABUNG</a>
+                        <a href="https://softuni.id/kursus" class="btn btn-warning">GABUNG</a>
                       </div>
                     </div>
                 </div>
 
-                <div class="col-md-6 d-flex mt-3">
-                  <div class="card text-center">
+                <div class="col-lg-6 d-flex mt-3">
+                  <div class="card-kur box-shadow text-center">
                       <div class="card-header">
                       <h3 >Fundamental Modul</h3>
                       </div>
@@ -58,14 +71,17 @@
                         <p class="card-text">Dalam modul Fundamental, siswa memperoleh pengetahuan dan keterampilan dasar dalam pemrograman, dengan bahasa pemrograman
                             yang dipilih (C#, Java, JS, Python)</p>
                             <h3 class="mt-5"><b> <small>Rp.</small> 3.500.000<small>/Modul</small></b></h3>
-                        <a href="https://softuni.id/kursus" class="btn btn-primary">GABUNG</a>
+                        <a href="https://softuni.id/kursus" class="btn btn-warning">GABUNG</a>
                       </div>
                     </div>
                 </div>
+
+                </div>
+                
      
            
 
-            </div>
+           
         </div>
     </div>
     <!-- Fundamental Feature Course -->
@@ -353,48 +369,74 @@
              <a href="https://softuni.id/kursus" class="btn btn-primary">GABUNG</a>
             </div>
 
-            <div class="row mt-3">
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="box">
-              <h3>C# Full-Stack Developer</h3>
+
+
+            <div class="row mt-2">
+
+<div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+  <div class="box card-kur p-3" style="min-height:200px;">
+  <h3 class="text-center mb-3"  style="font-size:25px;">C# Full-Stack Developer</h3>
             
+            <ul>
+              <li>
+                <i class="bx bx-check"></i> DevOps - Part 1
+              </li>
+              <li>
+                <i class="bx bx-check"></i> DevOps - Part 2
+              </li>
+            </ul>
+  </div>
+</div>
+
+<div class="col-lg-4 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
+  <div class="box card-kur p-3" style="min-height:200px;">
+  <h3 class="text-center mb-3" style="font-size:25px;">Java Full-Stack Developer</h3>
               <ul>
                 <li>
                   <i class="bx bx-check"></i> DevOps - Part 1
                 </li>
                 <li>
-                  <i class="bx bx-check"></i> DevOps - Part 2
+                  <i class="bx bx-check"></i>DevOps - Part 2
                 </li>
               </ul>
+  </div>
+</div>
+
+<div class="col-lg-4 col-md-6 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+  <div class="box card-kur p-3" style="min-height:200px;">
+  <h3 class="text-center mb-3" style="font-size:25px;">Python Full-Stack Developer</h3>
+              <ul>
+                <li>
+                  <i class="bx bx-check"></i> DevOps - Part 1
+                </li>
+                <li>
+                  <i class="bx bx-check"></i>DevOps - Part 2
+                </li>
+              </ul>
+  </div>
+</div>
+
+
+
+</div>
+
+            <div class="row mt-3  ">
+          <div class="col-lg-4 " data-aos="fade-up" data-aos-delay="100">
+            <div class="box">
+           
              
             </div>
           </div>
 
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4  " data-aos="fade-up" data-aos-delay="100">
             <div class="box">
-              <h3>Java Full-Stack Developer</h3>
-              <ul>
-                <li>
-                  <i class="bx bx-check"></i> DevOps - Part 1
-                </li>
-                <li>
-                  <i class="bx bx-check"></i>DevOps - Part 2
-                </li>
-              </ul>
+             
             </div>
           </div>
         
-          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-4  " data-aos="fade-up" data-aos-delay="100">
             <div class="box">
-              <h3>Python Full-Stack Developer</h3>
-              <ul>
-                <li>
-                  <i class="bx bx-check"></i> DevOps - Part 1
-                </li>
-                <li>
-                  <i class="bx bx-check"></i>DevOps - Part 2
-                </li>
-              </ul>
+            
             </div>
           </div>
         
@@ -466,7 +508,6 @@
                   data-aos-delay="100"
                 >
                   <div class="icon-box">
-                    <div class="icon"><i class="bi bi-code-slash"></i></div>
                     <h4><a href="">Programming Basic</a></h4>
                     <p>
                       Di sini, Anda akan memahami konsep dasar pemrograman yang akan
@@ -482,7 +523,6 @@
                   data-aos-delay="200"
                 >
                   <div class="icon-box">
-                    <div class="icon"><i class="bx bx-file"></i></div>
                     <h4><a href="">Ujian</a></h4>
                     <p>
                       Setelah menyelesaikan modul Dasar Pemrograman, Anda akan
@@ -498,7 +538,6 @@
                   data-aos-delay="300"
                 >
                   <div class="icon-box">
-                    <div class="icon"><i class="bi bi-book-fill"></i></div>
                     <h4><a href="">Fundamental Modul</a></h4>
                     <p>
                       Di sini, Anda akan memperdalam pemahaman Anda tentang konsep
@@ -515,7 +554,6 @@
                   data-aos-delay="400"
                 >
                   <div class="icon-box">
-                    <div class="icon"><i class="bi bi-patch-check-fill"></i></div>
                     <h4><a href="">Professional Modul</a></h4>
                     <p>
                        Pada tahap ini, Anda akan
@@ -530,8 +568,7 @@
                   data-aos="zoom-in"
                   data-aos-delay="400"
                 >
-                  <div class="icon-box mt-2">
-                    <div class="icon"><i class="bi bi-layers-fill"></i></div>
+                  <div class="icon-box mt-3">
                     <h4><a href="">Spesialisasi Modul</a></h4>
                     <p>
                       Terakhir, Anda akan menjalani modul Spesialisasi yang akan

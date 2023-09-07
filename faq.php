@@ -1,5 +1,7 @@
 <?php include 'partial/header.php'; ?>
 
+
+
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq section-bg mt-5">
       <div class="container" data-aos="fade-up">

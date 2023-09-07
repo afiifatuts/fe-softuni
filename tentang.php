@@ -77,7 +77,7 @@
           </p>
         </div>
 
-        <div class="row">
+        <div class="row mt-4">
           <div
             class="col-xl-4 col-md-6 d-flex align-items-stretch"
             data-aos="zoom-in"
@@ -138,7 +138,22 @@
       
       <div class="container" data-aos="zoom-in">
         <div class="row">
-          <div class="d-flex">
+          <div class="">
+          <div class="col-lg-12 text-lg-start">
+            <h3>Bantuan karir</h3>
+            <p>
+              SoftUni bekerja sama secara langsung dengan perusahaan-perusahaan di industri perangkat lunak, sehingga membantu para siswanya dalam pelatihan mereka untuk menjadi pemrogram yang sukses. Peserta yang telah menunjukkan hasil yang sangat baik menerima rekomendasi langsung dari SoftUni Career Center untuk mulai bekerja, tergantung pada keinginan dan tujuan mereka.
+            </p>
+          </div>
+
+          <div class="col-lg-12 text-lg-start mt-5">
+          <h3>
+            Mentor atau staf pengajar</h3>
+          <p>
+            Pelatihan berkualitas tinggi di SoftUni dijamin oleh staf pengajar, yang terdiri dari beberapa praktisi dan pelatih terbaik di industri perangkat lunak. Siswa akan memiliki kesempatan untuk mendapatkan pengetahuan dari nama-nama terkemuka di sektor ini, termasuk pengembang senior dari perusahaan perangkat lunak terkemuka, serta para ahli yang telah mengajar di konferensi teknologi internasional. </p>
+        </div>
+          </div>
+          <!-- <div class="d-flex">
           <div class="col-lg-9 text-lg-start">
             <h3>Bantuan karir</h3>
             <p>
@@ -160,84 +175,150 @@
           <p>
             Pelatihan berkualitas tinggi di SoftUni dijamin oleh staf pengajar, yang terdiri dari beberapa praktisi dan pelatih terbaik di industri perangkat lunak. Siswa akan memiliki kesempatan untuk mendapatkan pengetahuan dari nama-nama terkemuka di sektor ini, termasuk pengembang senior dari perusahaan perangkat lunak terkemuka, serta para ahli yang telah mengajar di konferensi teknologi internasional. </p>
         </div>
-      </div>
+      </div> -->
         
       </div>
-      </div>
+    </div>
    
       
     </section>
     <!-- End Cara Mendaftar Section -->
 
+  
+
        <!-- Service Start -->
        <section>
        <div class="container-xxl visi py-5">
         <div class="container">
-          
-          <div
-            class="text-center mx-auto wow fadeInUp"
-            data-wow-delay="0.1s"
-            style="max-width: 1000px"
-          >
+
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="col-lg-6">
             <h1 class="display-5 mb-5">Visi & Misi Kami</h1>
-           
-          </div>
-          <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="col-lg-4">
-              <div
-                class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4"
-              >
-                <button
-                  class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4 active"
-                  data-bs-toggle="pill"
-                  data-bs-target="#tab-pane-1"
-                  type="button"
-                >
-                  <h5 class="m-0">
-                    <i class="bi bi-eye-fill" ></i>
-                    Visi 
-                  </h5>
-                </button>
-                <button
-                  class="nav-link w-100 d-flex align-items-center text-start border p-4 mb-4"
-                  data-bs-toggle="pill"
-                  data-bs-target="#tab-pane-2"
-                  type="button"
-                >
-                  <h5 class="m-0">
-                    <i class="bi bi-rocket-takeoff-fill" style="margin-right: 5px;"></i>Misi
-                  </h5>
-                </button>
-               
-              </div>
+              <div class="">
+              <h3>Visi</h3>
+            <p>Visi kami adalah menjadi bagian dari revolusi digital global dan berkontribusi untuk membangun era digital baru, mengajar generasi baru pengembang dan pakar IT.</p>
             </div>
-            <div class="col-lg-8" style="margin: auto">
-              <div class="tab-content w-100">
-                <div class="tab-pane fade show active" id="tab-pane-1">
-                  <div class="row g-4">
-                    <div class="col-md-12">
-                      <h4 class="mb-4">
-                        Visi kami adalah menjadi bagian dari revolusi digital
-                        global dan berkontribusi untuk membangun era digital baru,
-                        mengajar generasi baru pengembang dan pakar IT.
-                      </h4>
-                    </div>
+            <div class="mt-3">
+            <h3 class="">Misi</h3>
+              <p>Misi kami adalah untuk membangun pakar sejati dan pemimpin masa depan melalui pendidikan yang praktis, berkualitas, dan terjangkau di bidang teknologi digital dan informasi, mengubah Indonesia dan kawasan ini menjadi Silicon Valley Indonesia! SoftUni Indonesia adalah institusi pendidikan profesional yang bertujuan untuk menyediakan segala yang dibutuhkan para siswanya untuk memulai karir mereka dengan sukses.</p>
+            </div>
+
+              </div>
+           
+            <div class="col-lg-6">
+              <img src="assets/tentang/organization.png" class="img-fluid" alt="">
+               </div>
+          </div>
+       
+        </div>
+      </div>
+      </section>
+      <!-- Service End -->
+
+      
+    <!-- Testimonial Start -->
+    <div class="container-fluid bg-image py-5" style="margin: 90px 0">
+      <div class="container py-5">
+        <div class="row align-items-center">
+          <div class="col-lg-5 mb-5 mb-lg-0">
+            <div class="section-title position-relative mb-4">
+              <h6
+                class="d-inline-block position-relative text-primary text-uppercase pb-2"
+              >
+                Testimonial
+              </h6>
+              <h1 class="display-4">Apa yang mereka katakan</h1>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="owl-carousel testimonial-carousel">
+              <div class="bg-white p-5">
+                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <p>
+                  Saya memutuskan untuk melakukan pemrograman karena saya selalu
+                  tertarik pada komputer, satu-satunya masalah adalah saya
+                  selalu berpikir bahwa pemrograman bukan untuk saya. Sampai
+                  saya menemukan kursus Dasar-dasar Pemrograman gratis, di mana
+                  saya menemukan bahwa segala sesuatunya relatif mudah bagi
+                  saya, tidak membebani saya dengan cara apa pun. Semua kursus
+                  di Software University sangat berguna, tetapi jika saya harus
+                  memilih beberapa, itu adalah OOP, CPC, Struktur Data, dan
+                  Algoritma.
+                </p>
+                <div class="d-flex flex-shrink-0 align-items-center mt-4">
+                  <img
+                    class="img-fluid mr-4"
+                    src="assets/home_image/testimoni/ividenov.jpg"
+                    alt=""
+                  />
+                  <div>
+                    <h5>Iliyan Videnov</h5>
+                    <span>Java Developer @ SAP Labs</span>
                   </div>
                 </div>
-                <div class="tab-pane fade" id="tab-pane-2">
-                  <div class="row g-4">
-                    <div class="col-md-12">
-                      <h4 class="mb-4">
-                        Misi kami adalah untuk membangun pakar sejati dan pemimpin
-                        masa depan melalui pendidikan yang praktis, berkualitas,
-                        dan terjangkau di bidang teknologi digital dan informasi,
-                        mengubah Indonesia dan kawasan ini menjadi Silicon Valley
-                        Indonesia! SoftUni Indonesia adalah institusi pendidikan
-                        profesional yang bertujuan untuk menyediakan segala yang
-                        dibutuhkan para siswanya untuk memulai karir mereka dengan
-                        sukses.
-                      </h4>
-                    </div>
+              </div>
+              <div class="bg-white p-5">
+                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <p>
+                  Pelajaran terpenting yang saya pelajari dari pendidikan saya
+                  di SoftUni adalah nilai untuk mendapatkan pemahaman yang lebih
+                  dalam tentang konsep-konsep dasar. Tidak hanya setiap pengajar
+                  memiliki pengetahuan yang luas tentang materi, tetapi mereka
+                  juga selalu bersemangat untuk menjawab pertanyaan.
+                </p>
+                <div class="d-flex flex-shrink-0 align-items-center mt-4">
+                  <img
+                    class="img-fluid mr-4"
+                    src="assets/home_image/testimoni/Konstantin.jpg"
+                    alt=""
+                  />
+                  <div>
+                    <h5>Konstantin Gero</h5>
+                    <span>Software Engineer @Tesla</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-white p-5">
+                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <p>
+                  Hal saya sukai tentang program di SoftUni adalah program ini
+                  terdiri dari serangkaian kursus, dari tingkat pemula hingga
+                  mahir, dan siswa berpartisipasi dalam satu per satu, yang
+                  membantu mereka fokus pada satu mata pelajaran pada satu
+                  waktu.
+                </p>
+                <div class="d-flex flex-shrink-0 align-items-center mt-4">
+                  <img
+                    class="img-fluid mr-4"
+                    src="assets/home_image/testimoni/Tugay.jpg"
+                    alt=""
+                  />
+                  <div>
+                    <h5>Tugay Emin</h5>
+                    <span>Blockchain Engineer @LimeChain</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="bg-white p-5">
+                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <p>
+                  Hal saya sukai tentang program di SoftUni adalah program ini
+                  terdiri dari serangkaian kursus, dari tingkat pemula hingga
+                  mahir, dan siswa berpartisipasi dalam satu per satu, yang
+                  membantu mereka fokus pada satu mata pelajaran pada satu
+                  waktu.
+                </p>
+                <div class="d-flex flex-shrink-0 align-items-center mt-4">
+                  <img
+                    class="img-fluid mr-4"
+                    src="assets/home_image/testimoni/preslav-mihaylov.webp"
+                    alt=""
+                  />
+                  <div>
+                    <h5>Preslav Mihaylov</h5>
+                    <span>Software Engineer @Uber</span>
                   </div>
                 </div>
               </div>
@@ -245,8 +326,8 @@
           </div>
         </div>
       </div>
-      </section>
-      <!-- Service End -->
+    </div>
+    <!-- Testimonial Start -->
 
     <!-- ======= Why Us Section ======= -->
     <section id="why-us" class="why-us section-bg">
@@ -270,17 +351,19 @@
 
         <div class="row d-flex  mt-2">
           <div
-            class="col-lg-12 d-flex flex-column justify-content-center align-items-stretch order-2 order-lg-1"
+            class="col-lg-9 d-flex flex-column justify-content-center align-items-stretch "
           >
             <div class="content">
               <h3>Jadilah bagian dari revolusi digital global bersama kami</h3>
               <p>
                 Kami menciptakan ahli pemrograman nyata dan membantu mereka memulai karir sukses yang diinginkan. Sejak 2013, kami telah melatih puluhan ribu anak muda yang kini bekerja di industri IT. Kami berusaha untuk menjadi bagian dari revolusi digital global dan berkontribusi untuk membangun era digital baru dengan mengajar generasi baru pengembang perangkat lunak dan pakar IT.
               </p>
-              <a href="kursus.html" class="btn btn-primary">Daftar Kursus</a>
+             
             </div>
           </div>
-
+          <div class="col-lg-3 m-auto">
+          <a href="kursus.html" class="btn btn-warning">Daftar Kursus</a>
+          </div>
          
         </div>
       </div>
