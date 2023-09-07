@@ -135,7 +135,7 @@
                             <h6 class="text-white my-3">(Opsional) Biaya tambahan sertifikat BNSP* </h6>
                         </div>
 
-                        <div class="flex-row justify-content-between px-4">
+                        <div class="flex-row justify-content-between px-4  py-1">
                             <div>
                                  <input  class="text-white my-1 mr-2"  type="checkbox"  name="refund">
                                 <a class="text-white my-3" href="https://softuni.id/terms/Return-and-Refund-Policy_Softuni-Indonesia.pdf" target="_blank" >Return & Refund Policy</a>
