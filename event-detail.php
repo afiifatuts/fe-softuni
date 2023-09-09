@@ -9,8 +9,9 @@
           <div class="event-detail-container">
             <div class="card-kur col-lg-12 m-auto">
               <div style="" class="p-5">
-                <h1 class="">Nama Event</h1>
-                <p class="">May 16, 2022</p>
+                <h1 class="text-center">Nama Event</h1>
+                <div class="p-5">
+                <p class=""><i class="fas fa-calendar-alt"></i> May 16, 2022</p>
                 <img
                   src="https://assets.website-files.com/627387bf19e7f63a3f588c5f/627e58f6d27c04694bf88ef0_Home-slide-1%20(2).jpg"
                   loading="lazy"
@@ -29,6 +30,7 @@
                     integrate intuitive pair programming Steve Jobs
                     thinker-maker-doer-human-centered design.
                   </p>
+                  </div>
               </div>
             </div>
           </div>

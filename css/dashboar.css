@@ -590,18 +590,19 @@ form{
 
 .faq .faq-list li {
   box-shadow: 0 4px 2px 0 rgba(0,0,0,0.2);
-color: var(--secondary2);
   padding: 20px;
   border-radius: 4px;
   position: relative;
 }
 
 .faq .faq-list a {
+  text-decoration: none;
+  font-weight: 800;
+  color: var(--primary4);
   display: block;
   position: relative;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 500;
   padding: 0 30px;
   outline: none;
   cursor: pointer;
@@ -612,7 +613,7 @@ color: var(--secondary2);
   position: absolute;
   right: 0;
   left: 20px;
-  color: #47b2e4;
+  color: var(--primary4)
 }
 
 .faq .faq-list .icon-show,

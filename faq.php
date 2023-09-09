@@ -6,7 +6,7 @@
     <section id="faq" class="faq section-bg mt-5">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
-          <h2>Frequently Asked Questions</h2>
+          <h2 class="text-dark">Frequently Asked Questions</h2>
         </div>
 
         <div class="faq-list">

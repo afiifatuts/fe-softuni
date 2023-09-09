@@ -9977,6 +9977,7 @@ h6,
 }
 
 .testimonial-carousel .owl-item img {
+  object-fit: cover;
   width: 80px;
   height: 80px;
 }
