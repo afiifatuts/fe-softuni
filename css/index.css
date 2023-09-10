@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
 
 
  :root{
@@ -69,7 +69,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: 'Monserrat', sans-serif;
+  font-family: 'Monserrat', sans-serif ;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -190,8 +190,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-  font-size: 1em;
+ font-size: 1em;
 }
 
 pre {
@@ -3236,7 +3235,7 @@ input[type="button"].btn-block {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: var(--primary3);
+  background-color: var(--primary4);
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {

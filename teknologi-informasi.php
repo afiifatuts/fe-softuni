@@ -8,11 +8,11 @@
   style="margin-bottom: 90px"
 >
   <div class="container text-center py-5">
-    <h1 class="text-white display-1">Digital Kreatif</h1>
+    <h1 class="text-white display-1">Teknologi Informasi</h1>
     <div class="d-inline-flex text-white mb-5">
       <p class="m-0 text-uppercase"><a class="text-white" href="index.php">Home</a></p>
       <i class="fa fa-angle-double-right pt-1 px-3"></i>
-      <p class="m-0 text-uppercase">Kelas Digital Kreatif</p>
+      <p class="m-0 text-uppercase">Kelas Teknologi Informasi</p>
     </div>
 
     <p
@@ -40,51 +40,99 @@
           >
             <div
               class="nav-link active"
-              id="nav-graphic-tab"
+              id="nav-python-tab"
               data-bs-toggle="tab"
-              data-bs-target="#nav-graphic"
+              data-bs-target="#nav-python"
               type="button"
               role="tab"
-              aria-controls="nav-graphic"
+              aria-controls="nav-python"
               aria-selected="true"
             >
-              Graphic Design
+              Python
           </div>
             <div
               class="nav-link"
-              id="nav-uiux-tab"
+              id="nav-java-tab"
               data-bs-toggle="tab"
-              data-bs-target="#nav-uiux"
+              data-bs-target="#nav-java"
               type="button"
               role="tab"
-              aria-controls="nav-uiux"
+              aria-controls="nav-java"
               aria-selected="false"
             >
-              UI/UX Design
+              Java
             </div>
             <div
               class="nav-link"
-              id="nav-animation-tab"
+              id="nav-js-tab"
               data-bs-toggle="tab"
-              data-bs-target="#nav-animation"
+              data-bs-target="#nav-js"
               type="button"
               role="tab"
-              aria-controls="nav-animation"
+              aria-controls="nav-js"
               aria-selected="false"
             >
-              Animation/Video
+            Javascript
             </div>
             <div
               class="nav-link"
-              id="nav-gameD-tab"
+              id="nav-cpp-tab"
               data-bs-toggle="tab"
-              data-bs-target="#nav-gameD"
+              data-bs-target="#nav-cpp"
               type="button"
               role="tab"
-              aria-controls="nav-gameD"
+              aria-controls="nav-cpp"
               aria-selected="false"
             >
-              Game Design
+              C++/C#
+            </div>
+            <div
+              class="nav-link"
+              id="nav-server-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-server"
+              type="button"
+              role="tab"
+              aria-controls="nav-server"
+              aria-selected="false"
+            >
+              Server/Cloud
+            </div>
+            <div
+              class="nav-link"
+              id="nav-ml-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-ml"
+              type="button"
+              role="tab"
+              aria-controls="nav-ml"
+              aria-selected="false"
+            >
+              ML/Deep Learning
+            </div>
+            <div
+              class="nav-link"
+              id="nav-db-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-db"
+              type="button"
+              role="tab"
+              aria-controls="nav-db"
+              aria-selected="false"
+            >
+              Database
+            </div>
+            <div
+              class="nav-link"
+              id="nav-cyber-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-cyber"
+              type="button"
+              role="tab"
+              aria-controls="nav-cyber"
+              aria-selected="false"
+            >
+              Cyber Security
             </div>
             <div
               class="nav-link"
@@ -100,7 +148,7 @@
             </div>
           </div>
         </nav>
-       <!-- disini --><?php include 'corporate/corp-dk.php'; ?>
+       <!-- disini --><?php include 'corporate/corp-it.php'; ?>
       </div>
     </div>
   </div>
@@ -207,7 +255,7 @@
 
 <section>
   <div class="container-fluid corp-contact" data-aos="fade-up">
-    <div class="container ">
+    <div class="container">
     <div class="section-title">
       <h2>Belum temukan kelas yang sesuai kebutuhan anda?</h2>
       <p>

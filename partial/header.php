@@ -15,10 +15,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <!-- <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script> -->
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap"
-      rel="stylesheet"
-    />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
     <!-- Font Awesome -->
     <link
@@ -48,8 +48,8 @@
     <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.0/components/faqs/faq-1/assets/css/faq-1.css" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="./css/inde.css" rel="stylesheet" />
-    <link href="./css/dashboar.css" rel="stylesheet" />
+    <link href="./css/index.css" rel="stylesheet" />
+    <link href="./css/dashboard.css" rel="stylesheet" />
     <style>
       a{
         text-decoration: none !important;

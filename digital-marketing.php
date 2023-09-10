@@ -8,11 +8,11 @@
   style="margin-bottom: 90px"
 >
   <div class="container text-center py-5">
-    <h1 class="text-white display-1">Digital Kreatif</h1>
+    <h1 class="text-white display-1">Digital Marketing</h1>
     <div class="d-inline-flex text-white mb-5">
       <p class="m-0 text-uppercase"><a class="text-white" href="index.php">Home</a></p>
       <i class="fa fa-angle-double-right pt-1 px-3"></i>
-      <p class="m-0 text-uppercase">Kelas Digital Kreatif</p>
+      <p class="m-0 text-uppercase">Kelas Digital Marketing</p>
     </div>
 
     <p
@@ -40,51 +40,63 @@
           >
             <div
               class="nav-link active"
-              id="nav-graphic-tab"
+              id="nav-socialM-tab"
               data-bs-toggle="tab"
-              data-bs-target="#nav-graphic"
+              data-bs-target="#nav-socialM"
               type="button"
               role="tab"
-              aria-controls="nav-graphic"
+              aria-controls="nav-socialM"
               aria-selected="true"
             >
-              Graphic Design
+              Social Media Marketing
           </div>
             <div
               class="nav-link"
-              id="nav-uiux-tab"
+              id="nav-seo-tab"
               data-bs-toggle="tab"
-              data-bs-target="#nav-uiux"
+              data-bs-target="#nav-seo"
               type="button"
               role="tab"
-              aria-controls="nav-uiux"
+              aria-controls="nav-seo"
               aria-selected="false"
             >
-              UI/UX Design
+              SEO & SEM
             </div>
             <div
               class="nav-link"
-              id="nav-animation-tab"
+              id="nav-analytics-tab"
               data-bs-toggle="tab"
-              data-bs-target="#nav-animation"
+              data-bs-target="#nav-analytics"
               type="button"
               role="tab"
-              aria-controls="nav-animation"
+              aria-controls="nav-analytics"
               aria-selected="false"
             >
-              Animation/Video
+            Analytics Marketing
             </div>
             <div
               class="nav-link"
-              id="nav-gameD-tab"
+              id="nav-ecommerce-tab"
               data-bs-toggle="tab"
-              data-bs-target="#nav-gameD"
+              data-bs-target="#nav-ecommerce"
               type="button"
               role="tab"
-              aria-controls="nav-gameD"
+              aria-controls="nav-ecommerce"
               aria-selected="false"
             >
-              Game Design
+              E-Commerce
+            </div>
+            <div
+              class="nav-link"
+              id="nav-branding-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-branding"
+              type="button"
+              role="tab"
+              aria-controls="nav-branding"
+              aria-selected="false"
+            >
+              Branding
             </div>
             <div
               class="nav-link"
@@ -100,7 +112,7 @@
             </div>
           </div>
         </nav>
-       <!-- disini --><?php include 'corporate/corp-dk.php'; ?>
+       <!-- disini --><?php include 'corporate/corp-dm.php'; ?>
       </div>
     </div>
   </div>
@@ -115,6 +127,7 @@
   tabindex="-1"
   aria-labelledby="formModalLabel"
   aria-hidden="true"
+  
 >
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content p-3">
@@ -206,8 +219,8 @@
 
 
 <section>
-  <div class="container-fluid corp-contact" data-aos="fade-up">
-    <div class="container ">
+  <div class="container-fluid corp-contact" data-aos="fade-up" >
+    <div class="container" >
     <div class="section-title">
       <h2>Belum temukan kelas yang sesuai kebutuhan anda?</h2>
       <p>
