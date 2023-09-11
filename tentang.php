@@ -330,7 +330,7 @@
     <!-- Testimonial Start -->
 
     <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us section-bg">
+    <section id="why-us" class="why-us section-bg mb-5" >
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div

@@ -658,8 +658,9 @@
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
-                      <h3 class="text-center">Building Digital Branding</h3>
-                      <p>Basics branding, SWOT analysis, goal setting, target audiences, branded website, faktor utama rebranding, digital channels untuk brand communication, brand development
+                      <h3 class="text-center">Databases and MS SQL Server</h3>
+                      <p>
+                      Relational databases, MS SQL Server, database design, SQL language, SELECT, INSERT, UPDATE, DELETE, ﬁltering, joins, grouping, functions, stored procedures, transactions.
                       </p>
                     </div>
                     <div class="text-center">
@@ -676,8 +677,9 @@
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
-                      <h3 class="text-center">Personal Branding</h3>
-                      <p>Strategies, Social Media Marketing, membangun personal website, membuat online talk show, cara menjual sebagai personal branding, alat untuk membangun brand indentity
+                      <h3 class="text-center">Windows System Administration</h3>
+                      <p>
+                      Introduction Windows server, services & components, fundamental active directory, powershell, system monitoring & maintenance, dan advanced services.
                       </p>
                     </div>
                     <div class="text-center">
@@ -694,10 +696,10 @@
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
-                      <h3 class="text-center">Panduan ReBranding</h3>
+                      <h3 class="text-center">AWS Essentials</h3>
                       <p>
-                      Disruption & uerrilla Marketing Apa itu disruptive creative, brainstorming, kitab Brand, discovery phase, identity phase, content phase, launch phase, budgeting, presenting & pitching ideas, beker a dengan klien
-                      </p>
+                      Bagaimana Cloud di buat, identity access management & S3, Amazon Elastic Com- pute Cloud & EBS, Amazon Virtual Private Cloud & Route 53, database AWS, AWS serverless applications, dan highly available architecture. 
+                    </p>
                     </div>
                     <div class="text-center">
                       <a
@@ -713,10 +715,10 @@
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
-                      <h3 class="text-center">Digital PR & Social Media</h3>
+                      <h3 class="text-center">Azure Essentials</h3>
                       <p>
-                      Traditional PR vs Digital PR, digital PR social media, influencer Marketing, digital press releases & media communication, SEO, digital brand architecture
-                      </p>
+                      Core & advanced infrastructure services, databases & analytics, Azure untuk developers, Azure untuk DevOps. 
+                    </p>
                     </div>
                     <div class="text-center">
                       <a
@@ -732,10 +734,10 @@
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
-                      <h3 class="text-center">Influencer Marketing & Sales</h3>
+                      <h3 class="text-center">Linux System Administration</h3>
                       <p>
-                      Bagaimana untuk temukan niche, bagaimana cara membedakan diri, bagaimana memilih platform, cara membuat portofolio, UGC, bagaimana menemukan klien, contoh komunikasi merek, contoh kontrak
-                      </p>
+                      Linux introduction, bekerja dengan console, network, software, dan services management, bash scripting & automation, users dan access management, disks, ﬁle systems, dan archives.  
+                    </p>
                     </div>
                     <div class="text-center">
                       <a
@@ -751,10 +753,162 @@
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
-                      <h3 class="text-center">LinkedIn Marketing</h3>
+                      <h3 class="text-center">DevOps - Infrastructure & Conﬁguration Management</h3>
                       <p>
-                      Introduction LinkedIn, personal profiles, content marketing LinkedIn, LinkedIn publisher, LinkedIn group, brand communication, social selling, employer branding & recruitment
-                      </p>
+                      Classes & objects, generics, iterators, comparators, OOP principles, encapsulation, inheritance, interfaces, abstraction, polymorphism, unit testing, dan TDD, design patterns, SOLID principles. 
+                    </p>
+                    </div>
+                    <div class="text-center">
+                      <a
+                        data-bs-toggle="modal"
+                        data-bs-target="#formModal"
+                        class="mt-2 btn btn-warning"
+                        >HUBUNGI</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12  col-lg-4 col-md-6">
+                  <div class="corpItem">
+                    <div>
+                      <h3 class="text-center">DevOps - Containerization, CI/CD & Monitoring</h3>
+                      <p>
+                      Introduction DevOps, basic containerization Docker, advanced containerization Docker, basic CI/CD Jenkins, Advanced CI/CD Jenkins, monitoring dengan Prometheus & Grafana, dan monitoring dengan Elastic Stack. 
+                    </p>
+                    </div>
+                    <div class="text-center">
+                      <a
+                        data-bs-toggle="modal"
+                        data-bs-target="#formModal"
+                        class="mt-2 btn btn-warning"
+                        >HUBUNGI</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12  col-lg-4 col-md-6">
+                  <div class="corpItem">
+                    <div>
+                      <h3 class="text-center">Windows System Administrator Advanced</h3>
+                      <p>
+                      Data storage solutions, Virtualization, Containerization, Clusters & High Availability Services, AD Activities & Services, Additional Services, Desired State Configuration 
+                    </p>
+                    </div>
+                    <div class="text-center">
+                      <a
+                        data-bs-toggle="modal"
+                        data-bs-target="#formModal"
+                        class="mt-2 btn btn-warning"
+                        >HUBUNGI</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12  col-lg-4 col-md-6">
+                  <div class="corpItem">
+                    <div>
+                      <h3 class="text-center">Linux System Administration Advanced</h3>
+                      <p>
+                      Local Storage & Additional Techniques, Network & System Security Distributed & Shared Storage, Network Services, Virtualization & Containerization, Clustering & High Availability, Management & Maintenance 
+                    </p>
+                    </div>
+                    <div class="text-center">
+                      <a
+                        data-bs-toggle="modal"
+                        data-bs-target="#formModal"
+                        class="mt-2 btn btn-warning"
+                        >HUBUNGI</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12  col-lg-4 col-md-6">
+                  <div class="corpItem">
+                    <div>
+                      <h3 class="text-center">Domain-Driver Design ASP.NET Core Microservices</h3>
+                      <p>
+                      Server Structures & Architectures, Domain Model, Business Logic Domain-Driven Design, Infrastructure & Application in Clean Architecture, Presentation & high quality in Clean Architecture, Optimal DDD usage microservice, applications  
+                    </p>
+                    </div>
+                    <div class="text-center">
+                      <a
+                        data-bs-toggle="modal"
+                        data-bs-target="#formModal"
+                        class="mt-2 btn btn-warning"
+                        >HUBUNGI</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12  col-lg-4 col-md-6">
+                  <div class="corpItem">
+                    <div>
+                      <h3 class="text-center">Kubernetes</h3>
+                      <p>
+                      Core Concepts, Cluster Setup & management, Security & Policies, Storage & Persistence, Advanced Concepts, Troubleshooting, Templating Tools, Package Management  
+                    </p>
+                    </div>
+                    <div class="text-center">
+                      <a
+                        data-bs-toggle="modal"
+                        data-bs-target="#formModal"
+                        class="mt-2 btn btn-warning"
+                        >HUBUNGI</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12  col-lg-4 col-md-6">
+                  <div class="corpItem">
+                    <div>
+                      <h3 class="text-center">Process Automation ASP.NET Core Microservices</h3>
+                      <p>
+                      Containerization Basics, Advanced Containerization, Continuous Integration & Continuous, Delivery, Clusterization Basics, Advanced Clusterization, Cloud Infrastructure  
+                    </p>
+                    </div>
+                    <div class="text-center">
+                      <a
+                        data-bs-toggle="modal"
+                        data-bs-target="#formModal"
+                        class="mt-2 btn btn-warning"
+                        >HUBUNGI</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12  col-lg-4 col-md-6">
+                  <div class="corpItem">
+                    <div>
+                      <h3 class="text-center">Microsoft SaaS & Security</h3>
+                      <p>
+                      Cloud services concepts, Identity Management, Collaboration Services in Microsoft 365, Security considerations in Exchange & SharePoint Online, Mobile Device Management, Microsoft 365 information protection  
+                    </p>
+                    </div>
+                    <div class="text-center">
+                      <a
+                        data-bs-toggle="modal"
+                        data-bs-target="#formModal"
+                        class="mt-2 btn btn-warning"
+                        >HUBUNGI</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="col-12  col-lg-4 col-md-6">
+                  <div class="corpItem">
+                    <div>
+                      <h3 class="text-center">Computer Networking Advanced</h3>
+                      <p>
+                      Technologies Advanced, Routing OSPF Advanced, Access Control Lists, Domain Name System, IPV6, Wireless Networking Concepts, Cloud Networking with Microsoft Azure, Software Defined Networking
+                   </p>
                     </div>
                     <div class="text-center">
                       <a
@@ -781,15 +935,16 @@
             role="tabpanel"
             aria-labelledby="nav-ml-tab"
           >
-            <h3>ML/Deep Learning</h3>
+            <h3>Machine Learning or Deep Learning</h3>
              <div>
               <div class="row corpItems justify-content-md-start py-5">
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
-                      <h3 class="text-center">Building Digital Branding</h3>
-                      <p>Basics branding, SWOT analysis, goal setting, target audiences, branded website, faktor utama rebranding, digital channels untuk brand communication, brand development
-                      </p>
+                      <h3 class="text-center">Math Concepts Developers</h3>
+                      <p>
+                      High school maths, basic algebra, linear al- gebra, calculus, probability & combinatorics, statistics, & hypothesis testing.    
+                    </p>
                     </div>
                     <div class="text-center">
                       <a
@@ -805,8 +960,9 @@
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
-                      <h3 class="text-center">Personal Branding</h3>
-                      <p>Strategies, Social Media Marketing, membangun personal website, membuat online talk show, cara menjual sebagai personal branding, alat untuk membangun brand indentity
+                      <h3 class="text-center">Data Science</h3>
+                      <p>
+                      Data acquisition, data tidying & cleaning, visualization, bekerja dengan images & text, project architecture.
                       </p>
                     </div>
                     <div class="text-center">
@@ -823,10 +979,10 @@
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
-                      <h3 class="text-center">Panduan ReBranding</h3>
+                      <h3 class="text-center">Machine Learning</h3>
                       <p>
-                      Disruption & uerrilla Marketing Apa itu disruptive creative, brainstorming, kitab Brand, discovery phase, identity phase, content phase, launch phase, budgeting, presenting & pitching ideas, beker a dengan klien
-                      </p>
+                      Basic principles dari Machine Learning, practical models, model training, tree & ensemble methods, neural networks, linear & logistic regression.  
+                    </p>
                     </div>
                     <div class="text-center">
                       <a
@@ -842,10 +998,10 @@
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
-                      <h3 class="text-center">Digital PR & Social Media</h3>
+                      <h3 class="text-center">Deep Learning</h3>
                       <p>
-                      Traditional PR vs Digital PR, digital PR social media, influencer Marketing, digital press releases & media communication, SEO, digital brand architecture
-                      </p>
+                      Regression models, tensorﬂow, modern architectures untuk image & text processing, debugging techniques, deployment, monitoring.  
+                    </p>
                     </div>
                     <div class="text-center">
                       <a
@@ -858,50 +1014,14 @@
                   </div>
                 </div>
 
-                <div class="col-12  col-lg-4 col-md-6">
-                  <div class="corpItem">
-                    <div>
-                      <h3 class="text-center">Influencer Marketing & Sales</h3>
-                      <p>
-                      Bagaimana untuk temukan niche, bagaimana cara membedakan diri, bagaimana memilih platform, cara membuat portofolio, UGC, bagaimana menemukan klien, contoh komunikasi merek, contoh kontrak
-                      </p>
-                    </div>
-                    <div class="text-center">
-                      <a
-                        data-bs-toggle="modal"
-                        data-bs-target="#formModal"
-                        class="mt-2 btn btn-warning"
-                        >HUBUNGI</a
-                      >
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="col-12  col-lg-4 col-md-6">
-                  <div class="corpItem">
-                    <div>
-                      <h3 class="text-center">LinkedIn Marketing</h3>
-                      <p>
-                      Introduction LinkedIn, personal profiles, content marketing LinkedIn, LinkedIn publisher, LinkedIn group, brand communication, social selling, employer branding & recruitment
-                      </p>
-                    </div>
-                    <div class="text-center">
-                      <a
-                        data-bs-toggle="modal"
-                        data-bs-target="#formModal"
-                        class="mt-2 btn btn-warning"
-                        >HUBUNGI</a
-                      >
-                    </div>
-                  </div>
-                </div>
-                
+
                 
               
               </div>
             </div>
 
           </div>
+          
 
           <!-- Database  -->
         <div
@@ -916,8 +1036,9 @@
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
-                      <h3 class="text-center">Building Digital Branding</h3>
-                      <p>Basics branding, SWOT analysis, goal setting, target audiences, branded website, faktor utama rebranding, digital channels untuk brand communication, brand development
+                      <h3 class="text-center">Java Databases</h3>
+                      <p>
+                      JDBC, ORM, ORM, Hibernate, mappings, code-first, Spring Data, JPQL, JSON, XML.
                       </p>
                     </div>
                     <div class="text-center">
@@ -934,8 +1055,9 @@
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
-                      <h3 class="text-center">Personal Branding</h3>
-                      <p>Strategies, Social Media Marketing, membangun personal website, membuat online talk show, cara menjual sebagai personal branding, alat untuk membangun brand indentity
+                      <h3 class="text-center">Databases and MS SQL Server</h3>
+                      <p>
+                      Relational databases, MS SQL Server, database design, SQL language, SELECT, INSERT, UPDATE, DELETE, ﬁltering, joins, grouping, functions, stored procedures, transactions.
                       </p>
                     </div>
                     <div class="text-center">
@@ -952,10 +1074,10 @@
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
-                      <h3 class="text-center">Panduan ReBranding</h3>
+                      <h3 class="text-center">C# Databases and ORM</h3>
                       <p>
-                      Disruption & uerrilla Marketing Apa itu disruptive creative, brainstorming, kitab Brand, discovery phase, identity phase, content phase, launch phase, budgeting, presenting & pitching ideas, beker a dengan klien
-                      </p>
+                      ADO.NET, ORM, LINQ, mappings, code-ﬁrst, Entity Framework, JSON, XML.  
+                    </p>
                     </div>
                     <div class="text-center">
                       <a
@@ -971,10 +1093,10 @@
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
-                      <h3 class="text-center">Digital PR & Social Media</h3>
+                      <h3 class="text-center">Databases & SQL</h3>
                       <p>
-                      Traditional PR vs Digital PR, digital PR social media, influencer Marketing, digital press releases & media communication, SEO, digital brand architecture
-                      </p>
+                      Relational databases, MySQL, database design, SQL language, SELECT, INSERT, UPDATE, DELETE, filtering, joins, grouping, functions, stored procedures, transactions.  
+                    </p>
                     </div>
                     <div class="text-center">
                       <a
@@ -987,43 +1109,6 @@
                   </div>
                 </div>
 
-                <div class="col-12  col-lg-4 col-md-6">
-                  <div class="corpItem">
-                    <div>
-                      <h3 class="text-center">Influencer Marketing & Sales</h3>
-                      <p>
-                      Bagaimana untuk temukan niche, bagaimana cara membedakan diri, bagaimana memilih platform, cara membuat portofolio, UGC, bagaimana menemukan klien, contoh komunikasi merek, contoh kontrak
-                      </p>
-                    </div>
-                    <div class="text-center">
-                      <a
-                        data-bs-toggle="modal"
-                        data-bs-target="#formModal"
-                        class="mt-2 btn btn-warning"
-                        >HUBUNGI</a
-                      >
-                    </div>
-                  </div>
-                </div>
-                
-                <div class="col-12  col-lg-4 col-md-6">
-                  <div class="corpItem">
-                    <div>
-                      <h3 class="text-center">LinkedIn Marketing</h3>
-                      <p>
-                      Introduction LinkedIn, personal profiles, content marketing LinkedIn, LinkedIn publisher, LinkedIn group, brand communication, social selling, employer branding & recruitment
-                      </p>
-                    </div>
-                    <div class="text-center">
-                      <a
-                        data-bs-toggle="modal"
-                        data-bs-target="#formModal"
-                        class="mt-2 btn btn-warning"
-                        >HUBUNGI</a
-                      >
-                    </div>
-                  </div>
-                </div>
                 
                 
               
@@ -1031,6 +1116,7 @@
             </div>
 
           </div>
+          
 
      <!-- Server/Cloud  -->
         <div
@@ -1045,8 +1131,9 @@
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
-                      <h3 class="text-center">Building Digital Branding</h3>
-                      <p>Basics branding, SWOT analysis, goal setting, target audiences, branded website, faktor utama rebranding, digital channels untuk brand communication, brand development
+                      <h3 class="text-center">Information Security Management</h3>
+                      <p>
+                      Information security concepts, security document management, compliance, risk management, asset security, determine data security controls, identity & access management.
                       </p>
                     </div>
                     <div class="text-center">
@@ -1063,8 +1150,9 @@
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
-                      <h3 class="text-center">Personal Branding</h3>
-                      <p>Strategies, Social Media Marketing, membangun personal website, membuat online talk show, cara menjual sebagai personal branding, alat untuk membangun brand indentity
+                      <h3 class="text-center">QA Fundamentals</h3>
+                      <p>
+                      Introduction software testing, 7 testing principles, software development cycle, test levels & test types, bug tracking, using version control systems, testing techniques, test organization, planning, estimation, monitoring, dan control, NUnit Framework, menulis unit tests dengan C#, test automation, Selenium IDE, WebDriver installation & setup, tool support testing, Reporting issues & defects.
                       </p>
                     </div>
                     <div class="text-center">
@@ -1081,10 +1169,10 @@
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
-                      <h3 class="text-center">Panduan ReBranding</h3>
+                      <h3 class="text-center">QA Automation</h3>
                       <p>
-                      Disruption & uerrilla Marketing Apa itu disruptive creative, brainstorming, kitab Brand, discovery phase, identity phase, content phase, launch phase, budgeting, presenting & pitching ideas, beker a dengan klien
-                      </p>
+                      Test automation overview, unit testing & NUnit, API testing & REST, selenium & POM, appium, test environment setup, performance & security testing. 
+                    </p>
                     </div>
                     <div class="text-center">
                       <a
@@ -1100,10 +1188,10 @@
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
-                      <h3 class="text-center">Digital PR & Social Media</h3>
+                      <h3 class="text-center">Comprimising Platforms</h3>
                       <p>
-                      Traditional PR vs Digital PR, digital PR social media, influencer Marketing, digital press releases & media communication, SEO, digital brand architecture
-                      </p>
+                      Evading IDS; firewall, honeypots, hacking web servers and web applications, session hijacking, SQL injection, cryptography, dan tipe serangan.
+                    </p>
                     </div>
                     <div class="text-center">
                       <a
@@ -1119,10 +1207,10 @@
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
-                      <h3 class="text-center">Influencer Marketing & Sales</h3>
+                      <h3 class="text-center">Open Source and Thread Intelligence</h3>
                       <p>
-                      Bagaimana untuk temukan niche, bagaimana cara membedakan diri, bagaimana memilih platform, cara membuat portofolio, UGC, bagaimana menemukan klien, contoh komunikasi merek, contoh kontrak
-                      </p>
+                      Introduction ethical hacking, footprinting & reconnaissance, identity access management & Cloud compute, enumeration, vulnerability analysis, social engineering, dan Cloud computing. 
+                    </p>
                     </div>
                     <div class="text-center">
                       <a
@@ -1138,10 +1226,10 @@
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
-                      <h3 class="text-center">LinkedIn Marketing</h3>
+                      <h3 class="text-center">System and Network Compromising</h3>
                       <p>
-                      Introduction LinkedIn, personal profiles, content marketing LinkedIn, LinkedIn publisher, LinkedIn group, brand communication, social selling, employer branding & recruitment
-                      </p>
+                      System hacking, malware threads, Snifﬁng network, hacking wireless networks, denial of service, hacking mobile platforms, IoT hacking. 
+                    </p>
                     </div>
                     <div class="text-center">
                       <a
@@ -1174,82 +1262,105 @@
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
-                      <h3 class="text-center">Digital Creative</h3>
-                      <p>Apa itu creative, apa itu digital creative, 8 digital creative basics, creative strategies, digital media, insight, strategy, creative copywriting Facebook
-                      </p>
-                    </div>
-                    <div class="text-center">
-                      <a
-                        data-bs-toggle="modal"
-                        data-bs-target="#formModal"
-                        class="mt-2 btn btn-warning"
-                        >HUBUNGI</a
-                      >
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-12  col-lg-4 col-md-6">
-                  <div class="corpItem">
-                    <div>
-                      <h3 class="text-center">Video Marketing</h3>
-                      <p>Video sebagai elemen pemasaran utama, formats & channels, cara membuat konten video menarik, video scriptwriting, distribution & results analysis
-                      </p>
-                    </div>
-                    <div class="text-center">
-                      <a
-                        data-bs-toggle="modal"
-                        data-bs-target="#formModal"
-                        class="mt-2 btn btn-warning"
-                        >HUBUNGI</a
-                      >
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-12  col-lg-4 col-md-6">
-                  <div class="corpItem">
-                    <div>
-                      <h3 class="text-center">Blogging Secrets</h3>
-                      <p>Tipe blog & klasifikasi, tempat di Marketing Mix, membuat blog dengan WordPress, content marketing, bagaimana promosi blog, corporate blog, personal blog
-                      </p>
-                    </div>
-                    <div class="text-center">
-                      <a
-                        data-bs-toggle="modal"
-                        data-bs-target="#formModal"
-                        class="mt-2 btn btn-warning"
-                        >HUBUNGI</a
-                      >
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-12  col-lg-4 col-md-6">
-                  <div class="corpItem">
-                    <div>
-                      <h3 class="text-center">Canva</h3>
-                      <p>Basics of designing for social media, creating a CV, making presentation templates, and business proposals, brand kit, social media planning, creating organic posts for social media, Ad templates, creative brainstorming tactics.
-                      </p>
-                    </div>
-                    <div class="text-center">
-                      <a
-                        data-bs-toggle="modal"
-                        data-bs-target="#formModal"
-                        class="mt-2 btn btn-warning"
-                        >HUBUNGI</a
-                      >
-                    </div>
-                  </div>
-                </div>
-
-                <div class="col-12  col-lg-4 col-md-6">
-                  <div class="corpItem">
-                    <div>
-                      <h3 class="text-center">Etsy Marketing</h3>
+                      <h3 class="text-center">Microsoft Excel Automation</h3>
                       <p>
-                      Trends, Etsy finances, digital & physical products, memulai Etsy shop, listing best practices, visual elements & text di Etsy shop, client communication, pricing, promotions, Etsy SEO
+                      Introduction VBA, Basic elements VBA, Conditional Statements, Debugging, Loops, Simple Data Structures
                       </p>
+                    </div>
+                    <div class="text-center">
+                      <a
+                        data-bs-toggle="modal"
+                        data-bs-target="#formModal"
+                        class="mt-2 btn btn-warning"
+                        >HUBUNGI</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12  col-lg-4 col-md-6">
+                  <div class="corpItem">
+                    <div>
+                      <h3 class="text-center">Agile Advanced Scrum</h3>
+                      <p>
+                      Scrum master role, Scrum artifacts, Monitoring & review, Scaling Agile, Product owner role    
+                    </p>
+                    </div>
+                    <div class="text-center">
+                      <a
+                        data-bs-toggle="modal"
+                        data-bs-target="#formModal"
+                        class="mt-2 btn btn-warning"
+                        >HUBUNGI</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12  col-lg-4 col-md-6">
+                  <div class="corpItem">
+                    <div>
+                      <h3 class="text-center">Unity 3D Basics</h3>
+                      <p>
+                      Unity basics, game object, collisions & physics, User Interface, 2D graphics, physics & particles, animation & audio, advanced scripting performance, Package Manager.
+                      </p>
+                    </div>
+                    <div class="text-center">
+                      <a
+                        data-bs-toggle="modal"
+                        data-bs-target="#formModal"
+                        class="mt-2 btn btn-warning"
+                        >HUBUNGI</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12  col-lg-4 col-md-6">
+                  <div class="corpItem">
+                    <div>
+                      <h3 class="text-center">Unity Advanced</h3>
+                      <p>
+                      Basic AI, NavMesh & pathfinding, dynamic pathfinding, multiplayer basics, multiplayer advanced, AI – FSM/Behaviour Trees, particle systems & shaders, deployment.    
+                    </p>
+                    </div>
+                    <div class="text-center">
+                      <a
+                        data-bs-toggle="modal"
+                        data-bs-target="#formModal"
+                        class="mt-2 btn btn-warning"
+                        >HUBUNGI</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12  col-lg-4 col-md-6">
+                  <div class="corpItem">
+                    <div>
+                      <h3 class="text-center">iOS Development Swift</h3>
+                      <p>
+                      Introduction Swift, Swift Fundamentals, Swift Advanced, Introduction UIkit, IOS Essentials, Working dengan Frameworks, Networking in iOS, SwiftUI 
+                    </p>
+                    </div>
+                    <div class="text-center">
+                      <a
+                        data-bs-toggle="modal"
+                        data-bs-target="#formModal"
+                        class="mt-2 btn btn-warning"
+                        >HUBUNGI</a
+                      >
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12  col-lg-4 col-md-6">
+                  <div class="corpItem">
+                    <div>
+                      <h3 class="text-center">HTML & CSS</h3>
+                      <p>
+                      HTML, elements, forms, tables, CSS styling, grids & layouts, responsive design.  
+                    </p>
                     </div>
                     <div class="text-center">
                       <a
