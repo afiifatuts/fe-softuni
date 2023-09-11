@@ -123,19 +123,19 @@
                             <h6 class="text-white my-3">Karga Khusus</h6>
                             <h6 class="text-white my-3">Rp 3500000 </h6>
                         </div>
-                        <div class="d-flex justify-content-between border-bottom px-4">
+                        <!-- <div class="d-flex justify-content-between border-bottom px-4">
                         <h6 class="text-white my-3">Referral code</h6>
                             <input class="my-3 py-1 px-2" placeholder="Input Referral Code" type="text" p>
-                        </div>
+                        </div> -->
 
                         
 
-                        <div class="d-flex justify-content-between px-4">
+                        <!-- <div class="d-flex justify-content-between px-4">
                         <h6 class="text-white my-3 mr-2"><input type="checkbox"/></h6>
                             <h6 class="text-white my-3">(Opsional) Biaya tambahan sertifikat BNSP* </h6>
-                        </div>
+                        </div> -->
 
-                        <div class="flex-row justify-content-between px-4  py-1">
+                        <div class="flex-row justify-content-between px-4  py-2">
                             <div>
                                  <input  class="text-white my-1 mr-2"  type="checkbox"  name="refund">
                                 <a class="text-white my-3" href="https://softuni.id/terms/Return-and-Refund-Policy_Softuni-Indonesia.pdf" target="_blank" >Return & Refund Policy</a>
@@ -146,7 +146,7 @@
                             </div>
                         </div>
                         <div class="px-4">
-                             <a class="btn btn-block btn-warning py-3 px-5" href="">Opsi Cicilan *</a>
+                             <!-- <a class="btn btn-block btn-warning py-3 px-5" href="">Opsi Cicilan *</a> -->
                             <a class="btn btn-block btn-secondary py-3 px-5" href="">Daftar Sekarang</a>
                         </div>
                     </div>

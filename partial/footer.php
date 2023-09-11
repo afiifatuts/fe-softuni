@@ -42,13 +42,13 @@
           <div class="col-md-4 mb-5">
             <h3 class="text-white mb-4">Kursus Kami</h3>
             <div class="d-flex flex-column justify-content-start">
-              <a class="text-white-50 mb-2" href="#"
+              <a class="text-white-50 mb-2" href="kursus-webinar.php"
                 ><i class="fa fa-angle-right mr-2"></i>Webinar</a
               >
-              <a class="text-white-50 mb-2" href="#"
+              <a class="text-white-50 mb-2" href="kursus-regular.php"
                 ><i class="fa fa-angle-right mr-2"></i>Regular</a
               >
-              <a class="text-white-50 mb-2" href="#"
+              <a class="text-white-50 mb-2" href="kursus-short.php"
                 ><i class="fa fa-angle-right mr-2"></i>Short</a
               >
             </div>

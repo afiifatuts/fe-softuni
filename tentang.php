@@ -4,9 +4,9 @@
      <!-- Header Start -->
      <section>
       <div class="jumbotron jumbotron-fluid page-header position-relative overlay-bottom" style="margin-bottom: 90px;">
-        <div class="container py-5">
+        <div class="container py-2">
         <div class="container">
-        <div class="row align-items-center justify-content-between pt-5">
+        <div class="row align-items-center justify-content-between pt-3">
           <div class="col-lg-6 text-lg-start pe-lg-5">
             <h1 class="heading text-white mb-3" data-aos="fade-up">
               Kami menciptakan profesional di industri perangkat lunak dan
@@ -42,8 +42,8 @@
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
             <div class="img-wrap">
               <iframe
-                width="620"
-                height="415"
+                width="420"
+                height="215"
                 src="https://www.youtube.com/embed/zgxG5EYWsFI"
               >
               </iframe>
@@ -186,34 +186,40 @@
 
   
 
-       <!-- Service Start -->
+       <!-- Visi Misi Start -->
        <section>
-       <div class="container-xxl visi py-5">
-        <div class="container">
-
-          <div class="d-flex justify-content-center align-items-center">
-            <div class="col-lg-6">
-            <h1 class="display-5 mb-5">Visi & Misi Kami</h1>
-              <div class="">
-              <h3>Visi</h3>
-            <p>Visi kami adalah menjadi bagian dari revolusi digital global dan berkontribusi untuk membangun era digital baru, mengajar generasi baru pengembang dan pakar IT.</p>
-            </div>
-            <div class="mt-3">
-            <h3 class="">Misi</h3>
-              <p>Misi kami adalah untuk membangun pakar sejati dan pemimpin masa depan melalui pendidikan yang praktis, berkualitas, dan terjangkau di bidang teknologi digital dan informasi, mengubah Indonesia dan kawasan ini menjadi Silicon Valley Indonesia! SoftUni Indonesia adalah institusi pendidikan profesional yang bertujuan untuk menyediakan segala yang dibutuhkan para siswanya untuk memulai karir mereka dengan sukses.</p>
-            </div>
-
-              </div>
-           
-            <div class="col-lg-6">
-              <img src="assets/tentang/organization.png" class="img-fluid" alt="">
-               </div>
-          </div>
-       
+<div class="container-fluid py-5">
+    <div class="container py-5">
+      <div class="row">
+      <div class="col-md-12 col-lg-6">
+        <h3>Visi</h3>
+        <p>
+          Visi kami adalah menjadi bagian dari revolusi digital global dan
+          berkontribusi untuk membangun era digital baru, mengajar generasi baru
+          pengembang dan pakar IT.
+        </p>
+        <div class="mt-3">
+          <h3 class="">Misi</h3>
+          <p>
+            Misi kami adalah untuk membangun pakar sejati dan pemimpin masa
+            depan melalui pendidikan yang praktis, berkualitas, dan terjangkau
+            di bidang teknologi digital dan informasi, mengubah Indonesia dan
+            kawasan ini menjadi Silicon Valley Indonesia! SoftUni Indonesia
+            adalah institusi pendidikan profesional yang bertujuan untuk
+            menyediakan segala yang dibutuhkan para siswanya untuk memulai karir
+            mereka dengan sukses.
+          </p>
         </div>
       </div>
-      </section>
-      <!-- Service End -->
+
+      <div class="col-md-12 col-lg-6 d-flex justify-content-center">
+        <img src="assets/tentang/organization.png" class="img-fluid" alt="" style="width:80%" />
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+      <!-- Visi Misi End -->
 
       
     <!-- Testimonial Start -->
@@ -330,7 +336,7 @@
     <!-- Testimonial Start -->
 
     <!-- ======= Why Us Section ======= -->
-    <section id="why-us" class="why-us section-bg mb-5" >
+    <section id="why-us" class="why-us section-bg"style="margin: 90px 0" >
       <div class="container" data-aos="fade-up">
         <div class="row">
           <div

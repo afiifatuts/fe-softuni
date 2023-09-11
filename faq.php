@@ -3,7 +3,7 @@
 
 
     <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq section-bg mt-5">
+    <section id="faq" class="faq section-bg" style="margin:90px 0;">
       <div class="container" data-aos="fade-up">
         <div class="section-title">
           <h2 class="text-dark">Frequently Asked Questions</h2>
