@@ -66,6 +66,17 @@ p {
   margin-bottom: 1rem;
 }
 
+@media  (max-width: 768px) {
+  p {
+    font-size: 15px  !important;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    /* color: red !important; */
+    font-size: 20px  !important;
+  }
+}
+
+
 abbr[title],
 abbr[data-original-title] {
   text-decoration: underline;
@@ -229,6 +240,14 @@ input {
   overflow: visible;
 }
 
+input{
+  /* border: 0;
+  border: 1px solid #ccc;
+  height: 40px;
+  padding-left: 10px; */
+  outline: 0 !important;
+}
+
 button,
 select {
   text-transform: none;
@@ -350,6 +369,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
+  /* font-size: 2.3rem ; */
   font-size: 2.3rem !important;
 }
 
@@ -6368,7 +6388,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #2878EB !important;
+  background-color: var(--secondary2) !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6408,7 +6428,7 @@ button.bg-info:focus {
 }
 
 .bg-warning {
-  background-color: #FF7100 !important;
+  background-color: var(--primary4) !important;
 }
 
 a.bg-warning:hover, a.bg-warning:focus,

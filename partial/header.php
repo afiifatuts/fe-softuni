@@ -44,6 +44,7 @@
 
 
     <!-- Libraries Stylesheet -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.0/components/faqs/faq-1/assets/css/faq-1.css" />
 

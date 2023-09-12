@@ -17,7 +17,7 @@
 <!-- Header End -->
 
 <section>
-  <div class="container-fluid py-5">
+  <div class="container-fluid py-5 mb-5" data-aos="fade-down">
     <div class="container py-5">
       <div class="row">
         <div class="col-12 col-lg-4">

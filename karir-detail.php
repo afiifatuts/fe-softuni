@@ -33,7 +33,7 @@
                             <h6 class="text-dark my-3">Full Time</h6>
                         </div>
                         <div class="px-4">
-                            <a class="btn btn-block btn-warning py-3 px-5" href="">Lamar</a>
+                            <a class="btn btn-block btn-primary py-3 px-5" href="">Lamar</a>
                         </div>
                     </div>
 

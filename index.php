@@ -1,12 +1,11 @@
 <?php include 'partial/header.php'; ?>
-
     <!-- Header Start -->
     <div
       class="jumbotron jumbotron-fluid position-relative"
       style="margin-bottom: 90px"
     >
-      <div class="container text-center my-5 py-5">
-        <h1 class="text-white mt-4 mb-4">
+      <div class="container text-center my-5 py-5" data-aos="fade-up">
+        <h1 class="text-white mt-4 mb-4" >
           Belajar IT dengan Kurikulum Internasional
         </h1>
         <h1 class="text-white display-1 mb-5">Kursus bagi Siapapun</h1>
@@ -47,7 +46,7 @@
     <div class="container-fluid py-5">
       <div class="container py-5">
         <div class="row">
-          <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px">
+          <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px" data-aos="fade-right">
             <div class="position-relative h-100">
               <img
                 class="position-absolute w-100 h-100"
@@ -56,10 +55,10 @@
               />
             </div>
           </div>
-          <div class="col-lg-7">
-            <div class="section-title position-relative mb-4">
+          <div class="col-lg-7" data-aos="fade-left">
+            <div class="section-title position-relative mb-4" >
               <h6
-                class="d-inline-block position-relative text-primary text-uppercase pb-2"
+                class="d-inline-block position-relative  text-prmr text-uppercase pb-2"
               >
                 Tentang Kami
               </h6>
@@ -122,13 +121,13 @@
     <!-- About End -->
 
     <!-- Feature Start -->
-    <div class="container-fluid bg-image" style="margin: 90px 0">
+    <div class="container-fluid bg-image" style="margin: 90px 0" data-aos="fade-up">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-7 my-5 pt-5 pb-lg-5">
+        <div class="row" >
+          <div class="col-lg-7 my-5 pt-5 pb-lg-5" > 
             <div class="section-title position-relative mb-4">
               <h6
-                class="d-inline-block position-relative text-primary text-uppercase pb-2"
+                class="d-inline-block position-relative  text-prmr text-uppercase pb-2"
               >
                 Kenapa Memilih Kami
               </h6>
@@ -191,12 +190,12 @@
     <!-- Feature Start -->
 
     <!-- Courses Start -->
-    <div class="container-fluid px-0 py-5">
+    <div class="container-fluid px-0 py-5" data-aos="fade-down">
       <div class="row mx-0 justify-content-center pt-5">
         <div class="col-lg-6">
           <div class="section-title text-center position-relative mb-4">
             <h6
-              class="d-inline-block position-relative text-primary text-uppercase pb-2"
+              class="d-inline-block position-relative  text-prmr text-uppercase pb-2"
             >
               Kursus Kami
             </h6>
@@ -271,11 +270,11 @@
 <!-- Awards Start -->
 <section>
 
-<div class="container-fluid py-5">
+<div class="container-fluid py-5" data-aos="zoom-in">
   <div class="container py-5">
     <div class="section-title text-center position-relative mb-5">
       <h6
-        class="d-inline-block position-relative text-primary text-uppercase pb-2"
+        class="d-inline-block position-relative  text-prmr text-uppercase pb-2"
       >
         Penghargaan
       </h6>
@@ -411,11 +410,11 @@
 <!-- Award End -->
 
 <!-- Trusted -->
-<div class="container-fluid py-5">
+<div class="container-fluid py-5" data-aos="fade-down">
   <div class="container py-5">
     <div class="section-title text-center position-relative mb-5">
       <h6
-        class="d-inline-block position-relative text-primary text-uppercase pb-2"
+        class="d-inline-block position-relative  text-prmr text-uppercase pb-2"
       >
         Kepercayaan
       </h6>
@@ -510,7 +509,7 @@
           <div class="col-lg-5 mb-5 mb-lg-0">
             <div class="section-title position-relative mb-4">
               <h6
-                class="d-inline-block position-relative text-primary text-uppercase pb-2"
+                class="d-inline-block position-relative  text-prmr text-uppercase pb-2"
               >
                 Testimonial
               </h6>
@@ -520,7 +519,7 @@
           <div class="col-lg-7">
             <div class="owl-carousel testimonial-carousel">
               <div class="bg-white p-5">
-                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <i class="fa fa-3x fa-quote-left  text-prmr mb-4"></i>
                 <p>
                   Saya memutuskan untuk melakukan pemrograman karena saya selalu
                   tertarik pada komputer, satu-satunya masalah adalah saya
@@ -545,7 +544,7 @@
                 </div>
               </div>
               <div class="bg-white p-5">
-                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <i class="fa fa-3x fa-quote-left  text-prmr mb-4"></i>
                 <p>
                   Pelajaran terpenting yang saya pelajari dari pendidikan saya
                   di SoftUni adalah nilai untuk mendapatkan pemahaman yang lebih
@@ -567,7 +566,7 @@
               </div>
 
               <div class="bg-white p-5">
-                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <i class="fa fa-3x fa-quote-left  text-prmr mb-4"></i>
                 <p>
                   Hal saya sukai tentang program di SoftUni adalah program ini
                   terdiri dari serangkaian kursus, dari tingkat pemula hingga
@@ -589,7 +588,7 @@
               </div>
 
               <div class="bg-white p-5">
-                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <i class="fa fa-3x fa-quote-left  text-prmr mb-4"></i>
                 <p>
                   Hal saya sukai tentang program di SoftUni adalah program ini
                   terdiri dari serangkaian kursus, dari tingkat pemula hingga
@@ -660,7 +659,7 @@
           <div class="col-lg-7">
             <div class="section-title position-relative mb-4">
               <h6
-                class="d-inline-block position-relative text-primary text-uppercase pb-2"
+                class="d-inline-block position-relative  text-prmr text-uppercase pb-2"
               >
                 Butuh Bantuan?
               </h6>

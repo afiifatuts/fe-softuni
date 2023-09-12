@@ -4,14 +4,14 @@
 
     <!-- ======= Frequently Asked Questions Section ======= -->
     <section id="faq" class="faq section-bg" style="margin:90px 0;">
-      <div class="container" data-aos="fade-up">
+      <div class="container" data-aos="fade-up" >
         <div class="section-title">
           <h2 class="text-dark">Frequently Asked Questions</h2>
         </div>
 
         <div class="faq-list">
           <ul>
-            <li data-aos="fade-up" data-aos-delay="100">
+            <li   >
               <i class="bx bx-help-circle icon-help"></i>
               <a
                 data-bs-toggle="collapse"
@@ -36,7 +36,7 @@
               </div>
             </li>
 
-            <li data-aos="fade-up" data-aos-delay="200">
+            <li  >
               <i class="bx bx-help-circle icon-help"></i>
               <a
                 data-bs-toggle="collapse"
@@ -51,7 +51,7 @@
               </div>
             </li>
 
-            <li data-aos="fade-up" data-aos-delay="300">
+            <li  >
               <i class="bx bx-help-circle icon-help"></i>
               <a
                 data-bs-toggle="collapse"
@@ -66,7 +66,7 @@
               </div>
             </li>
 
-            <li data-aos="fade-up" data-aos-delay="400">
+            <li   >
               <i class="bx bx-help-circle icon-help"></i>
               <a
                 data-bs-toggle="collapse"
@@ -83,7 +83,7 @@
             </li>
 
 
-            <li data-aos="fade-up" data-aos-delay="500">
+            <li   >
                 <i class="bx bx-help-circle icon-help"></i>
                 <a
                   data-bs-toggle="collapse"
@@ -99,7 +99,7 @@
                 </div>
               </li>
 
-              <li data-aos="fade-up" data-aos-delay="600">
+              <li   >
                 <i class="bx bx-help-circle icon-help"></i>
                 <a
                   data-bs-toggle="collapse"
@@ -114,7 +114,7 @@
                 </div>
               </li>
 
-              <li data-aos="fade-up" data-aos-delay="700">
+              <li  >
                 <i class="bx bx-help-circle icon-help"></i>
                 <a
                   data-bs-toggle="collapse"
@@ -130,7 +130,7 @@
                 </div>
               </li>
 
-              <li data-aos="fade-up" data-aos-delay="800">
+              <li   >
                 <i class="bx bx-help-circle icon-help"></i>
                 <a
                   data-bs-toggle="collapse"
@@ -144,7 +144,7 @@
                 </div>
               </li>
 
-              <li data-aos="fade-up" data-aos-delay="900">
+              <li  >
                 <i class="bx bx-help-circle icon-help"></i>
                 <a
                   data-bs-toggle="collapse"
@@ -158,7 +158,7 @@
                 </div>
               </li>
 
-              <li data-aos="fade-up" data-aos-delay="1000">
+              <li   >
                 <i class="bx bx-help-circle icon-help"></i>
                 <a
                   data-bs-toggle="collapse"
@@ -174,7 +174,7 @@
                 </div>
               </li>
 
-              <li data-aos="fade-up" data-aos-delay="1100">
+              <li   >
                 <i class="bx bx-help-circle icon-help"></i>
                 <a
                   data-bs-toggle="collapse"
@@ -191,7 +191,7 @@
                 </div>
               </li>
 
-              <li data-aos="fade-up" data-aos-delay="1200">
+              <li  >
                 <i class="bx bx-help-circle icon-help"></i>
                 <a
                   data-bs-toggle="collapse"

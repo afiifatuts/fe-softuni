@@ -113,6 +113,7 @@
 
 
     <!-- JavaScript Libraries -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
@@ -120,7 +121,11 @@
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
  
-
+    <script>
+AOS.init({
+  duration: 1200
+});
+</script>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="js/tambah.js"></script>

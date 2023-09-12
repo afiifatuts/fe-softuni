@@ -10,7 +10,7 @@
   <div class="container text-center py-5">
     <h1 class="text-white display-1">Kurikulum</h1>
     <div class="d-inline-flex text-white mb-5">
-      <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
+      <p class="m-0 text-uppercase"><a class="text-white" href="index.php">Home</a></p>
       <i class="fa fa-angle-double-right pt-1 px-3"></i>
       <p class="m-0 text-uppercase">Kurikulum</p>
     </div>
@@ -20,11 +20,11 @@
 <!-- End Header -->
 
 <!-- Fundamental Feature Course -->
-<div class="container-fluid py-5">
+<div class="container-fluid" data-aos="fade-up">
   <div class="container py-5">
     <div class="row mx-0 justify-content-center">
       <div class="col-lg-8">
-        <div class="section-title text-center position-relative mb-5">
+        <div class="section-title text-center position-relative">
           <h6
             class="d-inline-block position-relative text-prmr text-uppercase pb-2"
           >
@@ -45,7 +45,7 @@
     </div>
 
     <div class="d-flex flex-column flex-lg-row mt-3">
-      <div class="col-lg-6 d-flex mt-3">
+      <div class="col-lg-6  d-flex mt-3">
         <div class="card-kur box-shadow text-center">
           <div class="card-header">
             <h3>Programming Basics</h3>
@@ -65,7 +65,7 @@
         </div>
       </div>
 
-      <div class="col-lg-6 d-flex mt-3">
+      <div class="col-lg-6  d-flex mt-3" >
         <div class="card-kur box-shadow text-center">
           <div class="card-header">
             <h3>Fundamental Modul</h3>
@@ -93,7 +93,7 @@
 
 <!-- Professional Feature Course -->
 <section>
-  <div class="container-fluid py-5">
+  <div class="container-fluid" data-aos="fade-down">
     <div class="container py-5">
       <div class="row mx-0 justify-content-center">
         <div class="col-lg-8">
@@ -308,11 +308,11 @@
 <!-- Professional Feature Course -->
 
 <!-- Spesialis Feature Course -->
-<div class="container-fluid py-5">
+<div class="container-fluid">
   <div class="container py-5">
     <div class="row mx-0 justify-content-center">
       <div class="col-lg-8">
-        <div class="section-title text-center position-relative mb-5">
+        <div class="section-title text-center position-relative mb-3">
           <h6
             class="d-inline-block position-relative text-prmr text-uppercase pb-2"
           >
@@ -341,7 +341,7 @@
             C# Full-Stack Developer
           </h3>
 
-          <ul>
+          <ul class = "list-unstyled  ml-3">
             <li><i class="bx bx-check"></i> DevOps - Part 1</li>
             <li><i class="bx bx-check"></i> DevOps - Part 2</li>
           </ul>
@@ -357,9 +357,9 @@
           <h3 class="text-center mb-3" style="font-size: 25px">
             Java Full-Stack Developer
           </h3>
-          <ul>
+          <ul class = "list-unstyled ml-3">
             <li><i class="bx bx-check"></i> DevOps - Part 1</li>
-            <li><i class="bx bx-check"></i>DevOps - Part 2</li>
+            <li><i class="bx bx-check"></i> DevOps - Part 2</li>
           </ul>
         </div>
       </div>
@@ -373,9 +373,9 @@
           <h3 class="text-center mb-3" style="font-size: 25px">
             Python Full-Stack Developer
           </h3>
-          <ul>
+          <ul class = "list-unstyled ml-3">
             <li><i class="bx bx-check"></i> DevOps - Part 1</li>
-            <li><i class="bx bx-check"></i>DevOps - Part 2</li>
+            <li><i class="bx bx-check"></i> DevOps - Part 2</li>
           </ul>
         </div>
       </div>
@@ -453,7 +453,7 @@
         data-aos-delay="100"
       >
         <div class="icon-box">
-          <h4><a href="">Programming Basic</a></h4>
+          <h4><a>Programming Basic</a></h4>
           <p>
             Di sini, Anda akan memahami konsep dasar pemrograman yang akan
             menjadi pondasi untuk pengembangan masa depan Anda sebagai
@@ -468,7 +468,7 @@
         data-aos-delay="200"
       >
         <div class="icon-box">
-          <h4><a href="">Ujian</a></h4>
+          <h4><a>Ujian</a></h4>
           <p>
             Setelah menyelesaikan modul Dasar Pemrograman, Anda akan menghadapi
             ujian untuk mengukur pemahaman Anda terhadap materi yang telah
@@ -483,7 +483,7 @@
         data-aos-delay="300"
       >
         <div class="icon-box">
-          <h4><a href="">Fundamental Modul</a></h4>
+          <h4><a>Fundamental Modul</a></h4>
           <p>
             Di sini, Anda akan memperdalam pemahaman Anda tentang konsep
             pemrograman yang lebih mendalam serta mungkin mempelajari topik
@@ -499,7 +499,7 @@
         data-aos-delay="400"
       >
         <div class="icon-box">
-          <h4><a href="">Professional Modul</a></h4>
+          <h4><a>Professional Modul</a></h4>
           <p>
             Pada tahap ini, Anda akan memperluas pengetahuan dan keterampilan
             Anda dalam pengembangan perangkat lunak dengan fokus pada aplikasi
@@ -513,7 +513,7 @@
         data-aos-delay="400"
       >
         <div class="icon-box mt-3">
-          <h4><a href="">Spesialisasi Modul</a></h4>
+          <h4><a>Spesialisasi Modul</a></h4>
           <p>
             Terakhir, Anda akan menjalani modul Spesialisasi yang akan
             memungkinkan Anda untuk fokus pada bidang tertentu dalam

@@ -229,7 +229,7 @@
           <div class="col-lg-5 mb-5 mb-lg-0">
             <div class="section-title position-relative mb-4">
               <h6
-                class="d-inline-block position-relative text-primary text-uppercase pb-2"
+                class="d-inline-block position-relative text-prmr text-uppercase pb-2"
               >
                 Testimonial
               </h6>
