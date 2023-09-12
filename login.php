@@ -23,13 +23,13 @@
                   <label class="form-label" for="password">Kata Sandi</label>
                   <input type="password" id="password" class="form-control" placeholder="Ketikan Kata Sandi" required  />
                 </div>
+                <p class=" pb-lg-2"><a class="text-primary" href="forgot-password.php">Forgot password?</a></p>
 
                 <!-- Submit button -->
-                <button type="submit" class="btn btn-warning btn-block mb-4 col-lg-12">
-                  Daftar
+                <button type="submit" class="btn btn-warning btn-block col-lg-12">
+                  Masuk
                 </button>
-              <p class="small mb-5 pb-lg-2"><a class="text-muted" href="reset-password.php">Forgot password?</a></p>
-              <p>Belum punya akun? <a href="daftar.php" class="link-info">Daftar</a></p>
+            <a href="daftar.php" class="mb-5 btn btn-primary btn-block col-lg-12"  style="border-radius: 10px;">Daftar</a>
   
             </form>
   

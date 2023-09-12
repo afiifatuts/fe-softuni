@@ -10,7 +10,7 @@
   
             <form style="width: 23rem; margin: auto;">
   
-              <h2 class=" mb-3 pb-3">Daftar</h2>
+              <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Daftar</h3>
   
                 <!-- Nama input -->
                 <div class="form-outline mb-4">
@@ -51,11 +51,10 @@
                 </div> -->
 
                 <!-- Submit button -->
-                <button type="submit" class="btn btn-warning btn-block mb-4 col-lg-12">
+                <button type="submit" class="btn btn-warning btn-block  col-lg-12">
                   Daftar
                 </button>
-              <p>Sudah punya akun? <a href="login.php" class="link-info">Masuk</a></p>
-  
+                <a class="btn btn-primary btn-block mb-4 col-lg-12" style="border-radius: 10px;" href="login.php">Masuk</a>
             </form>
   
           </div>

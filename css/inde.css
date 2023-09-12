@@ -10310,9 +10310,9 @@ h6,
 /* Form gabung  */
 
 .form-gabung{
-  box-shadow: 1px 1px 1px 1px rgba(0,0,0,.3); 
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
   border-radius:10px;
   margin:2rem 0;
-  padding:1rem 0;
+  padding:2rem 1.5rem;
 
 }

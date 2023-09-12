@@ -2,12 +2,12 @@
 
 
   <section class="">
-    <div class="container-fluid my-5" >
+    <div class="container-fluid py-5" >
       <div class="row">
         <div class="col-sm-12 text-black" style="max-width: 600px; margin: auto;">
   
         
-          <div class="d-flex align-items-center form-gabung">
+          <div class="d-flex align-items-center form-gabung py-5">
   
             <form style="width: 23rem; margin: auto;">
   
