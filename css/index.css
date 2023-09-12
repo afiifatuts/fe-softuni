@@ -9984,18 +9984,18 @@ h6,
   align-items: center;
   justify-content: center;
   color: #FFFFFF;
-  background: var(--secondary2);
+  background: var(--secondary4);
   font-size: 22px;
   transition: .5s;
 }
 
 .testimonial-carousel .owl-nav .owl-prev,
 .testimonial-carousel .owl-nav .owl-next:hover {
-  background: var(--primary3);
+  background: var(--primary4);
 }
 
 .testimonial-carousel .owl-nav .owl-prev:hover {
-  background: var(--secondary2);
+  background: var(--secondary4);
 }
 
 
