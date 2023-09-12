@@ -67,7 +67,7 @@ p {
 }
 
 @media  (max-width: 768px) {
-  p {
+  p , label {
     font-size: 15px  !important;
   }
   h1, h2, h3, h4, h5, h6 {
@@ -3223,9 +3223,9 @@ input[type="button"].btn-block {
 }
 
 .dropdown-item.active, .dropdown-item:active {
-  color: #fff;
+  color: black;
   text-decoration: none;
-  background-color: var(--primary4);
+  /* background-color: var(--primary4); */
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -10305,4 +10305,14 @@ h6,
 
 .prof-box hr {
   margin: 1.5rem 0;
+}
+
+/* Form gabung  */
+
+.form-gabung{
+  box-shadow: 1px 1px 1px 1px rgba(0,0,0,.3); 
+  border-radius:10px;
+  margin:2rem 0;
+  padding:1rem 0;
+
 }

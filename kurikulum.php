@@ -35,13 +35,13 @@
       </div>
     </div>
     <div class="row col-xl-9 m-auto">
-      <h5 class="text-center" style="text-align: justify">
+      <p class="text-center" style="text-align: justify">
         Kurikulum terdiri dari beberapa bidang profesional dan spesialisasi yang
         dibangun dari modul pelatihan yang dipilih secara khusus. Setiap modul
         pelatihan berisi kursus dengan fokus yang kuat pada praktik, di akhir
         setiap kursus, siswa lulus ujian praktik,dan menunjukkan keterampilan
         yang diperoleh.
-      </h5>
+      </p>
     </div>
 
     <div class="d-flex flex-column flex-lg-row mt-3">
@@ -108,13 +108,13 @@
         </div>
       </div>
       <div class="row col-xl-9 m-auto">
-        <h5 class="text-center mb-3" style="text-align: justify">
+        <p class="text-center mb-3" style="text-align: justify">
           Kurikulum terdiri dari beberapa bidang profesional dan spesialisasi
           yang dibangun dari modul pelatihan yang dipilih secara khusus. Setiap
           modul pelatihan berisi kursus dengan fokus yang kuat pada praktik, di
           akhir setiap kursus, siswa lulus ujian praktik,dan menunjukkan
           keterampilan yang diperoleh.
-        </h5>
+        </p>
         <a href="https://softuni.id/kursus" class="btn btn-warning m-auto"
           >GABUNG</a
         >
@@ -323,14 +323,14 @@
       </div>
     </div>
     <div class="col-xl-9 m-auto text-center">
-      <h5 class="mb-2">
+      <p class="mb-2">
         Setelah modul Pengembang Web Profesional C#, Java Web, atau Python Web,
         siswa memiliki opsi untuk melanjutkan dengan modul DevOps, yang
         berspesialisasi sebagai "Full-Stack Developer".
-      </h5>
-      <h3 class="">
+</p>
+      <h4 class="">
         <b> <small>Rp.</small> 3.500.000<small>/Modul</small></b>
-      </h3>
+      </h4>
       <a href="https://softuni.id/kursus" class="btn btn-warning m-4">GABUNG</a>
     </div>
 
