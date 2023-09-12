@@ -16,39 +16,7 @@
  --additiolay2:#FFFFFF;
  }
 
-
-
-
-/* :root {
-  --blue: #007bff;
-  --indigo: #6610f2;
-  --purple: #6f42c1;
-  --pink: #e83e8c;
-  --red: #dc3545;
-  --orange: #fd7e14;
-  --yellow: #ffc107;
-  --green: #28a745;
-  --teal: #20c997;
-  --cyan: #17a2b8;
-  --white: #fff;
-  --gray: #6c757d;
-  --gray-dark: #343a40;
-  --primary: #2878EB;
-  --secondary: #F14D5D;
-  --success: #28a745;
-  --info: #17a2b8;
-  --warning: #ffc107;
-  --danger: #dc3545;
-  --light: #ECF4FF;
-  --dark: #120F2D;
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
-  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-} */
+ 
 
 *,
 *::before,
@@ -2434,27 +2402,27 @@ fieldset:disabled a.btn {
 
 .btn-secondary:focus, .btn-secondary.focus {
   color: #fff;
-  background-color: #ee2a3d;
-  border-color: #ed1e32;
-  box-shadow: 0 0 0 0.2rem rgba(243, 104, 117, 0.5);
+  /* background-color: var(--secondary2); */
+  border-color: var(--secondary2);
+  /* box-shadow: 0 0 0 0.2rem rgba(243, 104, 117, 0.5); */
 }
 
 .btn-secondary.disabled, .btn-secondary:disabled {
   color: #fff;
-  background-color: #F14D5D;
-  border-color: #F14D5D;
+  /* background-color: #F14D5D;
+  border-color: #F14D5D; */
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
 .show > .btn-secondary.dropdown-toggle {
   color: #fff;
-  background-color: #ed1e32;
-  border-color: #ec1328;
+  /* background-color: #ed1e32;
+  border-color: #ec1328; */
 }
 
 .btn-secondary:not(:disabled):not(.disabled):active:focus, .btn-secondary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-secondary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.2rem rgba(243, 104, 117, 0.5);
+  /* box-shadow: 0 0 0 0.2rem rgba(243, 104, 117, 0.5); */
 }
 
 .btn-success {
@@ -2533,8 +2501,10 @@ fieldset:disabled a.btn {
 
 .btn-warning {
   color: #212529;
-  background-color: #ffc107;
-  border-color: #ffc107;
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: var(--primary3);
+  border-color: var(--primary3);
 }
 
 .btn-warning:hover {
@@ -10278,4 +10248,41 @@ h6,
   .team-item p {
     font-size: 15px;
   }
+}
+
+/* Kurikulum  */
+
+.text-prmr {
+  color: #ff7100;
+}
+.prof-box > div {
+  display: flex;
+  justify-content: center;
+}
+.prof-box {
+  padding: 10px;
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+.student-content {
+  padding-top:1rem;
+  border-top: 1px solid var(--primary4);
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 992px) {
+  .prof-box:hover {
+    margin-top: -0.25rem;
+    margin-bottom: 0.25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+}
+
+.prof-box hr {
+  margin: 1.5rem 0;
 }

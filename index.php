@@ -51,7 +51,7 @@
             <div class="position-relative h-100">
               <img
                 class="position-absolute w-100 h-100"
-                src="assets/home_image/img/asset1.jpg"
+                src="assets/home_image/img/img-tentang.jpg"
                 style="object-fit: cover"
               />
             </div>

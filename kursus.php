@@ -39,7 +39,7 @@
             <div class="row mx-0 justify-content-center">
                 <div class="col-lg-8">
                     <div class="section-title text-center position-relative mb-5">
-                        <h6 class="d-inline-block position-relative text-primary text-uppercase pb-2">Kursus Kami</h6>
+                        <h6 class="d-inline-block position-relative text-prmr text-uppercase pb-2">Kursus Kami</h6>
                         <h1 class="display-4">Rilisan Kursus Terbaru dari Kami</h1>
                     </div>
                 </div>
