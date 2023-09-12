@@ -1,5 +1,8 @@
 <?php include 'partial/header.php'; ?>
     <!-- End Navbar -->
+    <style>
+ 
+    </style>
 
      <!-- Header Start -->
      <section>
@@ -40,14 +43,12 @@
             </div>
           </div>
           <div class="col-lg-6" data-aos="fade-up" data-aos-delay="300">
-            <div class="img-wrap">
               <iframe
                 width="420"
                 height="215"
                 src="https://www.youtube.com/embed/zgxG5EYWsFI"
               >
               </iframe>
-            </div>
           </div>
         </div>
       </div>
