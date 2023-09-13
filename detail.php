@@ -2,7 +2,15 @@
 <?php include 'partial/header.php'; ?>
     <!-- Navbar End -->
 
-
+<style>
+    @media  (max-width: 768px) {
+        .kursus-feature h6{
+            font-size: 25px  !important;
+}
+ 
+}
+    
+</style>
     <!-- Header Start -->
     <div class="jumbotron jumbotron-fluid page-header position-relative overlay-bottom" style="margin-bottom: 90px;">
         <div class="container text-center py-5">
@@ -85,43 +93,43 @@
                </div>
 
                 <div class="col-lg-4 mt-5 mt-lg-0">
-                    <div class="bg-primary mb-5 py-3">
+                    <div class="bg-primary kursus-feature mb-5 py-3">
                         <h3 class="text-white py-3 px-4 m-0">Fitur-Fitur Kursus</h3>
                         <div class="d-flex justify-content-between border-bottom px-4">
-                            <h6 class="text-white my-3">Instruktur</h6>
-                            <h6 class="text-white my-3">John Doe</h6>
+                            <p class="text-white my-3">Instruktur</p>
+                            <p class="text-white my-3">John Doe</p>
                         </div>
                         <div class="d-flex justify-content-between border-bottom px-4">
-                            <h6 class="text-white my-3">Tag Kursus</h6>
-                            <h6 class="text-white my-3">Java</h6>
+                            <p class="text-white my-3">Tag Kursus</p>
+                            <p class="text-white my-3">Java</p>
                         </div>
                         <div class="d-flex justify-content-between border-bottom px-4">
-                            <h6 class="text-white my-3">Jenis Program</h6>
-                            <h6 class="text-white my-3">Webinar</h6>
+                            <p class="text-white my-3">Jenis Program</p>
+                            <p class="text-white my-3">Webinar</p>
                         </div>
                         <div class="d-flex justify-content-between border-bottom px-4">
-                            <h6 class="text-white my-3">Level</h6>
-                            <h6 class="text-white my-3">Beginner</h6>
+                            <p class="text-white my-3">Level</p>
+                            <p class="text-white my-3">Beginner</p>
                         </div>
                         <div class="d-flex justify-content-between border-bottom px-4">
-                            <h6 class="text-white my-3">Jumlah Modul</h6>
-                            <h6 class="text-white my-3">20</h6>
+                            <p class="text-white my-3">Jumlah Modul</p>
+                            <p class="text-white my-3">20</p>
                         </div>
                         <div class="d-flex justify-content-between border-bottom px-4">
-                            <h6 class="text-white my-3">Tanggal mulai</h6>
-                            <h6 class="text-white my-3">23 September 2023</h6>
+                            <p class="text-white my-3">Tanggal mulai</p>
+                            <p class="text-white my-3">23 September 2023</p>
                         </div>
                         <div class="d-flex justify-content-between border-bottom px-4">
-                            <h6 class="text-white my-3">Harga Normal</h6>
-                            <h6 class="text-white my-3"><del>RP 4000000</del> </h6>
+                            <p class="text-white my-3">Harga Normal</p>
+                            <p class="text-white my-3"><del>RP 4000000</del> </p>
                         </div>
                         <div class="d-flex justify-content-between border-bottom px-4">
-                            <h6 class="text-white my-3">Diskon</h6>
-                            <h6 class="text-white my-3">20% </h6>
+                            <p class="text-white my-3">Diskon</p>
+                            <p class="text-white my-3">20% </p>
                         </div>
                         <div class="d-flex justify-content-between border-bottom px-4">
-                            <h6 class="text-white my-3">Karga Khusus</h6>
-                            <h6 class="text-white my-3">Rp 3500000 </h6>
+                            <p class="text-white my-3">Karga Khusus</p>
+                            <p class="text-white my-3">Rp 3500000 </p>
                         </div>
                         <!-- <div class="d-flex justify-content-between border-bottom px-4">
                         <h6 class="text-white my-3">Referral code</h6>

@@ -270,7 +270,7 @@
 <!-- Awards Start -->
 <section>
 
-<div class="container-fluid py-5" data-aos="zoom-in">
+<div class="container-fluid py-5" data-aos="fade-up">
   <div class="container py-5">
     <div class="section-title text-center position-relative mb-5">
       <h6
