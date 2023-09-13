@@ -189,7 +189,7 @@
 
        <!-- Visi Misi Start -->
        <section>
-<div class="container-fluid py-5">
+<div class="container-fluid py-5" data-aos="fade-up"  >
     <div class="container py-5">
       <div class="row">
       <div class="col-md-12 col-lg-6">
@@ -224,7 +224,7 @@
 
       
     <!-- Testimonial Start -->
-    <div class="container-fluid bg-image py-5" style="margin: 90px 0">
+    <div class="container-fluid bg-image py-5" style="margin: 90px 0" data-aos="fade-up">
       <div class="container py-5">
         <div class="row align-items-center">
           <div class="col-lg-5 mb-5 mb-lg-0">

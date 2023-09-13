@@ -49,7 +49,7 @@
     <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.0/components/faqs/faq-1/assets/css/faq-1.css" />
 
     <!-- Customized Bootstrap Stylesheet -->
-    <link href="./css/inde.css" rel="stylesheet" />
+    <link href="./css/index.css" rel="stylesheet" />
     <link href="./css/dashboard.css" rel="stylesheet" />
     <style>
       a{

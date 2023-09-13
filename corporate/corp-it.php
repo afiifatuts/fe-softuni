@@ -1,4 +1,4 @@
-<div class="tab-content mt-5" id="nav-tabContent">
+<div class="tab-content mt-5" id="nav-tabContent" data-aos="fade-up">
           <!-- Python  -->
           <div
             class="tab-pane fade show active"
@@ -8,7 +8,7 @@
           >
             <h3>Python Development</h3>
             <div>
-              <div class="row corpItems justify-content-md-start py-5 justify-content-md-start">
+              <div class="row corpItems justify-content-md-start py-5 justify-content-md-start" data-aos="fade-up">
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
@@ -116,7 +116,7 @@
           >
             <h3>Java Development</h3>
              <div>
-              <div class="row corpItems justify-content-md-start py-5">
+              <div class="row corpItems justify-content-md-start py-5" data-aos="fade-up">
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
@@ -257,7 +257,7 @@
           >
           <h3>Javascript</h3>
            <div>
-              <div class="row corpItems justify-content-md-start py-5">
+              <div class="row corpItems justify-content-md-start py-5" data-aos="fade-up">
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
@@ -418,7 +418,7 @@
           >
             <h3>C++ Or C# Development</h3>
              <div>
-              <div class="row corpItems justify-content-md-start py-5">
+              <div class="row corpItems justify-content-md-start py-5" data-aos="fade-up">
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
@@ -654,7 +654,7 @@
           >
             <h3>Server/Cloud</h3>
              <div>
-              <div class="row corpItems justify-content-md-start py-5">
+              <div class="row corpItems justify-content-md-start py-5" data-aos="fade-up">
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
@@ -937,7 +937,7 @@
           >
             <h3>Machine Learning or Deep Learning</h3>
              <div>
-              <div class="row corpItems justify-content-md-start py-5">
+              <div class="row corpItems justify-content-md-start py-5" data-aos="fade-up">
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
@@ -1032,7 +1032,7 @@
           >
             <h3>Database</h3>
              <div>
-              <div class="row corpItems justify-content-md-start py-5">
+              <div class="row corpItems justify-content-md-start py-5" data-aos="fade-up">
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
@@ -1127,7 +1127,7 @@
           >
             <h3>Cyber Security</h3>
              <div>
-              <div class="row corpItems justify-content-md-start py-5">
+              <div class="row corpItems justify-content-md-start py-5" data-aos="fade-up">
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
@@ -1258,7 +1258,7 @@
           >
             <h3>Lainnya</h3>
              <div>
-              <div class="row corpItems justify-content-md-start py-5">
+              <div class="row corpItems justify-content-md-start py-5" data-aos="fade-up">
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>

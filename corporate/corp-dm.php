@@ -1,4 +1,4 @@
-<div class="tab-content mt-5" id="nav-tabContent">
+<div class="tab-content mt-5" id="nav-tabContent" data-aos="fade-up">
           <!-- Social Media Marketing  -->
           <div
             class="tab-pane fade show active"
@@ -8,7 +8,7 @@
           >
             <h3>Social Media Marketing</h3>
             <div>
-              <div class="row corpItems justify-content-md-start py-5">
+              <div class="row corpItems justify-content-md-start py-5" data-aos="fade-up">
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
@@ -199,7 +199,7 @@
           >
             <h3>SEO & SEM</h3>
              <div>
-              <div class="row corpItems justify-content-md-start py-5">
+              <div class="row corpItems justify-content-md-start py-5" data-aos="fade-up">
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
@@ -371,7 +371,7 @@
           >
           <h3>Analytics Marketing</h3>
            <div>
-              <div class="row corpItems justify-content-md-start py-5">
+              <div class="row corpItems justify-content-md-start py-5" data-aos="fade-up">
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
@@ -510,7 +510,7 @@
           >
             <h3>E-Commerce</h3>
              <div>
-              <div class="row corpItems justify-content-md-start py-5">
+              <div class="row corpItems justify-content-md-start py-5" data-aos="fade-up">
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
@@ -710,7 +710,7 @@
           >
             <h3>Branding</h3>
              <div>
-              <div class="row corpItems justify-content-md-start py-5">
+              <div class="row corpItems justify-content-md-start py-5" data-aos="fade-up">
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
@@ -839,7 +839,7 @@
           >
             <h3>Lainnya</h3>
              <div>
-              <div class="row corpItems justify-content-md-start py-5">
+              <div class="row corpItems justify-content-md-start py-5" data-aos="fade-up">
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>

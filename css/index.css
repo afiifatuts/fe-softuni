@@ -10322,3 +10322,10 @@ h6,
   padding:2rem 1.5rem;
 
 }
+
+.partnerImg {
+  background: linear-gradient(rgba(40, 120, 235, 0.3), rgba(40, 120, 235, 0.3)), url(../assets/partnership/partnership-img.jpg), no-repeat center center;
+  background-size: cover;
+  
+  height: 450px; /* Height of the element */
+}

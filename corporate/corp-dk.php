@@ -1,4 +1,4 @@
-<div class="tab-content mt-5" id="nav-tabContent">
+<div class="tab-content mt-5" id="nav-tabContent" data-aos="fade-up">
           <!-- Graphic Design  -->
           <div
             class="tab-pane fade show active"
@@ -8,7 +8,7 @@
           >
             <h3>Graphic Design</h3>
             <div>
-              <div class="row corpItems justify-content-md-start py-5">
+              <div class="row corpItems justify-content-md-start py-5" data-aos="fade-up">
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
@@ -242,7 +242,7 @@
           >
             <h3>UI UX</h3>
              <div>
-              <div class="row corpItems justify-content-md-start py-5">
+              <div class="row corpItems justify-content-md-start py-5" data-aos="fade-up">
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
@@ -416,7 +416,7 @@
           <h3>Animation</h3>
            <!-- UIUX  -->
            <div>
-              <div class="row corpItems justify-content-md-start py-5">
+              <div class="row corpItems justify-content-md-start py-5" data-aos="fade-up">
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
@@ -698,7 +698,7 @@
             <h3>Game Design</h3>
              <!-- UIUX  -->
              <div>
-              <div class="row corpItems justify-content-md-start py-5">
+              <div class="row corpItems justify-content-md-start py-5" data-aos="fade-up">
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
@@ -867,7 +867,7 @@
           >
             <h3>Lainnya</h3>
              <div>
-              <div class="row corpItems justify-content-md-start py-5">
+              <div class="row corpItems justify-content-md-start py-5" data-aos="fade-up">
                 <div class="col-12  col-lg-4 col-md-6">
                   <div class="corpItem">
                     <div>
