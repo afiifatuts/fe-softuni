@@ -50,7 +50,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="./css/index.css" rel="stylesheet" />
-    <link href="./css/dashboard.css" rel="stylesheet" />
+    <link href="./css/dashboar.css" rel="stylesheet" />
     <style>
       a{
         text-decoration: none !important;
@@ -83,7 +83,7 @@
       <div class="row py-2 px-lg-5">
         <div class="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
           <div class="d-inline-flex align-items-center text-dark">
-            <small><i class="fa fa-phone-alt mr-2"></i>0811 973 545</small>
+            <small class="text-dark"><i class="fa fa-phone-alt mr-2"></i>0811 973 545</small>
             <small class="px-3">|</small>
             <small><i class="fa fa-envelope mr-2"></i> info@softuni.id</small>
           </div>

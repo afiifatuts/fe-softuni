@@ -10,7 +10,7 @@
               <i class="fa fa-map-marker-alt mr-2"></i>Jl. Prof. DR. Soepomo,
               Menteng Dalam, Jakarta Selatan, Jakarta
             </p>
-            <p><i class="fa fa-phone-alt mr-2"></i>+62 811-3771-477</p>
+            <p style="color: rgba(255, 255, 255, 0.5)"><i class="fa fa-phone-alt mr-2"></i>+62 811-3771-477</p>
             <p><i class="fa fa-envelope mr-2"></i>info@softuni.id</p>
             <div class="d-flex justify-content-start mt-4">
               <a
