@@ -1,9 +1,8 @@
  <!-- Footer Start -->
  <div
       class="container-fluid position-relative overlay-top bg-dark text-white-50 py-5"
-      style="margin-top: 90px"
     >
-      <div class="container mt-5 pt-5">
+      <div class="container pt-5">
         <div class="row">
           <div class="col-md-4 mb-5">
             <h3 class="text-white mb-4">Get In Touch</h3>
@@ -11,7 +10,7 @@
               <i class="fa fa-map-marker-alt mr-2"></i>Jl. Prof. DR. Soepomo,
               Menteng Dalam, Jakarta Selatan, Jakarta
             </p>
-            <p><i class="fa fa-phone-alt mr-2"></i>+62 811-3771-477</p>
+            <p style="color: rgba(255, 255, 255, 0.5)"><i class="fa fa-phone-alt mr-2"></i>+62 811-3771-477</p>
             <p><i class="fa fa-envelope mr-2"></i>info@softuni.id</p>
             <div class="d-flex justify-content-start mt-4">
               <a
@@ -43,13 +42,13 @@
           <div class="col-md-4 mb-5">
             <h3 class="text-white mb-4">Kursus Kami</h3>
             <div class="d-flex flex-column justify-content-start">
-              <a class="text-white-50 mb-2" href="#"
+              <a class="text-white-50 mb-2" href="kursus-webinar.php"
                 ><i class="fa fa-angle-right mr-2"></i>Webinar</a
               >
-              <a class="text-white-50 mb-2" href="#"
+              <a class="text-white-50 mb-2" href="kursus-regular.php"
                 ><i class="fa fa-angle-right mr-2"></i>Regular</a
               >
-              <a class="text-white-50 mb-2" href="#"
+              <a class="text-white-50 mb-2" href="kursus-short.php"
                 ><i class="fa fa-angle-right mr-2"></i>Short</a
               >
             </div>
@@ -102,26 +101,38 @@
     ></a>
    
 
-        <!-- Vendor JS Files -->
-    <script src="./lib/vendor/apexcharts/apexcharts.min.js"></script>
-    <script src="./lib/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="./lib/vendor/chart.js/chart.umd.js"></script>
-    <script src="./lib/vendor/echarts/echarts.min.js"></script>
-    <script src="./lib/vendor/quill/quill.min.js"></script>
-    <script src="./lib/vendor/simple-datatables/simple-datatables.js"></script>
-    <script src="./lib/vendor/tinymce/tinymce.min.js"></script>
-    <script src="./lib/vendor/php-email-form/validate.js"></script>
-
+   
 
     <!-- JavaScript Libraries -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
- 
+         <!-- Vendor JS Files -->
+         <script src="./lib/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="./lib/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./lib/vendor/chart.js/chart.umd.js"></script>
+    <script src="./lib/vendor/echarts/echarts.min.js"></script>
+    <script src="./lib/vendor/quill/quill.min.js"></script>
+    <!-- <script src="lib/vendor/simple-datatables/simple-datatables.js"></script> -->
+    <script src="./lib/vendor/tinymce/tinymce.min.js"></script>
+    <script src="./lib/vendor/php-email-form/validate.js"></script>
 
+ 
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('#datatable').DataTable();
+      });
+    </script>
+    <script>
+AOS.init({
+  duration: 1200
+});
+</script>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
     <script src="js/tambah.js"></script>

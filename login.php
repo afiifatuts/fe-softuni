@@ -2,11 +2,11 @@
 
 
   <section class="">
-    <div class="container-fluid">
+    <div class="container-fluid my-5" >
       <div class="row">
         <div class="col-sm-12 text-black" style="max-width: 600px; margin: auto;">
   
-          <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-5 mt-xl-n5" style="box-shadow: 1px 1px 1px 1px rgba(0,0,0,.14); ">
+          <div class="d-flex align-items-center form-gabung" >
   
             <form style="width: 23rem; margin: auto;">
   
@@ -23,13 +23,13 @@
                   <label class="form-label" for="password">Kata Sandi</label>
                   <input type="password" id="password" class="form-control" placeholder="Ketikan Kata Sandi" required  />
                 </div>
+                <p class=" pb-lg-2"><a class="text-primary" href="forgot-password.php">Forgot password?</a></p>
 
                 <!-- Submit button -->
-                <button type="submit" class="btn btn-primary btn-block mb-4 col-lg-12">
-                  Daftar
+                <button type="submit" class="btn btn-warning btn-block col-lg-12">
+                  Masuk
                 </button>
-              <p class="small mb-5 pb-lg-2"><a class="text-muted" href="forgot-password.php">Forgot password?</a></p>
-              <p>Belum punya akun? <a href="register.html" class="link-info">Daftar</a></p>
+            <a href="daftar.php" class="mb-5 btn btn-primary btn-block col-lg-12"  style="border-radius: 10px;">Daftar</a>
   
             </form>
   

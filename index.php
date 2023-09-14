@@ -1,12 +1,11 @@
 <?php include 'partial/header.php'; ?>
-
     <!-- Header Start -->
     <div
       class="jumbotron jumbotron-fluid position-relative"
       style="margin-bottom: 90px"
     >
-      <div class="container text-center my-5 py-5">
-        <h1 class="text-white mt-4 mb-4">
+      <div class="container text-center my-5 py-5" data-aos="fade-up">
+        <h1 class="text-white mt-4 mb-4" >
           Belajar IT dengan Kurikulum Internasional
         </h1>
         <h1 class="text-white display-1 mb-5">Kursus bagi Siapapun</h1>
@@ -47,19 +46,19 @@
     <div class="container-fluid py-5">
       <div class="container py-5">
         <div class="row">
-          <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px">
+          <div class="col-lg-5 mb-5 mb-lg-0" style="min-height: 500px" data-aos="fade-right">
             <div class="position-relative h-100">
               <img
                 class="position-absolute w-100 h-100"
-                src="assets/home_image/img/Group 24.jpg"
+                src="assets/home_image/img/img-tentang.jpg"
                 style="object-fit: cover"
               />
             </div>
           </div>
-          <div class="col-lg-7">
-            <div class="section-title position-relative mb-4">
+          <div class="col-lg-7" data-aos="fade-left">
+            <div class="section-title position-relative mb-4" >
               <h6
-                class="d-inline-block position-relative text-primary text-uppercase pb-2"
+                class="d-inline-block position-relative  text-prmr text-uppercase pb-2"
               >
                 Tentang Kami
               </h6>
@@ -122,13 +121,13 @@
     <!-- About End -->
 
     <!-- Feature Start -->
-    <div class="container-fluid bg-image" style="margin: 90px 0">
+    <div class="container-fluid bg-image" style="margin: 90px 0" data-aos="fade-up">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-7 my-5 pt-5 pb-lg-5">
+        <div class="row" >
+          <div class="col-lg-7 my-5 pt-5 pb-lg-5" > 
             <div class="section-title position-relative mb-4">
               <h6
-                class="d-inline-block position-relative text-primary text-uppercase pb-2"
+                class="d-inline-block position-relative  text-prmr text-uppercase pb-2"
               >
                 Kenapa Memilih Kami
               </h6>
@@ -191,12 +190,12 @@
     <!-- Feature Start -->
 
     <!-- Courses Start -->
-    <div class="container-fluid px-0 py-5">
+    <div class="container-fluid px-0 py-5" data-aos="fade-down">
       <div class="row mx-0 justify-content-center pt-5">
         <div class="col-lg-6">
           <div class="section-title text-center position-relative mb-4">
             <h6
-              class="d-inline-block position-relative text-primary text-uppercase pb-2"
+              class="d-inline-block position-relative  text-prmr text-uppercase pb-2"
             >
               Kursus Kami
             </h6>
@@ -269,272 +268,239 @@
     <!-- Courses End -->
 
 <!-- Awards Start -->
-<div class="container-fluid py-5">
+<section>
+
+<div class="container-fluid py-5" data-aos="fade-up">
   <div class="container py-5">
     <div class="section-title text-center position-relative mb-5">
       <h6
-        class="d-inline-block position-relative text-primary text-uppercase pb-2"
+        class="d-inline-block position-relative  text-prmr text-uppercase pb-2"
       >
         Penghargaan
       </h6>
       <h1 class="display-4">Penghargaan Software University</h1>
     </div>
 
-    <div class="wrapper-p">
-      <div class="slider-p">
-        <div class="slide-track-p">
-          <!-- start  -->
-          <div class="slide-p">
-            <div class="team-item w-100">
-              <img
-                class="img-fluid w-100 mx-auto"
-                src="assets/home_image/awards/career-show-award.png"
-                alt=""
-              />
-              <div class="bg-light text-center p-4">
-                <h5 class="mb-3">Career Show Awards 2022</h5>
-                <p class="mb-2">
-                  Gold – First place in the incentive Strategy Category
-                </p>
-              </div>
-            </div>
+    <div class="row awardCon">
+      <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+        <div class="team-item">
+          <img
+            class="img-fluid "
+            src="assets/home_image/awards/career-show-award.png"
+            alt=""
+          />
+          <div class="bg-light text-center p-2">
+            <h5 class="mb-2"><b>Career Show Awards 2022</b></h5>
+            <p class="mb-1">
+              Gold – First place in the incentive Strategy Category
+            </p>
           </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+        <div class="team-item">
+          <img
+            class="img-fluid"
+            src="assets/home_image/awards/career-show-awards-2022.png"
+            alt=""
+          />
+          <div class="bg-light text-center p-2">
+            <h5 class="mb-2"><b>Career Show Awards 2022</b></h5>
+            <p class="mb-1">
+              Silver – Second place in the category “Employee Recognition
+              Strategy”
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+        <div class="team-item">
+          <img
+            class="img-fluid"
+            src="assets/home_image/awards/forbes-BA-2022.png"
+            alt=""
+          />
+          <div class="bg-light text-center p-2">
+            <h5 class="mb-3"><b>Forbes Business Awards</b></h5>
+            <p class="mb-2">Finalist in the category “Services” 2022</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+        <div class="team-item">
+          <img
+            class="img-fluid"
+            src="assets/home_image/awards/forbes-BA-2022.png"
+            alt=""
+          />
+          <div class="bg-light text-center p-2">
+            <h5 class="mb-3"><b>Forbes Business Awards</b></h5>
+            <p class="mb-2">
+              Finalist in the category “Innovative Company” 2022
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+        <div class="team-item">
+          <img
+            class="img-fluid"
+            src="assets/home_image/awards/golden-hearth.png"
+            alt=""
+          />
+          <div class="bg-light text-center p-2">
+            <h5 class="mb-2"><b>Golden Heart Annual Charity and CSR Awards</b></h5>
+            <p class="mb-2">
+              First prize in the category Education: Engine of the Digital
+              Revolution and the IT sector
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+        <div class="team-item">
+          <img
+            class="img-fluid"
+            src="assets/home_image/awards/career-show-awards-2022.png"
+            alt=""
+          />
+          <div class="bg-light text-center p-2">
+            <h5 class="mb-3"><b>Career show Index 2022</b></h5>
+            <p class="mb-2">
+              51st place in the ranking “The 100 best employers in Bulgarian”
+            </p>
+          </div>
+        </div>
+      </div>
 
-          <div class="slide-p">
-            <div class="team-item w-100">
-              <img
-                class="img-fluid"
-                style="width: 40%; margin: auto"
-                src="assets/home_image/awards/career-show-awards-2022.png"
-                alt=""
-              />
-              <div     style="height: 60%" class="bg-light text-center p-4">
-                <h5 class="mb-3">Career Show Awards 2022</h5>
-                <p class="mb-2">
-                  Silver – Second place in the category “Employee Recognition
-                  Strategy”
-                </p>
-              </div>
-            </div>
+      <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+        <div class="team-item">
+          <img
+            class="img-fluid"
+            src="assets/home_image/awards/my-love-marks.png"
+            alt=""
+          />
+          <div class="bg-light text-center p-2">
+            <h5 class="mb-3"><b>Favorite Brand (MyLoveMarks)</b></h5>
+            <p class="mb-2">Third place in the “Innovative Company” category</p>
           </div>
-          <!-- start  -->
-          <div class="slide-p">
-            <div class="team-item">
-              <img
-                class="img-fluid"
-                src="assets/home_image/awards/forbes-BA-2022.png"
-                alt=""
-              />
-              <div class="bg-light text-center p-4">
-                <h5 class="mb-3">Forbes Business Awards</h5>
-                <p class="mb-2">Finalist in the category “Services” 2022</p>
-              </div>
-            </div>
-          </div>
-          <!-- start  -->
-          <div class="slide-p">
-            <div class="team-item">
-              <img
-                class="img-fluid"
-                src="assets/home_image/awards/forbes-BA-2022.png"
-                alt=""
-              />
-              <div class="bg-light text-center p-4">
-                <h5 class="mb-3">Forbes Business Awards</h5>
-                <p class="mb-2">
-                  Finalist in the category “Innovative Company” 2022
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- start  -->
-          <div class="slide-p">
-            <div class="team-item">
-              <img
-                class="img-fluid"
-                style="margin: auto;"
-                
-                src="assets/home_image/awards/golden-hearth.png"
-                alt=""
-              />
-              <div  style="height: 60%" class="bg-light text-center p-2">
-                <h5 class="mb-2">Golden Heart Annual Charity and CSR Awards</h5>
-                <p class="mb-2">
-                  First prize in the category Education: Engine of the Digital
-                  Revolution and the IT sector
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- start  -->
-          <div class="slide-p">
-            <div class="team-item">
-              <img
-                class="img-fluid"
-                style="width: 40%; margin: auto"
-                src="assets/home_image/awards/career-show-awards-2022.png"
-                alt=""
-              />
-              <div class="bg-light text-center p-4">
-                <h5 class="mb-3">Career show Index 2022</h5>
-                <p class="mb-2">
-                  51st place in the ranking “The 100 best employers in
-                  Bulgarian”
-                </p>
-              </div>
-            </div>
-          </div>
-          <!-- start 1  -->
-          <div class="slide-p">
-            <div class="team-item">
-              <img
-                class="img-fluid"
-                style="width: 40%; margin: auto"
-                src="assets/home_image/awards/my-love-marks.png"
-                alt=""
-              />
-              <div class="bg-light text-center p-4">
-                <h5 class="mb-3">Favorite Brand (MyLoveMarks)</h5>
-                <p class="mb-2">
-                  Third place in the “Innovative Company” category
-                </p>
-              </div>
-            </div>
-          </div>
-           <!-- start 1  -->
-           <div class="slide-p">
-            <div class="team-item">
-              <img
-                class="img-fluid"
-                style="width: 40%; margin: auto"
-                src="assets/home_image/awards/my-love-marks.png"
-                alt=""
-              />
-              <div class="bg-light text-center p-4">
-                <h5 class="mb-3">Favorite Brand (MyLoveMarks)</h5>
-                <p class="mb-2">
-                   Third place in the category “Innovative Company”
-                </p>
-              </div>
-            </div>
-          </div>
-
-
-          <!-- start  -->
-          <div class="slide-p">
-            <div class="team-item">
-              <img
-                class="img-fluid"
-                style="width: 40%; margin: auto"
-                src="assets/home_image/awards/my-love-marks.png"
-                alt=""
-              />
-              <div class="bg-light text-center p-4">
-                <h5 class="mb-3">Favorite Brand (MyLoveMarks)</h5>
-                <p class="mb-2">First place in the category “Education”</p>
-              </div>
-            </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3 col-md-4 col-sm-6">
+        <div class="team-item">
+          <img
+            class="img-fluid"
+            src="assets/home_image/awards/my-love-marks.png"
+            alt=""
+          />
+          <div class="bg-light text-center p-2">
+            <h5 class="mb-3"><b>Favorite Brand (MyLoveMarks)</b></h5>
+            <p class="mb-2">Third place in the category “Innovative Company”</p>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="row awardCon"></div>
   </div>
 </div>
+<!-- Trusted End -->
+</section>
+
 <!-- Award End -->
 
 <!-- Trusted -->
-<div class="container-fluid py-5">
+<div class="container-fluid py-5" data-aos="fade-down">
   <div class="container py-5">
     <div class="section-title text-center position-relative mb-5">
       <h6
-        class="d-inline-block position-relative text-primary text-uppercase pb-2"
+        class="d-inline-block position-relative  text-prmr text-uppercase pb-2"
       >
         Kepercayaan
       </h6>
       <h1 class="display-4">Dipercayai lebih 100 Perusahaan</h1>
     </div>
 
-    <div class="wrapper-c">
-      <div class="slider-c">
-        <div class="slide-track-c">
-          <!-- Img Code -->
-          <div class="slide-c">
-            <img
-              class="img-fluid"
-              src="assets/home_image/partner/chaosgroup-logo.png"
-              alt="perusahaan"
-            />
-          </div>
-
-          <div class="slide-c">
-            <img
-              class="img-fluid"
-              src="assets/home_image/partner/cocacola-logo.png"
-              alt="perusahaan"
-            />
-          </div>
-
-          <div class="slide-c">
-            <img
-              class="img-fluid"
-              src="assets/home_image/partner/hbc-logo.png"
-              alt="perusahaan"
-            />
-          </div>
-
-          <div class="slide-c">
-            <img
-              class="img-fluid"
-              src="assets/home_image/partner/microsoft-logo.png"
-              alt="perusahaan"
-            />
-          </div>
-
-          <div class="slide-c">
-            <img
-              class="img-fluid"
-              src="assets/home_image/partner/sap-logo.png"
-              alt="perusahaan"
-            />
-          </div>
-
-          <div class="slide-c">
-            <img
-              class="img-fluid"
-              src="assets/home_image/partner/shwartz-logo.png"
-              alt="perusahaan"
-            />
-          </div>
-
-          <div class="slide-c">
-            <img
-              class="img-fluid"
-              src="assets/home_image/partner/tesla-logo.png"
-              alt=""
-            />
-          </div>
-
-          <div class="slide-c">
-            <img
-              class="img-fluid"
-              src="assets/home_image/partner/uber-logo.png"
-              alt=""
-            />
-          </div>
-
-          <div class="slide-c">
-            <img
-              class="img-fluid"
-              src="assets/home_image/partner/vmware-logo.png"
-              alt=""
-            />
-          </div>
-        </div>
+    <div class="row trustCon">
+      <div class="col">
+        <img
+          class="img-fluid"
+          src="assets/home_image/partner/chaosgroup-logo.png"
+          alt="perusahaan"
+        />
+      </div>
+      <div class="col">
+        <img
+          class="img-fluid"
+          src="assets/home_image/partner/cocacola-logo.png"
+          alt="perusahaan"
+        />
+      </div>
+      <div class="col">
+        <img
+          class="img-fluid"
+          src="assets/home_image/partner/hbc-logo.png"
+          alt="perusahaan"
+        />
+      </div>
+      <div class="col">
+        <img
+          class="img-fluid"
+          src="assets/home_image/partner/microsoft-logo.png"
+          alt="perusahaan"
+        />
       </div>
     </div>
+
+    <div class="row trustCon">
+      <div class="col">
+        <img
+          class="img-fluid"
+          src="assets/home_image/partner/sap-logo.png"
+          alt="perusahaan"
+        />
+      </div>
+      <div class="col">
+        <img
+          class="img-fluid"
+          src="assets/home_image/partner/shwartz-logo.png"
+          alt="perusahaan"
+        />
+      </div>
+      <div class="col">
+        <img
+          class="img-fluid"
+          src="assets/home_image/partner/tesla-logo.png"
+          alt="perusahaan"
+        />
+      </div>
+      <div class="col">
+        <img
+          class="img-fluid"
+          src="assets/home_image/partner/uber-logo.png"
+          alt="perusahaan"
+        />
+      </div>
+    </div>
+
+    <div class="row trustCon">
+      <div class="col">
+        <img
+          class="img-fluid"
+          src="assets/home_image/partner/vmware-logo.png"
+          alt="perusahaan"
+        />
+      </div>
+      <div class="col mt-4">
+        <h4>dan masih banyak lagi...</h4>
+      </div>
+    </div>
+
+    
   </div>
 </div>
 <!-- Trusted End -->
+
 
     <!-- Testimonial Start -->
     <div class="container-fluid bg-image py-5" style="margin: 90px 0">
@@ -543,7 +509,7 @@
           <div class="col-lg-5 mb-5 mb-lg-0">
             <div class="section-title position-relative mb-4">
               <h6
-                class="d-inline-block position-relative text-primary text-uppercase pb-2"
+                class="d-inline-block position-relative  text-prmr text-uppercase pb-2"
               >
                 Testimonial
               </h6>
@@ -553,7 +519,7 @@
           <div class="col-lg-7">
             <div class="owl-carousel testimonial-carousel">
               <div class="bg-white p-5">
-                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <i class="fa fa-3x fa-quote-left  text-prmr mb-4"></i>
                 <p>
                   Saya memutuskan untuk melakukan pemrograman karena saya selalu
                   tertarik pada komputer, satu-satunya masalah adalah saya
@@ -578,7 +544,7 @@
                 </div>
               </div>
               <div class="bg-white p-5">
-                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <i class="fa fa-3x fa-quote-left  text-prmr mb-4"></i>
                 <p>
                   Pelajaran terpenting yang saya pelajari dari pendidikan saya
                   di SoftUni adalah nilai untuk mendapatkan pemahaman yang lebih
@@ -600,7 +566,7 @@
               </div>
 
               <div class="bg-white p-5">
-                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <i class="fa fa-3x fa-quote-left  text-prmr mb-4"></i>
                 <p>
                   Hal saya sukai tentang program di SoftUni adalah program ini
                   terdiri dari serangkaian kursus, dari tingkat pemula hingga
@@ -622,7 +588,7 @@
               </div>
 
               <div class="bg-white p-5">
-                <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                <i class="fa fa-3x fa-quote-left  text-prmr mb-4"></i>
                 <p>
                   Hal saya sukai tentang program di SoftUni adalah program ini
                   terdiri dari serangkaian kursus, dari tingkat pemula hingga
@@ -693,7 +659,7 @@
           <div class="col-lg-7">
             <div class="section-title position-relative mb-4">
               <h6
-                class="d-inline-block position-relative text-primary text-uppercase pb-2"
+                class="d-inline-block position-relative  text-prmr text-uppercase pb-2"
               >
                 Butuh Bantuan?
               </h6>

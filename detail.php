@@ -2,7 +2,15 @@
 <?php include 'partial/header.php'; ?>
     <!-- Navbar End -->
 
-
+<style>
+    @media  (max-width: 768px) {
+        .kursus-feature h6{
+            font-size: 25px  !important;
+}
+ 
+}
+    
+</style>
     <!-- Header Start -->
     <div class="jumbotron jumbotron-fluid page-header position-relative overlay-bottom" style="margin-bottom: 90px;">
         <div class="container text-center py-5">
@@ -10,25 +18,11 @@
             <div class="d-inline-flex text-white mb-5">
                 <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
                 <i class="fa fa-angle-double-right pt-1 px-3"></i>
+                <p class="m-0 text-uppercase"> Kursus</p>
+                <i class="fa fa-angle-double-right pt-1 px-3"></i>
                 <p class="m-0 text-uppercase">Detail Kursus</p>
             </div>
-            <div class="mx-auto mb-5" style="width: 100%; max-width: 600px;">
-                <div class="input-group">
-                    <div class="input-group-prepend">
-                        <button class="btn btn-outline-light bg-white text-body px-4 dropdown-toggle" type="button" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">Courses</button>
-                        <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">Webinar</a>
-                            <a class="dropdown-item" href="#">Short Courses</a>
-                            <a class="dropdown-item" href="#">Regular Courses</a>
-                        </div>
-                    </div>
-                    <input type="text" class="form-control border-light" style="padding: 30px 25px;" placeholder="Keyword">
-                    <div class="input-group-append">
-                        <button class="btn btn-secondary px-4 px-lg-5">Search</button>
-                    </div>
-                </div>
-            </div>
+           
         </div>
     </div>
     <!-- Header End -->
@@ -41,7 +35,7 @@
                 <div class="col-lg-8">
                     <div class="mb-5">
                         <div class="section-title position-relative mb-5">
-                            <h6 class="d-inline-block position-relative text-secondary text-uppercase pb-2">Detail Kursus</h6>
+                            <h6 class="d-inline-block position-relative text-primary text-uppercase pb-2">Detail Kursus</h6>
                             <h1 class="display-4">Java Beginner</h1>
                         </div>
                         <img class="img-fluid rounded w-100 mb-4"  src="assets/course_image/1c260dcf-09be-11ee-8734-005056470331.jpg" alt="Image">
@@ -57,43 +51,40 @@
                     <h2 class="mb-3">Kursus Lainnya</h2>
                     <div class="owl-carousel related-carousel position-relative" style="padding: 0 30px;">
                         <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.html">
-                            <img class="img-fluid" src="img/courses-1.jpg" alt="">
+                            <img class="img-fluid" src="assets/course_image/1c260dcf-09be-11ee-8734-005056470331.jpg" alt="">
                             <div class="courses-text">
                                 <h4 class="text-center text-white px-3">Web design & development courses for
                                     beginners</h4>
                                 <div class="border-top w-100 mt-3">
                                     <div class="d-flex justify-content-between p-4">
                                         <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                                        <span class="text-white"><i class="fa fa-star mr-2"></i>4.5
-                                            <small>(250)</small></span>
+                                        <span class="text-white"><i class="fa fa-tag mr-2"></i><small>Rp</small> 10000000</span>
                                     </div>
                                 </div>
                             </div>
                         </a>
                         <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.html">
-                            <img class="img-fluid" src="img/courses-2.jpg" alt="">
+                            <img class="img-fluid" src="assets/course_image/1c260dcf-09be-11ee-8734-005056470331.jpg" alt="">
                             <div class="courses-text">
                                 <h4 class="text-center text-white px-3">Web design & development courses for
                                     beginners</h4>
                                 <div class="border-top w-100 mt-3">
                                     <div class="d-flex justify-content-between p-4">
                                         <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                                        <span class="text-white"><i class="fa fa-star mr-2"></i>4.5
-                                            <small>(250)</small></span>
+                                        <span class="text-white"><i class="fa fa-tag mr-2"></i><small>Rp</small> 10000000</span>
                                     </div>
                                 </div>
                             </div>
                         </a>
                         <a class="courses-list-item position-relative d-block overflow-hidden mb-2" href="detail.html">
-                            <img class="img-fluid" src="img/courses-3.jpg" alt="">
+                            <img class="img-fluid" src="assets/course_image/1c260dcf-09be-11ee-8734-005056470331.jpg" alt="">
                             <div class="courses-text">
                                 <h4 class="text-center text-white px-3">Web design & development courses for
                                     beginners</h4>
                                 <div class="border-top w-100 mt-3">
                                     <div class="d-flex justify-content-between p-4">
                                         <span class="text-white"><i class="fa fa-user mr-2"></i>Jhon Doe</span>
-                                        <span class="text-white"><i class="fa fa-star mr-2"></i>4.5
-                                            <small>(250)</small></span>
+                                        <span class="text-white"><i class="fa fa-tag mr-2"></i><small>Rp</small> 10000000</span>
                                     </div>
                                 </div>
                             </div>
@@ -102,44 +93,68 @@
                </div>
 
                 <div class="col-lg-4 mt-5 mt-lg-0">
-                    <div class="bg-primary mb-5 py-3">
+                    <div class="bg-primary kursus-feature mb-5 py-3">
                         <h3 class="text-white py-3 px-4 m-0">Fitur-Fitur Kursus</h3>
                         <div class="d-flex justify-content-between border-bottom px-4">
-                            <h6 class="text-white my-3">Instruktur</h6>
-                            <h6 class="text-white my-3">John Doe</h6>
+                            <p class="text-white my-3">Instruktur</p>
+                            <p class="text-white my-3">John Doe</p>
                         </div>
                         <div class="d-flex justify-content-between border-bottom px-4">
-                            <h6 class="text-white my-3">Tag Kursus</h6>
-                            <h6 class="text-white my-3">Java</h6>
+                            <p class="text-white my-3">Tag Kursus</p>
+                            <p class="text-white my-3">Java</p>
                         </div>
                         <div class="d-flex justify-content-between border-bottom px-4">
-                            <h6 class="text-white my-3">Jenis Program</h6>
-                            <h6 class="text-white my-3">Webinar</h6>
+                            <p class="text-white my-3">Jenis Program</p>
+                            <p class="text-white my-3">Webinar</p>
                         </div>
                         <div class="d-flex justify-content-between border-bottom px-4">
-                            <h6 class="text-white my-3">Level</h6>
-                            <h6 class="text-white my-3">Beginner</h6>
+                            <p class="text-white my-3">Level</p>
+                            <p class="text-white my-3">Beginner</p>
                         </div>
                         <div class="d-flex justify-content-between border-bottom px-4">
-                            <h6 class="text-white my-3">Tanggal mulai</h6>
-                            <h6 class="text-white my-3">23 September 2023</h6>
+                            <p class="text-white my-3">Jumlah Modul</p>
+                            <p class="text-white my-3">20</p>
                         </div>
                         <div class="d-flex justify-content-between border-bottom px-4">
-                            <h6 class="text-white my-3">Harga Normal</h6>
-                            <h6 class="text-white my-3"><del>RP 4000000</del> </h6>
+                            <p class="text-white my-3">Tanggal mulai</p>
+                            <p class="text-white my-3">23 September 2023</p>
                         </div>
                         <div class="d-flex justify-content-between border-bottom px-4">
-                            <h6 class="text-white my-3">Diskon</h6>
-                            <h6 class="text-white my-3">20% </h6>
+                            <p class="text-white my-3">Harga Normal</p>
+                            <p class="text-white my-3"><del>RP 4000000</del> </p>
                         </div>
-                        <div class="d-flex justify-content-between px-4">
-                            <h6 class="text-white my-3">Referral code</h6>
-                            <input class="my-3 py-1 px-1" placeholder="Input Referral Code" type="text" p>
+                        <div class="d-flex justify-content-between border-bottom px-4">
+                            <p class="text-white my-3">Diskon</p>
+                            <p class="text-white my-3">20% </p>
                         </div>
-                        <h5 class="text-white py-3 px-4 m-0">Harga Kursus: Rp 3500000</h5>
+                        <div class="d-flex justify-content-between border-bottom px-4">
+                            <p class="text-white my-3">Karga Khusus</p>
+                            <p class="text-white my-3">Rp 3500000 </p>
+                        </div>
+                        <!-- <div class="d-flex justify-content-between border-bottom px-4">
+                        <h6 class="text-white my-3">Referral code</h6>
+                            <input class="my-3 py-1 px-2" placeholder="Input Referral Code" type="text" p>
+                        </div> -->
+
+                        
+
+                        <!-- <div class="d-flex justify-content-between px-4">
+                        <h6 class="text-white my-3 mr-2"><input type="checkbox"/></h6>
+                            <h6 class="text-white my-3">(Opsional) Biaya tambahan sertifikat BNSP* </h6>
+                        </div> -->
+
+                        <div class="flex-row justify-content-between px-4  py-2">
+                            <div>
+                                 <input  class="text-white my-1 mr-2"  type="checkbox"  name="refund">
+                                <a class="text-white my-3" href="https://softuni.id/terms/Return-and-Refund-Policy_Softuni-Indonesia.pdf" target="_blank" >Return & Refund Policy</a>
+                            </div>
+                            <div class="">
+                                <input type="checkbox"  class="text-white my-1 mr-2"  name="terms">
+                                <a href="https://softuni.id/terms/Terms-and-Conditions_SoftUni-Indonesia-Site.pdf" class="text-white my-3" target="_blank" >Terms & Conditions</a>
+                            </div>
+                        </div>
                         <div class="px-4">
-                        <h6 class="text-white my-3">(Opsional) Biaya tambahan sertifikat BNSP*</h6>
-                             <a class="btn btn-block btn-warning py-3 px-5" href="">Daftar Sekarang</a>
+                             <!-- <a class="btn btn-block btn-warning py-3 px-5" href="">Opsi Cicilan *</a> -->
                             <a class="btn btn-block btn-secondary py-3 px-5" href="">Daftar Sekarang</a>
                         </div>
                     </div>
@@ -171,43 +186,49 @@
                         <a class="d-flex align-items-center text-decoration-none mb-4" href="">
                             <img class="img-fluid rounded" src="img/courses-80x80.jpg" alt="">
                             <div class="pl-3">
-                                <h6>Web design & development courses for beginners</h6>
+                                <h6>Java Beginner</h6>
                                 <div class="d-flex">
                                     <small class="text-body mr-3"><i class="fa fa-user text-primary mr-2"></i>Jhon Doe</small>
-                                    <small class="text-body"><i class="fa fa-star text-primary mr-2"></i>4.5 (250)</small>
+                                    <small class="text-body"><i class="fa fa-tag text-primary mr-2"></i>Rp 2000000</small>
                                 </div>
                             </div>
                         </a>
+
                         <a class="d-flex align-items-center text-decoration-none mb-4" href="">
                             <img class="img-fluid rounded" src="img/courses-80x80.jpg" alt="">
                             <div class="pl-3">
-                                <h6>Web design & development courses for beginners</h6>
+                                <h6>Java Beginner</h6>
                                 <div class="d-flex">
                                     <small class="text-body mr-3"><i class="fa fa-user text-primary mr-2"></i>Jhon Doe</small>
-                                    <small class="text-body"><i class="fa fa-star text-primary mr-2"></i>4.5 (250)</small>
+                                    <small class="text-body"><i class="fa fa-tag text-primary mr-2"></i>Rp 2000000</small>
                                 </div>
                             </div>
                         </a>
+
                         <a class="d-flex align-items-center text-decoration-none mb-4" href="">
                             <img class="img-fluid rounded" src="img/courses-80x80.jpg" alt="">
                             <div class="pl-3">
-                                <h6>Web design & development courses for beginners</h6>
+                                <h6>Java Beginner</h6>
                                 <div class="d-flex">
                                     <small class="text-body mr-3"><i class="fa fa-user text-primary mr-2"></i>Jhon Doe</small>
-                                    <small class="text-body"><i class="fa fa-star text-primary mr-2"></i>4.5 (250)</small>
+                                    <small class="text-body"><i class="fa fa-tag text-primary mr-2"></i>Rp 2000000</small>
                                 </div>
                             </div>
                         </a>
-                        <a class="d-flex align-items-center text-decoration-none" href="">
+
+                        <a class="d-flex align-items-center text-decoration-none mb-4" href="">
                             <img class="img-fluid rounded" src="img/courses-80x80.jpg" alt="">
                             <div class="pl-3">
-                                <h6>Web design & development courses for beginners</h6>
+                                <h6>Java Beginner</h6>
                                 <div class="d-flex">
                                     <small class="text-body mr-3"><i class="fa fa-user text-primary mr-2"></i>Jhon Doe</small>
-                                    <small class="text-body"><i class="fa fa-star text-primary mr-2"></i>4.5 (250)</small>
+                                    <small class="text-body"><i class="fa fa-tag text-primary mr-2"></i>Rp 2000000</small>
                                 </div>
                             </div>
                         </a>
+                       
+                      
+                       
                     </div>
                 </div>
             </div>
