@@ -101,16 +101,7 @@
     ></a>
    
 
-        <!-- Vendor JS Files -->
-    <script src="./lib/vendor/apexcharts/apexcharts.min.js"></script>
-    <script src="./lib/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="./lib/vendor/chart.js/chart.umd.js"></script>
-    <script src="./lib/vendor/echarts/echarts.min.js"></script>
-    <script src="./lib/vendor/quill/quill.min.js"></script>
-    <script src="./lib/vendor/simple-datatables/simple-datatables.js"></script>
-    <script src="./lib/vendor/tinymce/tinymce.min.js"></script>
-    <script src="./lib/vendor/php-email-form/validate.js"></script>
-
+   
 
     <!-- JavaScript Libraries -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -120,7 +111,23 @@
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/counterup/counterup.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+         <!-- Vendor JS Files -->
+         <script src="./lib/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="./lib/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="./lib/vendor/chart.js/chart.umd.js"></script>
+    <script src="./lib/vendor/echarts/echarts.min.js"></script>
+    <script src="./lib/vendor/quill/quill.min.js"></script>
+    <!-- <script src="lib/vendor/simple-datatables/simple-datatables.js"></script> -->
+    <script src="./lib/vendor/tinymce/tinymce.min.js"></script>
+    <script src="./lib/vendor/php-email-form/validate.js"></script>
+
  
+    <script src="https://cdn.datatables.net/1.11.3/js/jquery.dataTables.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('#datatable').DataTable();
+      });
+    </script>
     <script>
 AOS.init({
   duration: 1200

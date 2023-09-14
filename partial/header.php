@@ -40,9 +40,11 @@
     <link href="./lib/vendor/quill/quill.snow.css" rel="stylesheet" />
     <link href="./lib/vendor/quill/quill.bubble.css" rel="stylesheet" />
     <link href="./lib/vendor/remixicon/remixicon.css" rel="stylesheet" />
-    <link href="./lib/vendor/simple-datatables/style.css" rel="stylesheet" />
-
-
+    <link
+      rel="stylesheet"
+      href="https://cdn.datatables.net/1.11.3/css/dataTables.bootstrap5.min.css"
+    />
+    
     <!-- Libraries Stylesheet -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />

@@ -1,24 +1,18 @@
 
 <?php include './partial/header.php'; ?>
 <?php include './partial/sidebar.php'; ?>
-
-<div class="">
+<div class="main-admin ">
 <div class="pagetitle">
-  <h1>Tambah Kursus</h1>
-  <nav>
-    <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="admin-dashboard.php">Dashboard</a></li>
-      <li class="breadcrumb-item"><a href="admin-kursus.php">Kursus</a></li>
-      <li class="breadcrumb-item active">Tambah Kursus</li>
-    </ol>
-  </nav>
-</div><!-- End Page Title -->
+    <h2>Tambah Kursus</h2>
+  </div><!-- End Page Title -->
 
 
-<div class="card">
-    <div class="card-body">
-        <h5 class="card-title">Tambah Kursus</h5>
-<form action="https://softuni.id/admin/course/insert" method="POST" class="">
+  
+  <!-- Kursus card  -->
+  <section class="section dashboard">
+    <div class="row">
+    <div class="card p-5 col-lg-8 ml-5">
+    <form action="https://softuni.id/admin/course/insert" method="POST" class="">
                             <div class="form-group">
                                 <input type="hidden" name="s0ftun1.1d" value="93f08e9c75fb47618b78408823347d0b" />                                            <div class="form-group">
                                     <label class="add-course-label">Nama Kursus</label>
@@ -116,13 +110,19 @@
                                     <button type="submit" class="btn btn-primary"><i class=" fas fa-save" style="margin-right: 10px;"></i> Simpan</button>
                                 </div>
                             </form>
-                            </div>
-                            </div>
+   </div>
+  </section>
 
+
+
+  
+ <!-- End mainAdmin -->
+</div>
+<!-- End  -->
 </div>
 
 
-</main><!-- End #main -->
+
 
 
 
