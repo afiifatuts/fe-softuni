@@ -144,12 +144,13 @@
         </a>
         <button
           type="button"
-          class="navbar-toggler text-white"
-          style="background-color: #fff;"
+          class="navbar-toggler "
+          style="border:0.1rem solid white;"
           data-toggle="collapse"
           data-target="#navbarCollapse"
         >
-          <span  class="navbar-toggler-icon "></span>
+        <i class="fas fa-bars" style="color:white; "></i>
+          <!-- <span  class="navbar-toggler-icon "></span> -->
         </button>
         <div
           class="collapse navbar-collapse justify-content-between px-lg-3"
