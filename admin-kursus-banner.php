@@ -1,22 +1,26 @@
 
 <?php include './partial/header.php'; ?>
 <?php include './partial/sidebar.php'; ?>
-
-<div class="">
-<div class="pagetitle">
-  <h1>Banner</h1>
-  <nav>
+<div class="main-admin " style="min-height:80vh;">
+<div class="pagetitle mb-4 container">
+    <h2>Tambah Banner</h2>
+    <nav>
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-      <li class="breadcrumb-item"><a href="admin-kursus.php">Kursus</a></li>
-      <li class="breadcrumb-item active">Tambah Banner</li>
+    <li class="breadcrumb-item"><a href="admin-kursus.php">Kursus</a></li>
+      <li class="breadcrumb-item active"> Tambah Banner</li>
     </ol>
   </nav>
-</div><!-- End Page Title -->
-<div class="card">
-    <div class="card-body">
-    <h5 class="card-title">Tambah Banner</h5>
-    <table class="table table-nowrap mb-2">
+  </div><!-- End Page Title -->
+
+
+  
+  <!-- Kursus card  -->
+  <section class="container dashboard mb-5">
+  <div class="row">
+    <div class="card col-lg-11 ml-3 py-5 col-lg-11 ">
+      <div class="mx-4">
+      <h5 >Tambah Banner</h5>
+              <table class="table table-nowrap ">
                                 <tbody>
                                     <tr>
                                         <td width="20%">
@@ -29,14 +33,15 @@
                                         <td>
                                             <div class="course-info d-flex align-items-center border-bottom-0 pb-0">
                                                 <div class="d-flex align-items-center">
-                                                    <p class="text-black">Test</p>
+                                                    <p class="text-black">Javascript Basic</p>
                                                 </div>
                                             </div>
                                         </td>
                                     </tr>
                                 </tbody>
                             </table>
-    <form action="https://softuni.id/admin/course/f2b65422-adca-11ed-9446-005056470331/upload" method="POST" enctype="multipart/form-data">
+      </div>
+      <form class="mx-3" action="https://softuni.id/admin/course/f2b65422-adca-11ed-9446-005056470331/upload" method="POST" enctype="multipart/form-data">
                                             <input type="hidden" name="s0ftun1.1d" value="e13bebdb55bdac2a3d05b11af2c51a62" />                                            <div class="settings-tickets-blk course-instruct-blk table-responsive">
 
                                             
@@ -44,7 +49,7 @@
                                  
 
                                                 <div class="form-group">
-                                       <label class="add-course-label">Pilih Banner Kursus</label>
+                                       <h5 class="my-3">Pilih Banner Kursus</h5>
                                        <div class="m-2">
                                        <img src="assets/profile/profile-img.jpeg" alt="Profile">
                                        </div>
@@ -58,17 +63,19 @@
     
                <button type="submit" class="btn btn-primary">Simpan</button>
                                         </form>
-                            </div>
-                            </div>
+    </div>
+  </div>
+</section>
 
+
+
+  
+ <!-- End mainAdmin -->
+</div>
+<!-- End  -->
 </div>
 
-</main><!-- End #main -->
-
-
-
-
-
 <?php include './partial/footer.php'; ?>
+
 
 

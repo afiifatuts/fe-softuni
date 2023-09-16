@@ -1,31 +1,50 @@
 
 <?php include './partial/header.php'; ?>
 <?php include './partial/sidebar.php'; ?>
-
-<div>
-
-<div class="pagetitle">
-  <h1>Kursus</h1>
-  <nav>
+<div class="main-admin " style="min-height:80vh;">
+<div class="pagetitle mb-5 container">
+    <h2>Tambah Payment</h2>
+    <nav>
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="index.php">Home</a></li>
-      <li class="breadcrumb-item "><a href="admin-kursus.php">Payment</a></li>
-      <li class="breadcrumb-item "><a href="admin-kursus-edit.php">Edit Kursus</a></li>
-      <li class="breadcrumb-item active">Edit Payment</li>
+      <li class="breadcrumb-item"><a href="admin-kursus.php">Kursus</a></li>
+      <li class="breadcrumb-item "><a href="admin-kursus-edit.php">Kursus Edit</a></li>
+      <li class="breadcrumb-item "><a href="admin-kursus-payment.php">Cicilan Kursus</a></li>
+      <li class="breadcrumb-item active"> Edit Payment</li>
     </ol>
   </nav>
-</div><!-- End Page Title -->
+  </div><!-- End Page Title -->
 
-<section class="section dashboard">
+
+  
+  <!-- Kursus card  -->
+  <section class="container dashboard mb-5">
   <div class="row">
-  <div class="card">
-    <div class="card-body">
-  <h5 class="card-title">Edit Payment</h5>
-  </div>
-            
-            <div class="col-lg-8 mb-5">
-
-            <form action="https://softuni.id/admin/course/payment/34c8aa0f-4af2-11ee-89c8-005056470331/f2b65422-adca-11ed-9446-005056470331" method="POST">
+    <div class="card col-lg-11 ml-3 py-5 col-lg-11 ">
+    <div class="mx-4">
+      <h5 >Edit Payment</h5>
+              <table class="table table-nowrap ">
+                                <tbody>
+                                    <tr>
+                                        <td width="20%">
+                                            <div class="course-info d-flex align-items-center border-bottom-0 pb-0">
+                                                <div class="d-flex align-items-center">
+                                                    <p>Judul</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="course-info d-flex align-items-center border-bottom-0 pb-0">
+                                                <div class="d-flex align-items-center">
+                                                    <p class="text-black">Javascript Basic</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+      </div>
+  
+    <form action="https://softuni.id/admin/course/payment/34c8aa0f-4af2-11ee-89c8-005056470331/f2b65422-adca-11ed-9446-005056470331" method="POST" class="mx-3">
                                             <input type="hidden" name="s0ftun1.1d" value="87ec450ac3e2beb1e67e5b6b6923e2de" />                                            <div class="form-group">
                                                 <label class="add-course-label">Keterangan</label>
                                                 <input name="title" value="test" type="text" class="form-control" placeholder="Ketikkan Nama Kursus" required>
@@ -45,17 +64,27 @@
                                                 <a onclick="confirmPopUp('https://softuni.id/admin/course/payment/34c8aa0f-4af2-11ee-89c8-005056470331/f2b65422-adca-11ed-9446-005056470331/delete')" type="submit" class="btn " style="background: #f1f1f1; border"><i class=" fas fa-trash" style="margin-right: 10px;"></i> Hapus</a>
                                          
                                         </form>
-        </div>
-        </div>
-        </div>
+    </div>
+  </div>
 </section>
 
+
+
+  
+ <!-- End mainAdmin -->
+</div>
+<!-- End  -->
 </div>
 
-</main><!-- End #main -->
-
-
-
 <?php include './partial/footer.php'; ?>
+
+
+
+
+
+
+
+
+
 
 

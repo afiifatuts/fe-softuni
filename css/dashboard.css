@@ -45,7 +45,6 @@ color: #FFC309 !important;
  }
  .main-admin{
   flex: 5;
-  padding: 2rem;
  }
 
  @media (max-width: 992px) {

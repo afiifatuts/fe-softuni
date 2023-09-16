@@ -2,66 +2,76 @@
 <?php include './partial/header.php'; ?>
 <?php include './partial/sidebar.php'; ?>
 
-<div>
 
-<div class="pagetitle">
-  <h1>Kursus Report</h1>
-  <nav>
+<div class="main-admin" style="min-height:80vh;">
+<div class="pagetitle container mb-3">
+    <h2>Kursus Report</h2>
+    <nav>
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="admin-dashboard.php">Dashboard</a></li>
-      <li class="breadcrumb-item active">Kursus Report</li>
+     <li class="breadcrumb-item active"> Kursus Report</li>
     </ol>
   </nav>
-</div><!-- End Page Title -->
+  </div><!-- End Page Title -->
 
-<section class="section">
-  <div class="row">
-    <div class="col-lg-12">
 
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Kursus Report</h5>
-         
-          <!-- Table with stripped rows -->
-          <table class="table datatable">
-            <thead>
-              <tr>
-                <th scope="col">No</th>
-                <th scope="col">Course</th>
+  
+  <!-- Kursus card  -->
+  <section class="container dashboard mb-5">
+    <div class="row">
+    <div class="card p-5 ml-3 col-lg-11">
+              <div class="card-body">
+              <!-- Datatable  -->
+                <table
+        id="datatable"
+        class="table table-striped"
+      >
+        <thead>
+          <tr>
+          <th scope="col">No</th>
+                <th scope="col">Kursus</th>
+                <th scope="col">Harga</th>
                 <th scope="col">Joined Member</th>
                 <th scope="col">Paid Member</th>
                 <th scope="col">Total Payment</th>
                 <th scope="col">Aksi</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
+          </tr>
+        </thead>
+        <tbody>
+          
+        <tr>
                 <th scope="row">1</th>
-                <td><p>Pendaftaran Ujian Basic batch - 3</p>
-                <p>Rp 600000</p>
-                </td>
+                <td>Pendaftaran Ujian Basic batch - 3 </td>
+                <td>Rp 600000</td>
                 <td>8</td>
                 <td>5</td>
                 <td>1500000</td>
-                <td>  <a href="admin-kursus-report-detail.php"> <button class="btn btn-success">Detail</button></a> </td>
+                <td>  <a href="admin-kursus-report-detail.php"> <button class="btn btn-success">Lihat Detail</button></a> </td>
               </tr>
+          
+        </tbody>
+      </table>
 
 
-            </tbody>
-          </table>
-          <!-- End Table with stripped rows -->
-
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
 
 
+
+
+
+
+            
+                <!-- End Default Table Example -->
+              </div>
+            </div>
+  </section>
+
+
+
+  
+ <!-- End mainAdmin -->
 </div>
-</main><!-- End #main -->
-
+<!-- End  -->
+</div>
 
 
 <?php include './partial/footer.php'; ?>
+

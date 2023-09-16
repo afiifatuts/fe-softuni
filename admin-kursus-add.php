@@ -2,17 +2,25 @@
 <?php include './partial/header.php'; ?>
 <?php include './partial/sidebar.php'; ?>
 <div class="main-admin ">
-<div class="pagetitle">
+<div class="pagetitle mb-5 container">
     <h2>Tambah Kursus</h2>
+    <nav>
+    <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="admin-kursus.php">Kursus</a></li>
+      <li class="breadcrumb-item active"> Tambah Kursus</li>
+    </ol>
+  </nav>
   </div><!-- End Page Title -->
 
 
   
   <!-- Kursus card  -->
-  <section class="section dashboard">
+  <section class="container dashboard mb-5">
     <div class="row">
-    <div class="card p-5 col-lg-8 ml-5">
-    <form action="https://softuni.id/admin/course/insert" method="POST" class="">
+       
+    <div class="card  ml-3 py-5 col-lg-11">
+        <h2 class="m-auto">Tambah Kursus Baru</h2>
+    <form action="https://softuni.id/admin/course/insert" method="POST" class="m-auto">
                             <div class="form-group">
                                 <input type="hidden" name="s0ftun1.1d" value="93f08e9c75fb47618b78408823347d0b" />                                            <div class="form-group">
                                     <label class="add-course-label">Nama Kursus</label>
@@ -20,11 +28,6 @@
                                     <small class="text-danger"></small>
                                 </div>
                                 
-                                <div class="form-group">
-                                <label class="add-course-label">Thumbnail</label>
-                                    <input name="thumbnail" value="" type="text" class="form-control" placeholder="Ketikkan Thumbnail Kursus" required>
-                                    <small class="text-danger"></small>
-                                </div>
                                 <div class="form-group">
                                     <label class="add-course-label">Tag Level</label>
                                     <select name="level" class="form-select form-control select country-select" name="lvllist1">

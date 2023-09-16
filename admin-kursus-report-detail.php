@@ -2,22 +2,26 @@
 <?php include './partial/header.php'; ?>
 <?php include './partial/sidebar.php'; ?>
 
-<div>
 
-<div class="pagetitle">
-  <h1>Data Tables</h1>
-  <nav>
+<div class="main-admin" style="min-height:80vh;">
+<div class="pagetitle container mb-3">
+    <h2>Kursus Report</h2>
+    <nav>
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-      <li class="breadcrumb-item active">Kursus Report Detail</li>
+     <li class="breadcrumb-item active"> Kursus Report</li>
     </ol>
   </nav>
-</div><!-- End Page Title -->
+  </div><!-- End Page Title -->
 
-        <div class="card">
-            <div class="card-body">
-             <!-- Referred Users-->
-             <table class="table table-borderless mt-3">
+
+  
+  <!-- Kursus card  -->
+  <section class="container dashboard mb-5">
+    <div class="row">
+    <div class="card p-5 ml-3 col-lg-11">
+    <div>
+      <h5 >Edit Topic</h5>
+              <table class="table table-nowrap ">
                                 <tbody>
                                     <tr>
                                         <td width="20%">
@@ -30,44 +34,22 @@
                                         <td>
                                             <div class="course-info d-flex align-items-center border-bottom-0 pb-0">
                                                 <div class="d-flex align-items-center">
-                                                    <p class="text-black">Pendaftaran Ujian Basic batch - 3</p>
-                                                </div>
-                                            </div>
-                                        </td>
-                                    </tr>
-                                    <tr>
-                                        <td width="20%">
-                                            <div class="course-info d-flex align-items-center border-bottom-0 pb-0">
-                                                <div class="d-flex align-items-center">
-                                                    <p>Member</p>
-                                                </div>
-                                            </div>
-                                        </td>
-                                        <td>
-                                            <div class="course-info d-flex align-items-center border-bottom-0 pb-0">
-                                                <div class="d-flex align-items-center">
-                                                    <p class="text-black">8 Member</p>
+                                                    <p class="text-black">Javascript Basic</p>
                                                 </div>
                                             </div>
                                         </td>
                                     </tr>
                                 </tbody>
                             </table>
-                            <!-- /Referred Users-->      
-        </div>
-          </div>
+      </div>
+              <div class="card-body">
 
-<section class="section">
-  <div class="row">
-    <div class="col-lg-12">
-
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">Kursus Report</h5>
-         
-          <!-- Table with stripped rows -->
-          <table class="table datadefault">
-            <thead>
+              <!-- Datatable  -->
+                <table
+        id="datatable"
+        class="table table-striped"
+      >
+      <thead>
               <tr>
                 <th scope="col">#</th>
                 <th scope="col">Nama</th>
@@ -84,38 +66,37 @@
                 <td>Ahmad Djamal</td>
                 <td>djamal@gmail.com</td>
                 <td>083784327847364</td>
-                <td><button class="btn btn-success">Lunas</button></td>
+                <td><button class="btn btn-primary">Lunas</button></td>
                 <td>  Rp 30000000 </td>
-                <td> <input type="file"/> <button class="btn btn-primary">Upload</button> </td>
+                <td> <a class="btn btn-primary disabled">Upload </a> </td>
               </tr>
 
-              <tr>
-                <th scope="row"><input type="checkbox"></th>
-                <td>Ahmad Djamal</td>
-                <td>djamal@gmail.com</td>
-                <td>083784327847364</td>
-                <td><button class="btn btn-danger">Belum lunas</button></td>
-                <td>  Rp 30000000 </td>
-                <td> <input type="file"/> <button class="btn btn-primary">Upload</button> </td>
-              </tr>
 
-              <button class="btn btn-warning" >Enable Assessment</button>
+              <button class="btn btn-success mb-3" >Enable Assessment</button>
             </tbody>
-          </table>
-          <!-- End Table with stripped rows -->
-
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
+      </table>
 
 
+
+
+
+
+
+
+            
+                <!-- End Default Table Example -->
+              </div>
+            </div>
+  </section>
+
+
+
+  
+ <!-- End mainAdmin -->
 </div>
-
-</main><!-- End #main -->
-
+<!-- End  -->
+</div>
 
 
 <?php include './partial/footer.php'; ?>
+

@@ -1,25 +1,26 @@
 
 <?php include './partial/header.php'; ?>
 <?php include './partial/sidebar.php'; ?>
-
-<div class="">
-<div class="pagetitle">
-  <h1>Kursus Payment</h1>
-  <nav>
+<div class="main-admin " style="min-height:80vh;">
+<div class="pagetitle mb-5 container">
+    <h2>Cicilan Kursus </h2>
+    <nav>
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="admin-dashboard.php">Dashboard</a></li>
       <li class="breadcrumb-item"><a href="admin-kursus.php">Kursus</a></li>
-      <li class="breadcrumb-item"><a href="admin-kursus-edit.php">Edit</a></li>
-      <li class="breadcrumb-item">Kursus Payment</li>
+      <li class="breadcrumb-item "><a href="admin-kursus-edit.php">Kursus Edit</a></li>
+      <li class="breadcrumb-item active">Cicilan Kursus</li>
     </ol>
   </nav>
-</div><!-- End Page Title -->
+  </div><!-- End Page Title -->
 
-<section class=" dashboard">
+
+  
+  <!-- Kursus card  -->
+  <section class="container dashboard mb-5">
   <div class="row">
-  <div class="card">
-            <div class="card-body">
-              <h5 class="card-title">Kursus Payment</h5>
+    <div class="card col-lg-11 ml-3 p-5 col-lg-11">
+
+    <h5 class="">Kursus Payment</h5>
               <table class="table table-nowrap mb-2">
                                 <tbody>
                                     <tr>
@@ -43,7 +44,7 @@
             <a href="admin-kursus-payment-add.php"> <button class="btn btn-primary mb-3" >Tambah Payment</button></a> 
             
               <!-- Default Table -->
-              <table class="table ">
+              <table class="table">
                 <thead>
                   <tr>
                     <th scope="col">Keterangan</th>
@@ -61,24 +62,29 @@
                     <td>100000
                     </td>
                     <td>
-                    <a href="admin-kursus-payment-edit.php"><button class="btn btn-warning">Edit</button></a>
+                    <a href="admin-kursus-payment-edit.php"><button class="btn btn-success">Edit Payment</button></a>
                     </td>
                   </tr>
                 </tbody>
               </table>
               <!-- End Default Table Example -->
-            </div>
-          </div>
+    </div>
+  </div>
 </section>
 
 
 
+  
+ <!-- End mainAdmin -->
+</div>
+<!-- End  -->
 </div>
 
-</main><!-- End #main -->
-
-
-
 <?php include './partial/footer.php'; ?>
+
+
+
+
+
 
 

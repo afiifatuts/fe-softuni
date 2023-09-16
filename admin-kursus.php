@@ -3,17 +3,22 @@
 <?php include './partial/sidebar.php'; ?>
 
 
-<div class="main-admin ">
-<div class="pagetitle">
+<div class="main-admin" style="min-height:80vh;">
+<div class="pagetitle container mb-3">
     <h2>Kursus</h2>
+    <nav>
+    <ol class="breadcrumb">
+     <li class="breadcrumb-item active"> Tambah Payment</li>
+    </ol>
+  </nav>
   </div><!-- End Page Title -->
 
 
   
   <!-- Kursus card  -->
-  <section class="section dashboard">
+  <section class="container dashboard mb-5">
     <div class="row">
-    <div class="card col-lg-12 p-5">
+    <div class="card p-5 ml-3 col-lg-11">
               <div class="card-body">
               <a href="admin-kursus-add.php"> <button class="btn btn-primary mb-3" >Tambah Kursus</button></a> 
                 <!-- Datatable  -->
