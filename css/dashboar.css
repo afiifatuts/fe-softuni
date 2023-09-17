@@ -44,9 +44,13 @@ color: #FFC309 !important;
   margin-left: 2px;
  }
  .main-admin{
+  background-color: #e9ecef;
   flex: 5;
  }
 
+  .tooltip-text{
+    font-size: 1.2rem;
+  }
  @media (max-width: 992px) {
   .nav-heading{
     padding: 0;
@@ -322,6 +326,8 @@ form{
 --------------------------------------------------------------*/
 .pagetitle{
   margin-top: 1rem;
+  font-weight: bold;
+  color: var(--secondary3);
 }
 /* Filter dropdown */
 .dashboard .filter {

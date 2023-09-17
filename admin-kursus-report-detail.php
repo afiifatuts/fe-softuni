@@ -8,7 +8,9 @@
     <h2>Kursus Report</h2>
     <nav>
     <ol class="breadcrumb">
-     <li class="breadcrumb-item active"> Kursus Report</li>
+    <li class="breadcrumb-item"><a href="admin-kursus-report.php">Kursus Report</a></li>
+    <li class="breadcrumb-item active">Kursus Report Detail</li>
+    
     </ol>
   </nav>
   </div><!-- End Page Title -->
@@ -20,7 +22,7 @@
     <div class="row">
     <div class="card p-5 ml-3 col-lg-11">
     <div>
-      <h5 >Edit Topic</h5>
+      <h5 > Upload Sertifikat</h5>
               <table class="table table-nowrap ">
                                 <tbody>
                                     <tr>
@@ -66,9 +68,11 @@
                 <td>Ahmad Djamal</td>
                 <td>djamal@gmail.com</td>
                 <td>083784327847364</td>
-                <td><button class="btn btn-primary">Lunas</button></td>
+                <td><button class="btn btn-secondary">Lunas</button></td>
                 <td>  Rp 30000000 </td>
-                <td> <a class="btn btn-primary disabled">Upload </a> </td>
+                <td> <a class="btn btn-primary disabled">Upload Setifikat </a> </td>
+               <!-- kalau sudah enable  -->
+                <td> <a href ="admin-kursus-upload-sertif.php" class="btn btn-primary">Upload Sertifikat </a> </td>
               </tr>
 
 

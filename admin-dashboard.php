@@ -3,8 +3,8 @@
 
  
 <div class="main-admin ">
-  <div class="pagetitle pl-3">
-        <div class="alert alert-warning alert-dismissible fade show col-lg-8 col-12" role="alert">
+  <div class="pagetitle container pl-3">
+        <div class="alert alert-warning alert-dismissible fade show  col-12" role="alert">
             <h2>Selamat datang, Admin!</h2>
         </div>
   </div>
