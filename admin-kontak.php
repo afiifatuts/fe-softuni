@@ -5,10 +5,10 @@
 
 <div class="main-admin" style="min-height:80vh;">
 <div class="pagetitle container mb-3">
-    <h2>Event</h2>
+    <h2>Kontak</h2>
     <nav>
     <ol class="breadcrumb">
-    <li class="breadcrumb-item active">Event</li>
+    <li class="breadcrumb-item active">Kontak</li>
     
     </ol>
   </nav>
@@ -21,7 +21,7 @@
     <div class="row">
     <div class="card p-5 ml-3 col-lg-11">
     <div>
-      <h5 class="mb-3" > Event List</h5>
+      <h2 class="mb-3" > Kontak List</h2>
       </div>
               <div class="card-body">
 
@@ -32,36 +32,28 @@
       >
       <thead>
               <tr>
-                <th scope="col">No</th>
-                <th scope="col">Judul Event</th>
-                <th scope="col">Thumbnail</th>
-                <th scope="col">Tanggal</th>
-                <th scope="col">Action</th>
+                <th scope="col"><p>No</p></th>
+                <th scope="col"><p>Email</p></th>
+                <th scope="col"><p>Nama</p></th>
+                <th scope="col"><p>Telepon</p></th>
+                <th scope="col"><p>Waktu</p></th>
+                <th scope="col"><p>Action</p></th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>1</td>
-                <td>Java Advance</td>
-                <td><img src="assets/blog_image/b8cfb3dc-5b97-11ed-aaa6-005056470331.jpg" style="width:150px;"></td>
-                <td>22 September 2023</td>
-                <td>   <a href="admin-event-edit.php" class="btn btn-secondary"> Edit</a>
-                        <a href="admin-event-banner.php" class="btn btn-danger">Banner</a> </td>
+                <td><p>1</p></td>
+                <td><p>test@gmail.com</p></td>
+                <td><p>test</p></td>
+                <td><p>0812344213</p></td>
+                <td><p>2023-10-11</p></td>
+                <td>   <a href="admin-kontak-detail.php" class="btn btn-secondary"> Lihat Detail</a> </td>
               </tr>
+              
 
             
-              <a href="admin-event-add.php" class="btn btn-primary mb-3" >Tambah Event </a>
-            </tbody>
+             </tbody>
       </table>
-
-
-
-
-
-
-
-
-            
                 <!-- End Default Table Example -->
               </div>
             </div>

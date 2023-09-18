@@ -196,7 +196,7 @@
         <a
           onclick="confirmPopUp('https://softuni.id/admin/course/f2b65422-adca-11ed-9446-005056470331/delete')"
           type="submit"
-          class="btn btn-danger"
+          class="btn btn-outline-secondary"
 
           ><i class="fas fa-trash" style="margin-right: 10px"></i> Hapus</a
         >

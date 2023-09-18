@@ -81,58 +81,22 @@
     </li>
     <!-- End Event Page Nav -->
 
-    <!-- <li class="nav-item">
-    <a class="nav-link collapsed" href="about-admin.php">
-      <i class="bi bi-box-arrow-in-right"></i>
-      <span>About</span>
-    </a>
-  </li> -->
-    <!-- End About Page Nav -->
 
     <li class="nav-item">
-      <a class="nav-link collapsed" href="corporate-admin.php">
-        <i class="fas fa-building hover-text">
-        <span class="tooltip-text">For Corporate</span></i>
+      <a class="nav-link collapsed" href="admin-karir.php">
+        <i class="fas fa-suitcase  hover-text">
+        <span class="tooltip-text">Karir</span></i>
       </a>
     </li>
-    <!-- End Event Page Nav -->
+    <!-- End Karir Page Nav -->
 
     <li class="nav-item">
-      <a class="nav-link collapsed" href="partnership-admin.php">
-        <i class="far fa-handshake hover-text">
-        <span class="tooltip-text">Partnership</span></i>
+      <a class="nav-link collapsed" href="admin-kontak.php">
+        <i class="fas fa-phone hover-text">
+        <span class="tooltip-text">Kontak</span></i>
       </a>
     </li>
-    <!-- End Partnership Page Nav -->
-
-    <li class="nav-item">
-      <a
-        class="nav-link collapsed"
-        data-bs-target="#karir-nav"
-        data-bs-toggle="collapse"
-        href="#"
-      >
-        <i class="fas fa-suitcase hover-text"><span class="tooltip-text"> Karir</span
-        ></i>
-      </a>
-      <ul
-        id="karir-nav"
-        class="nav-content collapse"
-        data-bs-parent="#sidebar-nav"
-      >
-        <li>
-          <a href="karir-admin.php">
-           <span>Karir</span>
-          </a>
-        </li>
-        <li>
-          <a href="karir-report.php">
-            <span> Report</span>
-          </a>
-        </li>
-      </ul>
-    </li>
-    <!-- End Karir Report Page Nav -->
+    <!-- End Kontak Page Nav -->
 
     <li class="nav-heading">Export Data</li>
 

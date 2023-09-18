@@ -43,7 +43,7 @@
                                             <div class="widget-btn">
                                                 <button type="submit" class="btn btn-primary"><i class=" fas fa-save" style="margin-right: 10px;"></i> Simpan</button>
 
-                                                <a onclick="confirmPopUp('https://softuni.id/admin/blog/b8cfb3dc-5b97-11ed-aaa6-005056470331/delete')" type="submit" class="btn " style="background: #f1f1f1; border"><i class=" fas fa-trash" style="margin-right: 10px;"></i> Hapus</a>
+                                                <a onclick="confirmPopUp('https://softuni.id/admin/blog/b8cfb3dc-5b97-11ed-aaa6-005056470331/delete')" type="submit" class="btn btn-outline-secondary" ><i class=" fas fa-trash" style="margin-right: 10px;"></i> Hapus</a>
                                             </div>
                                         </form>
    </div>

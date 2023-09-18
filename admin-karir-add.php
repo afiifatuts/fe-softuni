@@ -3,11 +3,11 @@
 <?php include './partial/sidebar.php'; ?>
 <div class="main-admin ">
 <div class="pagetitle mb-3 container">
-    <h2>Tambah Event</h2>
+    <h2>Tambah Karir</h2>
     <nav>
     <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="admin-event.php">Event</a></li>
-      <li class="breadcrumb-item active"> Tambah Event</li>
+    <li class="breadcrumb-item"><a href="admin-karir.php">Karir</a></li>
+      <li class="breadcrumb-item active"> Tambah Karir</li>
     </ol>
   </nav>
   </div><!-- End Page Title -->
@@ -19,17 +19,17 @@
     <div class="row">
        
     <div class="card  ml-3 py-5 col-lg-11">
-        <h2 class="m-auto">Tambah Event Baru</h2>
-        <form class="m-auto p-3" action="https://softuni.id/admin/event/insert" method="POST">
+        <h2 class="m-auto">Tambah Karir Baru</h2>
+        <form class="m-auto p-3" action="https://softuni.id/admin/karir/insert" method="POST">
             <input type="hidden" name="" value="" />                                            
             <div class="form-group">
-                                                <label class="add-course-label">Judul Event</label>
-                                                <input name="title" value="test" type="text" class="form-control" placeholder="Ketikkan Judul Event" required>
+                                                <label class="add-course-label">Posisi</label>
+                                                <input name="title" value="" type="text" class="form-control" placeholder="Ketikkan Posisi" required>
                                                 <small class="text-danger"></small>
                                             </div>
                                             <div class="form-group">
-                                                <label class="add-course-label">Tanggal Event</label>
-                                                <input name="start_date" value="31-08-2023" type="date" class="form-control" placeholder="" required>
+                                            <label class="add-course-label">Penempatan</label>
+                                                <input name="penempatan" value="" type="text" class="form-control" placeholder="Ketikkan Penempatan" required>
                                                 <small class="text-danger"></small>
                                             </div>
                                             <div class="form-group">

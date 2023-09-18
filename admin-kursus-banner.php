@@ -62,6 +62,12 @@
                              </div>
     
                <button type="submit" class="btn btn-primary">Simpan</button>
+               <a
+      onclick="confirmPopUp('https://softuni.id/admin/curriculum/topic/5e099680-5b45-11ed-bef8-e82a44eb9daf/8467df8b-5b41-11ed-bef8-e82a44eb9daf/delete')"
+      type="submit"
+      class="btn btn-outline-secondary"
+      ><i class="fas fa-trash"></i> Hapus</a
+    >
                                         </form>
     </div>
   </div>

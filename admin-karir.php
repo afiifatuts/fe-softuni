@@ -5,10 +5,10 @@
 
 <div class="main-admin" style="min-height:80vh;">
 <div class="pagetitle container mb-3">
-    <h2>Event</h2>
+    <h2>Karir</h2>
     <nav>
     <ol class="breadcrumb">
-    <li class="breadcrumb-item active">Event</li>
+    <li class="breadcrumb-item active">Karir</li>
     
     </ol>
   </nav>
@@ -21,7 +21,7 @@
     <div class="row">
     <div class="card p-5 ml-3 col-lg-11">
     <div>
-      <h5 class="mb-3" > Event List</h5>
+      <h5 class="mb-3" > Karir List</h5>
       </div>
               <div class="card-body">
 
@@ -33,35 +33,21 @@
       <thead>
               <tr>
                 <th scope="col">No</th>
-                <th scope="col">Judul Event</th>
-                <th scope="col">Thumbnail</th>
-                <th scope="col">Tanggal</th>
+                <th scope="col">Posisi</th>
                 <th scope="col">Action</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>1</td>
-                <td>Java Advance</td>
-                <td><img src="assets/blog_image/b8cfb3dc-5b97-11ed-aaa6-005056470331.jpg" style="width:150px;"></td>
-                <td>22 September 2023</td>
-                <td>   <a href="admin-event-edit.php" class="btn btn-secondary"> Edit</a>
-                        <a href="admin-event-banner.php" class="btn btn-danger">Banner</a> </td>
+                <td>Tutor</td>
+                <td>   <a href="admin-karir-edit.php" class="btn btn-secondary"> Edit Karir</a> </td>
               </tr>
 
             
-              <a href="admin-event-add.php" class="btn btn-primary mb-3" >Tambah Event </a>
+              <a href="admin-karir-add.php" class="btn btn-primary mb-3" >Tambah Karir </a>
             </tbody>
       </table>
-
-
-
-
-
-
-
-
-            
                 <!-- End Default Table Example -->
               </div>
             </div>

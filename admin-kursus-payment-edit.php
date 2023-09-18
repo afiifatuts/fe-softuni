@@ -61,7 +61,7 @@
                                                 <small class="text-danger"></small>
                                             </div>
                                                 <button type="submit" class="btn btn-primary"><i class=" fas fa-save" style="margin-right: 10px;"></i> Simpan</button>
-                                                <a onclick="confirmPopUp('https://softuni.id/admin/course/payment/34c8aa0f-4af2-11ee-89c8-005056470331/f2b65422-adca-11ed-9446-005056470331/delete')" type="submit" class="btn " style="background: #f1f1f1; border"><i class=" fas fa-trash" style="margin-right: 10px;"></i> Hapus</a>
+                                                <a onclick="confirmPopUp('https://softuni.id/admin/course/payment/34c8aa0f-4af2-11ee-89c8-005056470331/f2b65422-adca-11ed-9446-005056470331/delete')" type="submit" class="btn btn-outline-secondary" ><i class=" fas fa-trash" style="margin-right: 10px;"></i> Hapus</a>
                                          
                                         </form>
     </div>

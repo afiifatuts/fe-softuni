@@ -29,6 +29,7 @@
       >
       <thead>
                   <tr>
+                    <th scope="col">No</th>
                     <th scope="col">Gambar</th>
                     <th scope="col">Judul</th>
                     <th scope="col">Action</th>
@@ -37,6 +38,7 @@
                 <tbody>
 
                   <tr>
+                    <td>1</td>
                     <td><img src="assets/curriculum_image/0a62546a-5b58-11ed-bef8-e82a44eb9daf.png" style="width:80px;"></td>
                     <td>Java Developer</td>
                     <td>

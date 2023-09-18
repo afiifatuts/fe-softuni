@@ -3,11 +3,11 @@
 <?php include './partial/sidebar.php'; ?>
 <div class="main-admin " style="min-height:80vh;">
 <div class="pagetitle mb-4 container">
-    <h2>Unggah Banner Blog</h2>
+    <h2>Unggah Banner Event</h2>
     <nav>
     <ol class="breadcrumb">
-    <li class="breadcrumb-item"><a href="admin-blog.php">Blog</a></li>
-      <li class="breadcrumb-item active"> Unggah Banner Blog</li>
+    <li class="breadcrumb-item"><a href="admin-event.php">Event</a></li>
+      <li class="breadcrumb-item active"> Unggah Banner Event</li>
     </ol>
   </nav>
   </div><!-- End Page Title -->
@@ -18,9 +18,9 @@
   <section class="container dashboard mb-5">
   <div class="row">
     <div class="card col-lg-11 ml-3 py-5 col-lg-11">
-      <h5 class="mx-2">Unggah Banner Blog</h5>
+      <h5 class="mx-2">Unggah Banner Event</h5>
       <form
-        action="https://softuni.id/admin/blog/b8cfb3dc-5b97-11ed-aaa6-005056470331/upload"
+        action="https://softuni.id/admin/event/b8cfb3dc-5b97-11ed-aaa6-005056470331/upload"
         method="POST"
         enctype="multipart/form-data"
       >
@@ -32,7 +32,7 @@
         <div class="settings-tickets-blk course-instruct-blk table-responsive">
           <div class="my-2 form-group d-flex">
             <p class="mr-2">Judul :</p>
-            <p>Bagaimana cara mendafar kursus di SoftUni Indonesia.</p>
+            <p>event</p>
           </div>
 
           <div class="form-group ">

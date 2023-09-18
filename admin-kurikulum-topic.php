@@ -53,12 +53,14 @@
       >
       <thead>
               <tr>
+                <th scope="col">No</th>
                 <th scope="col">Judul Topic</th>
                 <th scope="col">Action</th>
               </tr>
             </thead>
             <tbody>
               <tr>
+                <td>1</td>
                 <td>Java Advance</td>
                 <td> <a href ="admin-kurikulum-topic-edit.php" class="btn btn-primary">Edit Topic</a> </td>
               </tr>
