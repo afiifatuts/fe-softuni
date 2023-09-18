@@ -40,7 +40,7 @@
               <tr>
                 <td>Java Advance</td>
                 <td>   <a href="admin-blog-edit.php" class="btn btn-secondary"> Edit</a>
-                        <a class="btn btn-danger">Banner</a> </td>
+                        <a href="admin-blog-banner.php" class="btn btn-danger">Banner</a> </td>
               </tr>
 
             
