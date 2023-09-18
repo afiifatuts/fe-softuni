@@ -37,19 +37,24 @@ color: #FFC309 !important;
   display: flex;
   justify-content: center;
   padding-bottom: 3rem;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 5%), 0 2px 10px 0 rgb(0 0 0 / 5%);
+ 
  }
  .side-admin span{
-  color: var(--secondary4);
+  color: #4f4f4f;
+  font-size: 20px;
   margin-left: 2px;
+  font-family: 'Roboto';
+  font-weight: 500;
  }
  .main-admin{
-  background-color: #e9ecef;
+  background-color: #fbfbfb;
   flex: 5;
  }
 
   .tooltip-text{
     font-size: 1.2rem;
+    color: inherit;
   }
  @media (max-width: 992px) {
   .nav-heading{
@@ -273,6 +278,11 @@ form{
 .sidebar-nav .nav-link:hover {
   color: #4154f1;
   background: #f6f9ff;
+}
+/* Sidebar-hover */
+.sidebar-nav .active {
+  color: red !important;
+  background: var(--additiolay1) !important;
 }
 
 .sidebar-nav .nav-link:hover i {

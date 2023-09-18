@@ -4,12 +4,13 @@
 
    
    <aside class="side-admin">
+    
   <ul class="sidebar-nav" id="sidebar-nav">
     <li class="nav-heading">Main</li>
     <!-- End Dashboard Nav -->
 
     <li class="nav-item">
-      <a class="nav-link collapsed" href="admin-dashboard.php">
+      <a class="nav-link collapsed active" href="admin-dashboard.php">
 
 
         <i class="hover-text fas fa-tachometer-alt">
@@ -43,17 +44,6 @@
            <span>Report</span>
           </a>
         </li>
-
-        <!-- <li>
-      <a href="kursus-kurikulum.php">
-        <i class="bi bi-circle"></i><span>Kurikulum Kursus</span>
-      </a>
-    </li> -->
-        <!-- <li>
-      <a href="kursus-pembayaran">
-        <i class="bi bi-circle"></i><span>Pembayaran</span>
-      </a>
-    </li> -->
       </ul>
     </li>
     <!-- End Course Report Page Nav -->
@@ -101,7 +91,7 @@
     <li class="nav-heading">Export Data</li>
 
     <li class="nav-item">
-      <a class="nav-link collapsed" href="export-admin.php">
+      <a class="nav-link collapsed" href="admin-export.php">
         <i class="fas fa-download hover-text">
         <span class="tooltip-text" > Export Data User</span></i>
       </a>
@@ -112,3 +102,4 @@
 
 
     <!-- End Sidebar-->
+
