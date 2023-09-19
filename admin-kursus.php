@@ -8,7 +8,7 @@
     <h2>Kursus</h2>
     <nav>
     <ol class="breadcrumb">
-     <li class="breadcrumb-item active"> Tambah Payment</li>
+     <li class="breadcrumb-item active"> Kursus</li>
     </ol>
   </nav>
   </div><!-- End Page Title -->
