@@ -87,6 +87,13 @@
       </a>
     </li>
     <!-- End Kontak Page Nav -->
+    <li class="nav-item">
+      <a class="nav-link collapsed" href="admin-faq.php">
+      <i class="fas fa-question hover-text"></i>
+        <span class="tooltip-text">FAQ</span></i>
+      </a>
+    </li>
+    <!-- End FAQ Page Nav -->
 
     <li class="nav-heading">Export Data</li>
 

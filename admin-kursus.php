@@ -4,7 +4,7 @@
 
 
 <div class="main-admin" style="min-height:80vh;">
-<div class="pagetitle container mb-3">
+<div class="pagetitle container mb-3 ">
     <h2>Kursus</h2>
     <nav>
     <ol class="breadcrumb">

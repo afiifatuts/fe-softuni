@@ -1,9 +1,9 @@
 <?php include './partial/header.php'; ?>
-<main id="main" class="main container-fluid py-5π">
-    <div class="container-fluid py-5">
-      <div class="container py-5">
+<main id="main" class="main container-fluid py-5" style="min-height:80vh;">
+    <div class="container-fluid">
+      <div class="container">
 
-      <div class="pagetitle">
+      <div class="pagetitle mb-4">
   <h1>Sertifikat Saya</h1>
   <nav>
     <ol class="breadcrumb">
@@ -13,10 +13,8 @@
   </nav>
 </div><!-- End Page Title -->
 
-<section class="section">
-  <div class="row align-items-top">
-    <div class="col-lg-9">
-     
+<section>
+  <div class="container">
       <!-- Card with an image on left -->
       <div class="card mb-3">
         <div class="row g-0">
@@ -34,11 +32,9 @@
           </div>
         </div>
       </div><!-- End Card with an image on left -->
-
-    </div>
-
   </div>
 </section>
+
 
         </div>
     </div>

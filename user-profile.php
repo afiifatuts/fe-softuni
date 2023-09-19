@@ -1,7 +1,8 @@
 <?php include './partial/header.php'; ?>
-<main id="main" class="main container-fluid py-5π">
-<div class="container-fluid py-5">
-      <div class="container py-5">
+
+<main id="main" class="main container-fluid py-5" style="min-height:80vh;">
+<div class="container-fluid">
+      <div class="container">
 <div class="pagetitle">
   <h1>Profile</h1>
   <nav>
@@ -22,9 +23,9 @@
 
 
       <div class="card">
-        <div class="card-body pt-3">
+        <div class="card-body p-5">
           <!-- Bordered Tabs -->
-          <ul class="nav nav-tabs nav-tabs-bordered">
+          <ul class="nav nav-tabs nav-tabs-bordered mb-4">
 
             <li class="nav-item">
               <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#profile-overview">Overview</button>
@@ -39,53 +40,57 @@
             </li>
 
           </ul>
-          <div class="tab-content pt-2">
+          <div class="tab-content">
 
-            <div class="tab-pane fade show active profile-overview" id="profile-overview">
-              <h5 class="card-title"> Detail Profile</h5>
+            <div class="tab-pane fade show active profile-overview " id="profile-overview">
+              <h2 class=""> Detail Profile</h2>
 
               <div class="row">
-                <div class="col-lg-3 col-md-4 label ">Nama Lengkap</div>
-                <div class="col-lg-9 col-md-8">Kevin Anderson</div>
+              <div class="col-lg-3 col-md-4 "><img class="rounded-circle w-70 my-3" src="assets/profile/profile-img.jpeg" alt="Profile"></div>
               </div>
 
               <div class="row">
-                <div class="col-lg-3 col-md-4 label">Email</div>
-                <div class="col-lg-9 col-md-8">k.anderson@example.com</div>
+                <div class="col-lg-3 col-md-4 label"><p>Nama Lengkap</p></div>
+                <div class="col-lg-9 col-md-8"><p>Kevin Anderson</p></div>
               </div>
 
               <div class="row">
-                <div class="col-lg-3 col-md-4 label">Nomor Telephone</div>
-                <div class="col-lg-9 col-md-8">08148679071</div>
-              </div>
-              <div class="row">
-                <div class="col-lg-3 col-md-4 label">Tanggal Lahir</div>
-                <div class="col-lg-9 col-md-8">11 November 1994</div>
+                <div class="col-lg-3 col-md-4 label"><p>Email</p></div>
+                <div class="col-lg-9 col-md-8"><p>k.anderson@example.com</p></div>
               </div>
 
               <div class="row">
-                <div class="col-lg-3 col-md-4 label">Jenis Kelamin</div>
-                <div class="col-lg-9 col-md-8">Laki-Laki</div>
+                <div class="col-lg-3 col-md-4 label"><p>Nomor Telephone</p></div>
+                <div class="col-lg-9 col-md-8"><p>08148679071</p></div>
+              </div>
+              <div class="row">
+                <div class="col-lg-3 col-md-4 label"><p>Tanggal Lahir</p></div>
+                <div class="col-lg-9 col-md-8"><p>11 November 1994</p></div>
               </div>
 
               <div class="row">
-                <div class="col-lg-3 col-md-4 label">Pendidikan Terakhir</div>
-                <div class="col-lg-9 col-md-8">S1</div>
+                <div class="col-lg-3 col-md-4 label"><p>Jenis Kelamin</p></div>
+                <div class="col-lg-9 col-md-8"><p>Laki-Laki</p></div>
               </div>
 
               <div class="row">
-                <div class="col-lg-3 col-md-4 label">Alamat</div>
-                <div class="col-lg-9 col-md-8">Jakarta</div>
+                <div class="col-lg-3 col-md-4 label"><p>Pendidikan Terakhir</p></div>
+                <div class="col-lg-9 col-md-8"><p>S1</p></div>
               </div>
 
               <div class="row">
-                <div class="col-lg-3 col-md-4 label">Pekerjaan</div>
-                <div class="col-lg-9 col-md-8">Web Designer</div>
+                <div class="col-lg-3 col-md-4 label"><p>Alamat</p></div>
+                <div class="col-lg-9 col-md-8"><p>Jakarta</p></div>
               </div>
 
               <div class="row">
-                <div class="col-lg-3 col-md-4 label">Tentang Saya</div>
-                <div class="col-lg-9 col-md-8">A108 Adam Street, New York, NY 535022</div>
+                <div class="col-lg-3 col-md-4 label"><p>Pekerjaan</p></div>
+                <div class="col-lg-9 col-md-8"><p>Web Designer</p></div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-3 col-md-4 label"><p>Tentang Saya</p></div>
+                <div class="col-lg-9 col-md-8"><p>A108 Adam Street, New York, NY 535022</p></div>
               </div>
 
             

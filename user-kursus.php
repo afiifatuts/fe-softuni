@@ -1,9 +1,9 @@
 <?php include './partial/header.php'; ?>
-<main id="main" class="main container-fluid py-5π">
-    <div class="container-fluid py-5">
-      <div class="container py-5">
+<main id="main" class="main container-fluid py-5" style="min-height:80vh;">
+    <div class="container-fluid">
+      <div class="container">
 
-<div class="pagetitle">
+<div class="pagetitle mb-4">
   <h1>Kursus Saya</h1>
   <nav>
     <ol class="breadcrumb">
@@ -12,13 +12,9 @@
     </ol>
   </nav>
 </div><!-- End Page Title -->
-
-<section class="section">
-  <div class="row align-items-top">
-    <div class="col-lg-9">
-     
-      <!-- Card with an image on left -->
-      <div class="card mb-3">
+<section>
+<div class="container">
+  <div class="card my-3">
         <div class="row g-0">
           <div class="col-md-4 m-auto">
             <img src="assets/course_image/1c260dcf-09be-11ee-8734-005056470331.jpg" class="img-fluid rounded-start m-auto" alt="Course Img">
@@ -38,12 +34,8 @@
           </div>
         </div>
       </div><!-- End Card with an image on left -->
-
-     
-
-    </div>
-
-  </div>
+ 
+</div>
 </section>
 
         </div>
