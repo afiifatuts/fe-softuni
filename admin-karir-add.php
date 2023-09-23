@@ -36,7 +36,7 @@
                                             </div>
                                           
                                             <div class="mt-2">
-                                                <button type="submit" class="btn btn-primary mt-3"><i class=" fas fa-save"></i> Simpan Event</button>
+                                                <button type="submit" class="btn btn-primary mt-3"><i class=" fas fa-save"></i> Simpan</button>
                                             </div>
                                         </form>
    </div>

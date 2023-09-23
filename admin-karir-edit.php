@@ -35,8 +35,15 @@
                                                 <small class="text-danger"></small>
                                             </div>
                                           
-                                            <div class="mt-2">
-                                                <button type="submit" class="btn btn-primary mt-3"><i class=" fas fa-save"></i> Simpan Event</button>
+                                            <div class="mt-5">
+                                                <button type="submit" class="btn btn-primary "><i class=" fas fa-save"></i> Simpan </button>
+                                                <a
+          onclick="confirmPopUp('https://softuni.id/admin/karir/f2b65422-adca-11ed-9446-005056470331/delete')"
+          type="submit"
+          class="btn btn-outline-secondary"
+
+          ><i class="fas fa-trash" style="margin-right: 10px"></i> Hapus</a
+        >
                                             </div>
                                         </form>
    </div>

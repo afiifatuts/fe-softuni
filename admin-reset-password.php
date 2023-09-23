@@ -36,8 +36,8 @@
                                         <input name="confirmNewPass" type="password" class="form-control" placeholder="Ketikan Konfirmasi Kata Sandi" value="" required>
                                         <small class="form-text text-danger"></small>
                                     </div>
-                                    <div class="d-grid">
-                                        <button class="btn btn-primary btn-start" type="submit">Simpan</button>
+                                    <div class="d-flex justify-content-center">
+                                        <button class="btn btn-primary btn-start py-2 px-5" type="submit">Simpan</button>
                                     </div>
                                 </form>
    </div>
