@@ -422,7 +422,7 @@
     </div>
 
     <div class="row trustCon">
-      <div class="col">
+    <div class="col">
         <img
           class="img-fluid"
           src="assets/home_image/partner/chaosgroup-logo.png"
@@ -450,9 +450,13 @@
           alt="perusahaan"
         />
       </div>
-    </div>
-
-    <div class="row trustCon">
+      <div class="col">
+        <img
+          class="img-fluid"
+          src="assets/home_image/partner/vmware-logo.png"
+          alt="perusahaan"
+        />
+      </div>
       <div class="col">
         <img
           class="img-fluid"
@@ -481,20 +485,13 @@
           alt="perusahaan"
         />
       </div>
-    </div>
-
-    <div class="row trustCon">
-      <div class="col">
-        <img
-          class="img-fluid"
-          src="assets/home_image/partner/vmware-logo.png"
-          alt="perusahaan"
-        />
-      </div>
       <div class="col mt-4">
         <h4>dan masih banyak lagi...</h4>
       </div>
     </div>
+    
+
+   
 
     
   </div>

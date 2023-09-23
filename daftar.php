@@ -54,7 +54,7 @@
                 <button type="submit" class="btn btn-warning btn-block  col-lg-12">
                   Daftar
                 </button>
-                <a class="btn btn-primary btn-block mb-4 col-lg-12" style="border-radius: 10px;" href="login.php">Masuk</a>
+                <a class="btn btn-primary btn-block mb-4 col-lg-12 py-2" style="border-radius: 10px;" href="login.php">Masuk</a>
             </form>
   
           </div>

@@ -8,7 +8,7 @@
   
           <div class="d-flex align-items-center form-gabung" >
   
-            <form style="width: 23rem; margin: auto;">
+            <form class="m-auto" style="width: 23rem;">
   
               <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Masuk</h3>
 
@@ -29,7 +29,7 @@
                 <button type="submit" class="btn btn-warning btn-block col-lg-12">
                   Masuk
                 </button>
-            <a href="daftar.php" class="mb-5 btn btn-primary btn-block col-lg-12"  style="border-radius: 10px;">Daftar</a>
+            <a href="daftar.php" class="mb-5 btn btn-primary btn-block col-lg-12 py-2"  style="border-radius: 10px;">Daftar</a>
   
             </form>
   

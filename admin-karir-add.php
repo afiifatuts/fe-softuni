@@ -28,11 +28,6 @@
                                                 <small class="text-danger"></small>
                                             </div>
                                             <div class="form-group">
-                                            <label class="add-course-label">Penempatan</label>
-                                                <input name="penempatan" value="" type="text" class="form-control" placeholder="Ketikkan Penempatan" required>
-                                                <small class="text-danger"></small>
-                                            </div>
-                                            <div class="form-group">
                                                 <label class="add-course-label">Deskripsi</label>
                                                 <div class="quill-editor-full">
                                                     <textarea class="form-control" id="tiny" name="descripsi" ></textarea>

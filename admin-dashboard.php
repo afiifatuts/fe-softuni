@@ -12,7 +12,7 @@
 <div class="container">
   <div class="row">
     <!-- Form  -->
-    <div class="col-lg-6 col-md-12">
+    <div class="col-lg-6 col-md-12 mb-2 mb-lg-0">
       <div class="card p-4">
         <div class="">
           <form action="https://softuni.id/admin/dashboard" method="get">
@@ -46,8 +46,10 @@
       </div>
     </div>
     <!-- Total payment  -->
-    <div class="col-lg-6 col-md-12">
-      <div class="card p-2 pl-3">
+    <div class="col-lg-6 col-md-12 ">
+      <div class="card flex-row p-2  ">
+        
+      <div class="m-auto">
         <div class="card-title"><h4>Total Payment</h4></div>
         <div class="card-body">
           <div class="d-flex align-items-center">
@@ -61,7 +63,27 @@
             </div>
           </div>
         </div>
+        </div>
+        <!-- end card  -->
+        <div class="m-auto">
+        <div class="card-title"><h4>Paid Members</h4></div>
+        <div class="card-body">
+          <div class="d-flex align-items-center">
+            <div
+              class="card-icon rounded-circle d-flex align-items-center justify-content-center"
+            >
+              <i class="bi bi-currency-dollar"></i>
+            </div>
+            <div class="ps-3">
+              <h6>0</h6>
+            </div>
+          </div>
+        </div>
+        </div>
+        <!-- end card  -->
+        
       </div>
+      
     </div>
     
   </div>
