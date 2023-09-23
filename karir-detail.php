@@ -24,16 +24,9 @@
                 <div class="col-lg-4 mt-5 mt-lg-0">
                     <div class="card-kur mb-5 py-3">
                         <h3 class="text-dark py-3 px-4 m-0">Tentang Posisi</h3>
-                        <div class="d-flex justify-content-between border-bottom px-4">
+                        <div class="d-flex justify-content-between px-4">
                             <h6 class="text-dark my-3">Posisi</h6>
                             <h6 class="text-dark my-3">Tutor </h6>
-                        </div>
-                        <div class="d-flex justify-content-between px-4">
-                            <h6 class="text-dark my-3">Jenis</h6>
-                            <h6 class="text-dark my-3">Full Time</h6>
-                        </div>
-                        <div class="px-4">
-                            <a class="btn btn-block btn-primary py-3 px-5" href="">Lamar</a>
                         </div>
                     </div>
 

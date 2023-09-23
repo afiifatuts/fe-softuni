@@ -13,8 +13,6 @@
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <!-- <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script> -->
-
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,8 +33,7 @@
       href="./lib/assets/vendor/bootstrap-icons/bootstrap-icons.css"
       rel="stylesheet"
     />
-    <!-- <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script> -->
-    <link href="./lib/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+   <link href="./lib/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
     <link href="./lib/vendor/quill/quill.snow.css" rel="stylesheet" />
     <link href="./lib/vendor/quill/quill.bubble.css" rel="stylesheet" />
     <link href="./lib/vendor/remixicon/remixicon.css" rel="stylesheet" />

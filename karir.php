@@ -54,8 +54,7 @@
     letter-spacing: 0.5px;
     margin-top: 10px;
     margin-bottom: 10px;
-    font-family: Bitter, serif;
-    font-size: 18px;
+    font-size: 20px !important;
     font-weight: 700;
     line-height: 1.2em;
   }
@@ -108,7 +107,25 @@
   </div>
 </div>
 
+<!-- Jika belum ada posisi  -->
+<!-- <section style="min-height:50vh;">
+  <div class="container-fluid py-5">
+    <div class="container py-5">
+      <div class="row">
+      
+      <div class="container">
+          <div class="base-container">
+            <div class="full-width">
+               <h4 class="font-weight-light">Posisi Belum Tersedia...</h4>          
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
 
+<!-- Jika sudah ada posisi  -->
 <section>
   <div class="container-fluid py-5">
     <div class="container py-5">
@@ -125,21 +142,15 @@
           <div class="base-container">
             <div class="full-width">
 
-              <div class="career-collection-list col-lg-12">
-                <div class="career-list-item-wrapper">
-                  <div class="career-position-wrapper col-lg-3">
+
+
+              <div class="m-2">
+                <div class="bg-light d-flex align-items-center flex-lg-row flex-column justify-content-between p-5">
+                  <div class="d-flex flex-column align-items-center">
                     <div class="career-title-mobile">Position</div>
                     <h6 class="career-position"><b>Project Manager</b></h6>
                   </div>
-                  <div class="career-location-wrapper col-lg-3">
-                    <div class="career-title-mobile">Location</div>
-                    <div class="career-location">California</div>
-                  </div>
-                  <div class="career-type-wrapper col-lg-3">
-                    <div class="career-title-mobile">Type</div>
-                    <div class="career-type">Full time</div>
-                  </div>
-                  <div class="career-button-wrapper col-lg-3">
+                  <div class="">
                     <a
                       href="karir-detail.php"
                       class="primary-button w-button"
@@ -149,53 +160,11 @@
                 </div>
               </div>
 
-              <div class="career-collection-list w-dyn-items col-lg-12">
-                <div class="career-list-item-wrapper w-dyn-item">
-                  <div class="career-position-wrapper col-lg-3">
-                    <div class="career-title-mobile">Position</div>
-                    <h6 class="career-position"><b>Project Manager</b></h6>
-                  </div>
-                  <div class="career-location-wrapper col-lg-3">
-                    <div class="career-title-mobile">Location</div>
-                    <div class="career-location">California</div>
-                  </div>
-                  <div class="career-type-wrapper col-lg-3">
-                    <div class="career-title-mobile">Type</div>
-                    <div class="career-type">Full time</div>
-                  </div>
-                  <div class="career-button-wrapper col-lg-3">
-                    <a
-                      href="karir-detail.php"
-                      class="primary-button w-button"
-                      >Apply now</a
-                    >
-                  </div>
-                </div>
-              </div>
+          
+              
 
-              <!-- <div class="career-collection-list w-dyn-items">
-                <div class="career-list-item-wrapper w-dyn-item">
-                  <div class="career-position-wrapper col-lg-3 col-md-6">
-                    <div class="career-title-mobile">Position</div>
-                    <h6 class="career-position"><b>Project Manager</b></h6>
-                  </div>
-                  <div class="career-location-wrapper col-lg-3 col-md-6">
-                    <div class="career-title-mobile">Location</div>
-                    <div class="career-location">California</div>
-                  </div>
-                  <div class="career-type-wrapper col-lg-3 col-md-6">
-                    <div class="career-title-mobile">Type</div>
-                    <div class="career-type">Full time</div>
-                  </div>
-                  <div class="career-button-wrapper col-lg-3 col-md-6">
-                    <a
-                      href="/job-positions/project-manager"
-                      class="primary-button w-button"
-                      >Apply now</a
-                    >
-                  </div>
-                </div>
-              </div> -->
+         
+
 
 
 
