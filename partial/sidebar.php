@@ -89,11 +89,19 @@
     <!-- End Kontak Page Nav -->
     <li class="nav-item">
       <a class="nav-link collapsed" href="admin-faq.php">
-      <i class="fas fa-question hover-text"></i>
+      <i class="fas fa-question hover-text">
         <span class="tooltip-text">FAQ</span></i>
       </a>
     </li>
     <!-- End FAQ Page Nav -->
+    <li class="nav-item">
+      <a class="nav-link collapsed" href="admin-reset-password.php">
+      <i class="fas fa-unlock hover-text">
+        <span class="tooltip-text">Reset Password</span></i>
+      </a>
+    </li>
+    <!-- End Reset Page Nav -->
+
 
     <li class="nav-heading">Export Data</li>
 
