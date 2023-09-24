@@ -117,7 +117,6 @@
     <script src="./lib/vendor/chart.js/chart.umd.js"></script>
     <script src="./lib/vendor/echarts/echarts.min.js"></script>
     <script src="./lib/vendor/quill/quill.min.js"></script>
-    <!-- <script src="lib/vendor/simple-datatables/simple-datatables.js"></script> -->
     <script src="./lib/vendor/tinymce/tinymce.min.js"></script>
     <script src="./lib/vendor/php-email-form/validate.js"></script>
 

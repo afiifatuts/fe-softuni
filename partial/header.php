@@ -49,7 +49,7 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="./css/inde.css" rel="stylesheet" />
-    <link href="./css/dashboar.css" rel="stylesheet" />
+    <link href="./css/dashboard.css" rel="stylesheet" />
     <style>
       a{
         text-decoration: none !important;

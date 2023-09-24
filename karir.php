@@ -147,14 +147,14 @@
               <div class="m-2">
                 <div class="bg-light d-flex align-items-center flex-lg-row flex-column justify-content-between p-5">
                   <div class="d-flex flex-column align-items-center">
-                    <div class="career-title-mobile">Position</div>
+                    <div class="career-title-mobile">Posisi</div>
                     <h6 class="career-position"><b>Project Manager</b></h6>
                   </div>
                   <div class="">
                     <a
                       href="karir-detail.php"
                       class="primary-button w-button"
-                      >Apply now</a
+                      >Lihat detail</a
                     >
                   </div>
                 </div>

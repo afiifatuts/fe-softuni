@@ -14,7 +14,25 @@
     </div>
   </div>
 </div>
+<!-- Jika belum ada event  -->
+<!-- <section style="min-height:50vh;">
+  <div class="container-fluid py-5">
+    <div class="container py-5">
+      <div class="row">
+      
+      <div class="container">
+          <div class="base-container">
+            <div class="full-width">
+               <h4 class="font-weight-light">Event Belum Tersedia...</h4>          
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
 <!-- Header End -->
+
 <section>
   <div class="container-fluid py-5">
     <div class="container py-5">

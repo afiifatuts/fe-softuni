@@ -974,3 +974,28 @@ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
   background-color:#F0F0F0;
   padding-bottom: 5rem;
 }
+
+/* Custom CSS for responsiveness */
+@media (max-width: 768px) {
+  .card{
+    width: fit-content;
+  }
+  /* Adjust the table layout for smaller screens */
+  #datatable {
+    width: 100%;
+  }
+  #datatable th,
+  #datatable td {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  #datatable th {
+    text-align: left;
+  }
+  #datatable tbody td:before {
+    content: attr(data-th);
+    font-weight: bold;
+  }
+}
+
