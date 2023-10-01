@@ -149,14 +149,14 @@
           data-target="#navbarCollapse"
         >
         <i class="fas fa-bars" style="color:white; "></i>
-          <!-- <span  class="navbar-toggler-icon "></span> -->
         </button>
         <div
           class="collapse navbar-collapse justify-content-between px-lg-3"
           id="navbarCollapse"
         >
           <div class="navbar-nav mx-auto py-0">
-            <a href="index.php" class="nav-item nav-link active">Home</a>
+            <!-- <a href="index.php" class="nav-item nav-link active">Home</a> -->
+            <a href="index.php" class="nav-item nav-link">Home</a>
             <a href="kurikulum.php" class="nav-item nav-link">Kurikulum</a>
             <a href="kursus.php" class="nav-item nav-link">Kursus</a>
             <div class="nav-item dropdown">
@@ -176,22 +176,30 @@
               </div>
             </div>
             <a href="tentang.php" class="nav-item nav-link">Tentang</a>
+            <a href="skpi.php" class="nav-item nav-link">SKPI</a>
           </div>
            <!-- Jika belum login  -->
-          <!-- <a href="daftar.php" class="btn btn-warning py-2 px-4 d-none d-lg-block"
-            >Gabung</a > -->
+            <!-- <div class="navbar-nav ">
+            <div class="nav-item dropdown">
+              <a href="" class="nav-link  nav-profile d-flex align-items-center pe-0" data-toggle="dropdown"
+                >
+              <span class="d-none d-md-block dropdown-toggle ps-2 text-white"
+                >K. Anderson</span
+              > </a
+              >
+              
+            </div>
+            </div> -->
+          <a href="daftar.php" class="btn btn-warning py-2 px-4 d-lg-block"
+            >Gabung</a >
 
             <!-- Jika user sudah login  -->
             <!-- <div class="navbar-nav ">
             <div class="nav-item dropdown">
               <a href="" class="nav-link  nav-profile d-flex align-items-center pe-0" data-toggle="dropdown"
                 >
-                <img
-                src="./assets/profile/profile-img.jpeg"
-                alt="Profile"
-                class="rounded-circle"
-              />
-              <span class="d-none d-md-block dropdown-toggle ps-2 text-white"
+                <i class="fas fa-user mr-2"></i>
+              <span class=" d-block dropdown-toggle ps-2 text-white"
                 >K. Anderson</span
               > </a
               >
@@ -215,16 +223,14 @@
             <!-- End jika sudah login  -->
             
             <!-- Jika admin sudah login  -->
-            <div class="navbar-nav ">
+            
+            <!-- <div class="navbar-nav ">
             <div class="nav-item dropdown">
               <a href="" class="nav-link  nav-profile d-flex align-items-center pe-0" data-toggle="dropdown"
                 >
-                <img
-                src="./assets/profile/profile-img.jpeg"
-                alt="Profile"
-                class="rounded-circle"
-              />
-              <span class="d-none d-md-block dropdown-toggle ps-2 text-white"
+               
+              <i class="fas fa-user mr-2 mb-1"></i>
+              <span class="d-block  dropdown-toggle ps-2 text-white"
                 >Admin</span
               > </a
               >
@@ -237,7 +243,7 @@
                 >
               </div>
             </div>
-            </div>
+            </div> -->
 
 
            

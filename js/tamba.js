@@ -1,5 +1,27 @@
-tinymce.init({
-  selector: "textarea#tiny",
+$("textarea#tiny").tinymce({
+  height: 500,
+  menubar: true,
+  plugins: [
+    "code",
+    "advlist",
+    "autolink",
+    "lists",
+    "link",
+    "image",
+    "charmap",
+    "preview",
+    "anchor",
+    "searchreplace",
+    "visualblocks",
+    "fullscreen",
+    "insertdatetime",
+    "media",
+    "table",
+    "help",
+    "wordcount",
+  ],
+  toolbar:
+    "undo redo | a11ycheck casechange blocks | bold italic backcolor | alignleft aligncenter alignright alignjustify | bullist numlist checklist outdent indent | removeformat | code table help",
 });
 
 // Mendapatkan elemen input harga dan diskon

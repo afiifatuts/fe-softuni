@@ -41,6 +41,22 @@
                                             </div>
                                         </td>
                                     </tr>
+                                    <tr>
+                                        <td width="20%">
+                                            <div class="course-info d-flex align-items-center border-bottom-0 pb-0">
+                                                <div class="d-flex align-items-center">
+                                                    <p>Total Member</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <div class="course-info d-flex align-items-center border-bottom-0 pb-0">
+                                                <div class="d-flex align-items-center">
+                                                    <p class="text-black">1 Member</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
       </div>

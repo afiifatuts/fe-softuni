@@ -4,7 +4,7 @@
     >
       <div class="container pt-5">
         <div class="row">
-          <div class="col-md-4 mb-5">
+          <div class="col-md-6 mb-5">
             <h3 class="text-white mb-4">Get In Touch</h3>
             <p>
               <i class="fa fa-map-marker-alt mr-2"></i>Jl. Prof. DR. Soepomo,
@@ -39,7 +39,7 @@
               ></a>
             </div>
           </div>
-          <div class="col-md-4 mb-5">
+          <!-- <div class="col-md-4 mb-5">
             <h3 class="text-white mb-4">Kursus Kami</h3>
             <div class="d-flex flex-column justify-content-start">
               <a class="text-white-50 mb-2" href="kursus-webinar.php"
@@ -52,8 +52,8 @@
                 ><i class="fa fa-angle-right mr-2"></i>Short</a
               >
             </div>
-          </div>
-          <div class="col-md-4 mb-5">
+          </div> -->
+          <div class="col-md-6 mb-5">
             <h3 class="text-white mb-4">Lain lain</h3>
             <div class="d-flex flex-column justify-content-start">
               <a class="text-white-50 mb-2" href="blog.php"
@@ -117,7 +117,10 @@
     <script src="./lib/vendor/chart.js/chart.umd.js"></script>
     <script src="./lib/vendor/echarts/echarts.min.js"></script>
     <script src="./lib/vendor/quill/quill.min.js"></script>
-    <script src="./lib/vendor/tinymce/tinymce.min.js"></script>
+    <script src="https://cdn.tiny.cloud/1/9b8mk45llzkoswsuf4jtt1xa0yyqtlqmr1x84b7fq6lp6qv5/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tinymce/tinymce-jquery@1/dist/tinymce-jquery.min.js"></script>
+
+
     <script src="./lib/vendor/php-email-form/validate.js"></script>
 
  
@@ -134,7 +137,7 @@ AOS.init({
 </script>
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
-    <script src="js/tambah.js"></script>
+    <script src="js/tamba.js"></script>
 
   </body>
 </html>

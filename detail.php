@@ -158,7 +158,7 @@
                             <a class="btn btn-block btn-secondary py-3 px-5" href="">Daftar Sekarang</a>
                         </div>
                     </div>
-
+<!-- 
                     <div class="mb-5">
                         <h2 class="mb-3">Categories</h2>
                         <ul class="list-group list-group-flush">
@@ -179,7 +179,7 @@
                                 <span class="badge badge-primary badge-pill">56</span>
                             </li>
                         </ul>
-                    </div>
+                    </div> -->
 
                     <div class="mb-5">
                         <h2 class="mb-4">Recent Courses</h2>
