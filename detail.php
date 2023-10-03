@@ -7,8 +7,14 @@
         .kursus-feature h6{
             font-size: 25px  !important;
 }
- 
 }
+
+/* .pdf-tnc{
+    margin:auto;
+    width:400px;
+    height:900px;
+} */
+.modal-content-tnc {}
     
 </style>
     <!-- Header Start -->
@@ -132,7 +138,7 @@
                             <p class="text-white my-3">Rp 3500000 </p>
                         </div>
                         <div class="d-flex justify-content-between align-items-center border-bottom px-4">
-                        <h6 class="text-white my-3">Referral code</h6>
+                        <p class="text-white my-3">Referral code</p>
                             <input class="my-3 py-1 px-2" placeholder="Input Referral Code" type="text" p>
                         </div>
 
@@ -242,7 +248,7 @@
   aria-labelledby="formModalLabel"
   aria-hidden="true"
 >
-  <div class="modal-dialog modal-dialog-centered">
+  <div class="modal-dialog modal-dialog-centered ">
     <div class="modal-content p-3">
       <div class="modal-header">
         <button
@@ -252,17 +258,17 @@
           aria-label="Close"
         ><i class="fas fa-window-close"></i></button>
       </div>
-      <div class="modal-body px-5 py-1">
-        <div class="add-course-form">
+      <div class="modal-body">
+        <div class="add-course-form ">
           <form action="https://softuni.id/kontak" method="POST">
             <input
               type="hidden"
               name="s0ftun1.1d"
               value="2b7029dc9317df1b502fd63629560d6c"
             />
-           <div class="h-100">
-            <embed src="assets/terms/Return-and-Refund-Policy_Softuni-Indonesia.pdf" />
-            <embed src="assets/terms/Terms-and-Conditions_SoftUni-Indonesia-Site.pdf"/>
+           <div class="">
+
+<iframe src="assets/terms/t&c.pdf" style="width: 100%;height: 300px;border: none;"></iframe>
             </div>
             <div
               class="g-recaptcha mt-3 mb-2"
@@ -280,7 +286,7 @@
                 class="btn btn-warning btn-start w-full"
                 type="submit"
               >
-                Daftar
+                Daftar Sekarang
               </button>
             </div>
           </form>
