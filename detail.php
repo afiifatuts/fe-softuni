@@ -131,19 +131,17 @@
                             <p class="text-white my-3">Karga Khusus</p>
                             <p class="text-white my-3">Rp 3500000 </p>
                         </div>
-                        <!-- <div class="d-flex justify-content-between border-bottom px-4">
+                        <div class="d-flex justify-content-between align-items-center border-bottom px-4">
                         <h6 class="text-white my-3">Referral code</h6>
                             <input class="my-3 py-1 px-2" placeholder="Input Referral Code" type="text" p>
-                        </div> -->
-
-                        
+                        </div>
 
                         <!-- <div class="d-flex justify-content-between px-4">
                         <h6 class="text-white my-3 mr-2"><input type="checkbox"/></h6>
                             <h6 class="text-white my-3">(Opsional) Biaya tambahan sertifikat BNSP* </h6>
                         </div> -->
 
-                        <div class="flex-row justify-content-between px-4  py-2">
+                        <!-- <div class="flex-row justify-content-between px-4  py-2">
                             <div>
                                  <input  class="text-white my-1 mr-2"  type="checkbox"  name="refund">
                                 <a class="text-white my-3" href="https://softuni.id/terms/Return-and-Refund-Policy_Softuni-Indonesia.pdf" target="_blank" >Return & Refund Policy</a>
@@ -152,10 +150,10 @@
                                 <input type="checkbox"  class="text-white my-1 mr-2"  name="terms">
                                 <a href="https://softuni.id/terms/Terms-and-Conditions_SoftUni-Indonesia-Site.pdf" class="text-white my-3" target="_blank" >Terms & Conditions</a>
                             </div>
-                        </div>
-                        <div class="px-4">
-                             <!-- <a class="btn btn-block btn-warning py-3 px-5" href="">Opsi Cicilan *</a> -->
-                            <a class="btn btn-block btn-secondary py-3 px-5" href="">Daftar Sekarang</a>
+                        </div> -->
+                        <div class="px-4 mt-3">
+                            <a  data-bs-toggle="modal"
+        data-bs-target="#formModal" class="btn btn-block btn-warning py-3 px-5" >Daftar Sekarang</a>
                         </div>
                     </div>
 <!-- 
@@ -235,6 +233,62 @@
         </div>
     </div>
     <!-- Detail End -->
+
+    <!-- Modal T&C  -->
+    <div
+  class="modal fade"
+  id="formModal"
+  tabindex="-1"
+  aria-labelledby="formModalLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content p-3">
+      <div class="modal-header">
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ><i class="fas fa-window-close"></i></button>
+      </div>
+      <div class="modal-body px-5 py-1">
+        <div class="add-course-form">
+          <form action="https://softuni.id/kontak" method="POST">
+            <input
+              type="hidden"
+              name="s0ftun1.1d"
+              value="2b7029dc9317df1b502fd63629560d6c"
+            />
+           <div class="h-100">
+            <embed src="assets/terms/Return-and-Refund-Policy_Softuni-Indonesia.pdf" />
+            <embed src="assets/terms/Terms-and-Conditions_SoftUni-Indonesia-Site.pdf"/>
+            </div>
+            <div
+              class="g-recaptcha mt-3 mb-2"
+              data-sitekey="6Lc4GtYiAAAAAH49laSizRCLOaCzxOPwtVseKyG7"
+            ></div>
+
+            <div class="form-check mb-2">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault"> Setuju dengan Terms and Condition
+                 </label>
+            </div>
+            <div class="d-grid">
+              <button
+                onclick="loadingPopUp()"
+                class="btn btn-warning btn-start w-full"
+                type="submit"
+              >
+                Daftar
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 
     <!-- Footer -->

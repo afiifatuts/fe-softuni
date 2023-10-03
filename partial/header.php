@@ -179,19 +179,10 @@
             <a href="skpi.php" class="nav-item nav-link">SKPI</a>
           </div>
            <!-- Jika belum login  -->
-            <!-- <div class="navbar-nav ">
-            <div class="nav-item dropdown">
-              <a href="" class="nav-link  nav-profile d-flex align-items-center pe-0" data-toggle="dropdown"
-                >
-              <span class="d-none d-md-block dropdown-toggle ps-2 text-white"
-                >K. Anderson</span
-              > </a
-              >
-              
-            </div>
-            </div> -->
           <a href="daftar.php" class="btn btn-warning py-2 px-4 d-lg-block"
             >Gabung</a >
+           <!-- END Jika belum login  -->
+
 
             <!-- Jika user sudah login  -->
             <!-- <div class="navbar-nav ">
@@ -219,11 +210,9 @@
               </div>
             </div>
             </div> -->
-           
             <!-- End jika sudah login  -->
             
             <!-- Jika admin sudah login  -->
-            
             <!-- <div class="navbar-nav ">
             <div class="nav-item dropdown">
               <a href="" class="nav-link  nav-profile d-flex align-items-center pe-0" data-toggle="dropdown"
@@ -244,10 +233,7 @@
               </div>
             </div>
             </div> -->
-
-
-           
-            <!-- End jika sudah login  -->
+            <!-- End jika Admin sudah login  -->
         </div>
       </nav>
     </div>
