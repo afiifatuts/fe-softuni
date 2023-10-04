@@ -1,0 +1,32 @@
+/* style.css */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+/* style.css */
+.popup-content {
+    background-color: #fff;
+    width: 80%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1200px) {
+    .popup-content {
+        width: 50%;
+        max-width: 800px; /* Sesuaikan dengan ukuran layar besar yang Anda inginkan */
+    }
+}
+
+button {
+    margin-top: 10px;
+}

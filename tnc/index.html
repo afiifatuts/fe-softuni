@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <button id="showPopup">Tampilkan Syarat dan Ketentuan</button>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>Syarat dan Ketentuan</h2>
+            <object data="../assets/terms/t&c.pdf" type="application/pdf" width="100%" height="500">
+                <p>Browser Anda tidak mendukung penampilan PDF. Anda dapat <a href="syarat_dan_ketentuan.pdf">mengunduh file PDF</a> langsung.</p>
+            </object>
+            <label for="agree">Saya setuju dengan syarat dan ketentuan:</label>
+            <input type="checkbox" id="agree">
+            <button id="closePopup">Tutup</button>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

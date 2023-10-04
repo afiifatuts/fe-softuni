@@ -9,12 +9,34 @@
 }
 }
 
-/* .pdf-tnc{
-    margin:auto;
-    width:400px;
-    height:900px;
-} */
-.modal-content-tnc {}
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 99999999;
+}
+
+
+.popup-content {
+    background-color: #fff;
+    width: 80%;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1200px) {
+    .popup-content {
+        width: 50%;
+        max-width: 800px; 
+    }
+}
     
 </style>
     <!-- Header Start -->
@@ -158,8 +180,7 @@
                             </div>
                         </div> -->
                         <div class="px-4 mt-3">
-                            <a  data-bs-toggle="modal"
-        data-bs-target="#formModal" class="btn btn-block btn-warning py-3 px-5" >Daftar Sekarang</a>
+                        <a id="showPopup" class="btn btn-block btn-warning py-3 px-5">Daftar Sekarang</a>
                         </div>
                     </div>
 <!-- 
@@ -241,60 +262,57 @@
     <!-- Detail End -->
 
     <!-- Modal T&C  -->
-    <div
-  class="modal fade"
-  id="formModal"
-  tabindex="-1"
-  aria-labelledby="formModalLabel"
-  aria-hidden="true"
->
-  <div class="modal-dialog modal-dialog-centered ">
-    <div class="modal-content p-3">
-      <div class="modal-header">
+    <div id="popup" class="popup">
+        <div class="popup-content">
+        <div class="modal-header">
+        <h1 class="modal-title fs-5" id="formModalLabel">Syarat dan Ketentuan</h1>
         <button
           type="button"
-          class="btn-close"
-          data-bs-dismiss="modal"
-          aria-label="Close"
+          class="btn-close border-none"
+          id="closePopup"
         ><i class="fas fa-window-close"></i></button>
       </div>
-      <div class="modal-body">
-        <div class="add-course-form ">
-          <form action="https://softuni.id/kontak" method="POST">
+            <object data="assets/terms/t&c.pdf" type="application/pdf" width="100%" height="500">
+                <p>Browser Anda tidak mendukung penampilan PDF. Anda dapat <a href="syarat_dan_ketentuan.pdf">mengunduh file PDF</a> langsung.</p>
+            </object>
+            <form action="https://softuni.id/kontak" method="POST">
             <input
               type="hidden"
               name="s0ftun1.1d"
               value="2b7029dc9317df1b502fd63629560d6c"
             />
-           <div class="">
-
-<iframe src="assets/terms/t&c.pdf" style="width: 100%;height: 300px;border: none;"></iframe>
-            </div>
-            <div
-              class="g-recaptcha mt-3 mb-2"
-              data-sitekey="6Lc4GtYiAAAAAH49laSizRCLOaCzxOPwtVseKyG7"
-            ></div>
-
-            <div class="form-check mb-2">
-                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                <label class="form-check-label" for="flexCheckDefault"> Setuju dengan Terms and Condition
-                 </label>
-            </div>
+            <input type="checkbox" id="agree"> <label for="agree">Saya setuju dengan syarat dan ketentuan:</label>
             <div class="d-grid">
               <button
-                onclick="loadingPopUp()"
-                class="btn btn-warning btn-start w-full"
+                class="btn btn-warning btn-start"
                 type="submit"
+                id="submitBtn"
+                disabled
               >
-                Daftar Sekarang
+                Daftar Sekarng
               </button>
+
             </div>
           </form>
+            
         </div>
-      </div>
     </div>
-  </div>
-</div>
+   
+    <script>
+        document.getElementById("showPopup").addEventListener("click", function () {
+  document.getElementById("popup").style.display = "block";
+});
+
+document.getElementById("closePopup").addEventListener("click", function () {
+  document.getElementById("popup").style.display = "none";
+});
+document.getElementById("agree").addEventListener("change", function () {
+    var submitBtn = document.getElementById("submitBtn");
+    submitBtn.disabled = !this.checked;
+});
+
+
+    </script>
 
 
     <!-- Footer -->
