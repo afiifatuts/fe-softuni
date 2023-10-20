@@ -12,10 +12,6 @@
     .skpi-text{
       padding: 1rem !important;
     }
-    .skpi-text h1{
-      font-size:2rem !important;
-    }
-
 }
     .skpi-text{
       flex:3;
@@ -27,7 +23,7 @@
     .skpi-text h1{
       font-family: 'Monserrat', sans-serif ;
       font-weight:bold;
-      font-size:5rem !important ;
+      font-size:4rem !important ;
     }
     .skpi-text h4{
       max-width: 500px;

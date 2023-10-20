@@ -158,7 +158,44 @@
             <!-- <a href="index.php" class="nav-item nav-link active">Home</a> -->
             <a href="index.php" class="nav-item nav-link">Home</a>
             <a href="kurikulum.php" class="nav-item nav-link">Kurikulum</a>
-            <a href="kursus.php" class="nav-item nav-link">Kursus</a>
+
+            <!-- start punya rey  -->
+            <div class="nav-item dropdown">
+              <a href="https://softuni.sakurablock.com/kursus" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                >Program</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="https://softuni.sakurablock.com/program/webinar" class="dropdown-item"
+                  >Webinar</a
+                >
+                <a href="https://softuni.sakurablock.com/program/short-course" class="dropdown-item"
+                  >Short Course</a
+                >
+                <a href="https://softuni.sakurablock.com/program/regular-course" class="dropdown-item"
+                  >Regular Course</a
+                >
+                <a href="https://softuni.sakurablock.com/program/skpi-program" class="dropdown-item"
+                  >SKPI Program</a
+                >
+              </div>
+            </div>
+            <div class="nav-item dropdown">
+              <a href="https://softuni.sakurablock.com/Corporate" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                >For Corporate</a
+              >
+              <div class="dropdown-menu m-0">
+                <a href="https://softuni.sakurablock.com/enterprise/information-technology" class="dropdown-item"
+                  >Teknologi Informasi</a
+                >
+                <a href="https://softuni.sakurablock.com/enterprise/digital-marketing" class="dropdown-item"
+                  >Digital Marketing</a
+                >
+                <a href="https://softuni.sakurablock.com/enterprise/creative" class="dropdown-item"
+                  >Digital Kreatif</a
+                >
+              </div>
+            </div>
+            <!-- end punya rey  -->
             <div class="nav-item dropdown">
               <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"
                 >For Corporate</a
